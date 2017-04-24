@@ -16,7 +16,7 @@ python scripts/tar_eval.py training/results/pubmed.res training/qrels/train.comb
 
 ```
 
-##Sample Output from the Evaluation Script
+## Sample Output from the Evaluation Script
 ```
 ALL topic_id ALL
 ALL num_docs 149095
