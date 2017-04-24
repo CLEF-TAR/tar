@@ -17,7 +17,7 @@ python scripts/tar_eval.py training/results/pubmed.res training/qrels/train.comb
 ```
 
 ##Sample Output from the Evaluation Script
-
+```
 ALL topic_id ALL
 ALL num_docs 149095
 ALL num_rels 2494
@@ -39,3 +39,4 @@ ALL NCG@70 0.761
 ALL NCG@80 0.866
 ALL NCG@90 0.973
 ALL NCG@100 1.0
+```
