@@ -11,5 +11,6 @@ Along with the extracted data and scripts to process it.
 In scripts, there is the evaluation script called, tar_eval.py
 
 From the base directory you can evaluate the pubmed output order (held in results/pubmed.res)
-
+```
 python scripts/tar_eval.py results/pubmed.res qrels/train.combined.qrels
+```
