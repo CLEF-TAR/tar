@@ -1,5 +1,4 @@
-# tar
-Technologically Assisted Reviews in Empirical Medicine
+# Technologically Assisted Reviews in Empirical Medicine
 
 Requires Python 2.7.5+ or Python 3 
 
