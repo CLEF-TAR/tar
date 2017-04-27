@@ -13,7 +13,9 @@ def main(resultFile, threshold):
 
             if int(rank) > threshold:
                 action = 'NS'
-            print("{} {} {} {} {} {}".format(topic_id, action, doc_id, rank, score, name))
+            print("{0} {1} {2} {3} {4} {5}".format(topic_id, action, doc_id, rank, score, name))
+
+
 
 def usage(args):
     print("Usage: {0} <resultfile> <doc_thres>".format(args[0]))

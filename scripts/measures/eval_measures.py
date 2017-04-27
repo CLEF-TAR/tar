@@ -7,6 +7,13 @@ class EvalMeasure(object):
         self.topic_id = topic_id
         self.num_docs = num_docs
         self.num_rels = num_rels
+        # For each of the different measures you create,
+        # you need to specify which ones should be output
+        # 0 - means you want the AggRule to take the total over all topics
+        # 1 - means you want the AggRuler to take the mean over all topics
+        # 2 - means it is a list of measures to be output and needs to be iterated.
+        #   - probably could use reflection to identify this.. and handle appropriately
+
         self.outputs = {'topic_id':0, 'num_docs':0, 'num_rels': 0}
 
     def update(self, judgment, value, action):
@@ -47,11 +54,17 @@ class EvalMeasure(object):
     '''
 
     def finalize(self):
+        # At the end of the list - finish up the score, computing whatever is nessecary
+        # e.g. normalizing the score, etc.
         pass
 
     def print_scores(self):
+        # Given want you defined in the outputs it will print them out.
         for measure in self.outputs.keys():
-            print("{0} {1} {2}".format(self.topic_id, measure, getattr(self,measure)))
+            val = getattr(self,measure)
+            if isinstance(val,float):
+                val = round(val,3)
+            print("{0} {1} {2}".format(self.topic_id, measure, val ))
 
 
 class DescriptionMeasures(EvalMeasure):
@@ -87,8 +100,10 @@ class CountBasedMeasures(EvalMeasure):
         self.last_rel = 0
         self.last_rank = 0
         self.rels_found = 0
+        self.min_req = 0.0
 
-        self.outputs ={'num_shown':0, 'num_feedback':0, 'rels_found':0, 'last_rel':1, 'last_rank':1}
+        self.outputs ={'num_shown':0, 'num_feedback':0,
+                       'rels_found':0, 'last_rel':1, 'last_rank':1, 'min_req':1}
 
 
 
@@ -116,8 +131,7 @@ class CountBasedMeasures(EvalMeasure):
 
 
     def finalize(self):
-        pass
-
+        self.min_req = float(self.last_rel) / float(self.num_docs)
 
 
 class MAPBasedMeasures(EvalMeasure):
@@ -172,11 +186,17 @@ class GainBasedMeasures(EvalMeasure):
         self.num_rels = num_rels
         self.max_cg = num_rels
         self.total_cg = 0
+        self.ncg = 0.0
         self.cgat = [0.0]*12
         self.last_rank = 0
         self.t = int(num_docs / 10)
-        self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 0}
 
+        self.threshold_cg = 0.0
+        self.threshold = num_docs
+        self.norm_threshold = 0.0
+        self.threshold_ncg = 0.0
+        self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
+                        'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
 
     def update(self, judgment, value, action):
         """
@@ -197,12 +217,31 @@ class GainBasedMeasures(EvalMeasure):
             pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) + 1
             self.cgat[pos] = self.total_cg
 
+        if action == "NS":
+            # measure is assuming that the first observed NS is the begginning of the threshold.
+            if self.threshold == self.num_docs:
+                self.threshold_cg = self.total_cg
+                self.threshold = self.last_rank
+                self.norm_threshold = float(self.threshold) / float(self.num_docs)
+
     def finalize(self):
         self.cgat[10] = self.total_cg
+        self.ncg = self.total_cg / self.max_cg
+        if self.threshold == self.num_docs:
+            self.threshold_cg = self.total_cg
+            self.threshold = self.last_rank
+            self.norm_threshold = float(self.threshold) / float(self.num_docs)
+
+        self.threshold_ncg = float(self.threshold_cg) / float(self.max_cg)
+
 
     def print_scores(self):
         print("{0} total_cg {1}".format(self.topic_id, self.total_cg))
         print("{0} max_cg {1}".format(self.topic_id, self.max_cg))
+        print("{0} threshold {1}".format(self.topic_id, self.threshold))
+        print("{0} norm_threshold {1}".format(self.topic_id, round(self.norm_threshold),3))
+        print("{0} threshold_cg {1}".format(self.topic_id, self.threshold_cg))
+        print("{0} threshold_ncg {1}".format(self.topic_id, round(self.threshold_ncg),3))
 
         percent = 0
         for i in range(0,11):
@@ -316,7 +355,10 @@ class CostBasedMeasure(EvalMeasure):
         #calculate penalty (uniform) - pay proportional to how many documents not shown
         # rationale - reviewer doesn't trust system because they think that there are some missing relevant documents
         # so they need to assess more and here it is based on the proportion of rels missing (optimistic)
-        Pu = (Nu * CP)  * Mr / self.rels_found
+        if self.num_rels > 0:
+            Pu = ((Nu * CP)  * Mr )/ float(self.num_rels)
+        else:
+            Pu = 0
         # (Nu * CA) * Mr/R
 
         self.total_cost_uniform = self.total_cost + Pu
