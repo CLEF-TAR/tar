@@ -117,7 +117,7 @@ class CountBasedMeasures(EvalMeasure):
 
         if action == "NS":
             # Trigger threshold at the first NS (?)
-            print("NS")
+            # print("NS")
 
         else:
             self.num_shown = self.num_shown + 1

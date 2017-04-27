@@ -45,6 +45,7 @@ def main(results_file, qrel_file):
                 #v = qrh.get_value(curr_topic_id, doc_id.strip())
                 d = doc_id.strip()
                 v = get_value_and_check(qrh, seen_dict, curr_topic_id, d)
+
                 if v is not None:
                     tar_ruler.update(v,v,action)
             else:
@@ -74,7 +75,7 @@ def main(results_file, qrel_file):
                 # reset seen list
                 seen_dict = {}
                 d = doc_id.strip()
-                seen_dict[d] = 1
+
 
                 v = get_value_and_check(qrh, seen_dict, curr_topic_id, d)
                 if v is not None:
