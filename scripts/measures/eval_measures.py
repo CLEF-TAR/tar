@@ -212,7 +212,11 @@ class GainBasedMeasures(EvalMeasure):
             # only accrue value for those retrieved by the original query (no reward for 3 or 4 relevance scores)
             v = 1
 
-        self.total_cg = self.total_cg + v
+        if action == "NS":
+            pass
+        else:
+            self.total_cg = self.total_cg + v
+
         if self.last_rank % self.t == 0:
             pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) + 1
             self.cgat[pos] = self.total_cg
@@ -270,9 +274,10 @@ class AreaBasedMeasures(EvalMeasure):
         :param action:
         :return: None
         """
-        pass
 
-        if action is not "NS":
+        if action == "NS":
+            pass
+        else:
             self.num_shown = self.num_shown + 1
             v = 0
             if value > 0 and value < 3:
