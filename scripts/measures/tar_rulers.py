@@ -21,6 +21,10 @@ class TarAggRuler(object):
             measure = self.agg_tar_ruler.measures[i]
             for (output,fmt) in measure.outputs.items():
 
+
+                # can we check if "output" is a "list"
+                # rather than use fmt, which is really for whether
+                # to present the sum or mean when aggregated
                 if fmt == 2:
                     # list based measure
                     total = getattr(measure, output)

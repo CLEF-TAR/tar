@@ -117,7 +117,8 @@ class CountBasedMeasures(EvalMeasure):
 
         if action == "NS":
             # Trigger threshold at the first NS (?)
-            pass
+            print("NS")
+
         else:
             self.num_shown = self.num_shown + 1
             self.last_rank = self.last_rank + 1
@@ -187,7 +188,7 @@ class GainBasedMeasures(EvalMeasure):
         self.max_cg = num_rels
         self.total_cg = 0
         self.ncg = 0.0
-        self.cgat = [0.0]*12
+        self.cgat = [0.0]*11
         self.last_rank = 0
         self.t = int(num_docs / 10)
 
@@ -218,7 +219,8 @@ class GainBasedMeasures(EvalMeasure):
             self.total_cg = self.total_cg + v
 
         if self.last_rank % self.t == 0:
-            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) + 1
+
+            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0)
             self.cgat[pos] = self.total_cg
 
         if action == "NS":
