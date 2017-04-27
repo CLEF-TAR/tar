@@ -6,6 +6,17 @@ from seeker.trec_qrel_handler import TrecQrelHandler
 from seeker.trec_result_handler import TrecResultHandler
 
 
+
+CF = 5 # cost of feedback (i.e. asking to assess when done interactively) (AF)
+CA = 1 # cost of assessing abstract in batch mode  (NF)
+CN = 0 # cost of not including a abstract (but penalty later if not shown)
+
+# penalty (uniform) - if there are Nu unjudged abstracts, for each missing relevant abstract (Nu * CA) * Mr/R
+# Mr is the number of missing relevant abstracts
+
+# penalty (weighted)  sum_(1..Mr)  (Nu*CA/(2^Mr) )
+#  worse case is total assessment cost.
+
 class TopicMeasures(object):
 
     def __init__(self, topic_id, num_docs, num_rels):
@@ -16,16 +27,24 @@ class TopicMeasures(object):
         self.area = 0.0
         self.norm_area = 0.0
         self.max_area = num_rels * num_docs - (num_rels * num_rels) / 2.0
-        self.cgat = [0.0]*11
+        self.cgat = [0.0]*12
+        self.cgat[0] = 0.0
         self.last_rel = 0
         self.last_rank = 0
         self.rels_found = 0
-        self.assessment_cost = 0
-        self.penalty_cost = 0
+        self.total_cost = 0
         self.norm_last_rank = 0.0
         self.norm_last_rel = 0.0
         self.t = int(num_docs / 10)
         #print(num_docs, self.t)
+        self.total_cost_uniform = 0.0
+        self.total_cost_weighted = 0.0
+
+        self.gain_at_threshold = 0.0
+        self.cost_at_threshold = 0.0
+        self.num_shown = 0
+        self.num_feedback = 0
+        self.thresholding = False
 
 
     def update(self, judgment, value, action):
@@ -35,33 +54,73 @@ class TopicMeasures(object):
         :param action:
         :return: None
         """
-        self.last_rank = self.last_rank + 1
-        v = 0
-        if value > 0:
-            v = 1
-        self.area = self.area + (self.cg + (v * 0.5))
-
-        self.cg = self.cg + v
-
-        if judgment > 0:
-            self.rels_found = self.rels_found + 1
-            self.last_rel = self.last_rank
-
-
-        if self.last_rank % self.t == 0:
-            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0)
-            self.cgat[pos] = self.cg
+        if action == "NS":
+            # Trigger threshold at the first NS (?)
+            cost = CN
+        else:
+            self.num_shown = self.num_shown + 1
+            self.last_rank = self.last_rank + 1
+            v = 0
+            if value > 0 and value < 3:
+                # only accrue value for those retrieved by the original query (no reward for 3 or 4 relevance scores)
+                v = 1
 
 
+            self.area = self.area + (self.cg + (v * 0.5))
+
+            self.cg = self.cg + v
+
+
+            if judgment > 0:
+                self.rels_found = self.rels_found + 1
+                self.last_rel = self.last_rank
+
+            if self.last_rank % self.t == 0:
+
+                pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) + 1
+                #print(pos)
+                self.cgat[pos] = self.cg
+                #print(self.last_rank, self.t, pos, self.cgat[pos])
+
+        cost = CA
+        if action == "AF":
+            cost = cost + CF
+            self.num_feedback = self.num_feedback + 1
+
+
+        self.total_cost = self.total_cost + cost
 
 
 
     def finalise(self):
+
+        num_not_shown = (self.num_docs - self.num_shown)
+        if num_not_shown > 0:
+            # we need to add in the rest of the area
+            self.area = self.area + (num_not_shown * self.cg)
+
         if self.max_area > 0.0:
             self.norm_area = round(self.area / self.max_area,3)
 
         self.norm_last_rel = round(float(self.last_rel) / float(self.last_rank),3)
         self.cgat[10] = self.cg
+
+
+        Mr = self.num_rels - self.rels_found
+        Nu = self.num_docs - self.num_shown
+        #calculate penalty (uniform)
+        Pu = (Nu * CA)  * Mr / self.rels_found
+        # (Nu * CA) * Mr/R
+
+        self.total_cost_uniform = self.total_cost + Pu
+        #calculate penalty (weighted)
+        #(Nu*CA/(2^Mr) )
+        Pw = 0
+        for i in range(1,Mr):
+            Pw = Pw + ((Nu * CA) / pow(2.0,i))
+
+        self.total_cost_weighted = self.total_cost + Pw
+
 
     def get_scores(self):
         pass
@@ -70,6 +129,8 @@ class TopicMeasures(object):
         print("{0} topic_id {1}".format(self.topic_id, self.topic_id))
         print("{0} num_docs {1}".format(self.topic_id, self.num_docs))
         print("{0} num_rels {1}".format(self.topic_id, self.num_rels))
+        print("{0} num_shown {1}".format(self.topic_id, self.num_shown))
+        print("{0} num_feedback {1}".format(self.topic_id, self.num_feedback))
         print("{0} total_cg {1}".format(self.topic_id, self.cg))
         print("{0} rels_found {1}".format(self.topic_id, self.rels_found))
         print("{0} last_rel {1}".format(self.topic_id, self.last_rel))
@@ -78,10 +139,13 @@ class TopicMeasures(object):
         print("{0} last_rank {1}".format(self.topic_id, self.last_rank))
         print("{0} norm_last_rel {1}".format(self.topic_id, self.norm_last_rel))
         percent = 0
-        for cg in self.cgat:
-            print("{0} NCG@{1} {2}".format( self.topic_id, percent, round(cg/self.cg,3)))
+        for i in range(0,11):
+            print("{0} NCG@{1} {2}".format( self.topic_id, percent, round(self.cgat[i]/self.cg,3)))
             percent += 10
 
+        print("{0} total_cost {1}".format(self.topic_id, self.total_cost))
+        print("{0} total_cost_uniform {1}".format(self.topic_id, self.total_cost_uniform))
+        print("{0} total_cost_weighted {1}".format(self.topic_id, self.total_cost_weighted))
 
     def get_scores(self):
         return (self.topic_id, self.num_docs, self.num_rels, self.cg, self.rels_found, self.norm_area, self.norm_last_rank)
@@ -149,6 +213,8 @@ def main(results_file, qrel_file):
             n+=1
             stm.num_docs += tm.num_docs
             stm.num_rels += tm.num_rels
+            stm.num_shown += tm.num_shown
+            stm.num_feedback += tm.num_feedback
             stm.rels_found += tm.rels_found
             stm.cg += tm.cg
             stm.last_rank += tm.last_rank
@@ -160,6 +226,11 @@ def main(results_file, qrel_file):
 
             for i in range(0,11):
                 stm.cgat[i] += tm.cgat[i]
+
+            stm.total_cost += tm.total_cost
+            stm.total_cost_uniform += tm.total_cost_uniform
+            stm.total_cost_weighted += tm.total_cost_weighted
+
 
 
         n = float(len(tml))
