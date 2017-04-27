@@ -66,3 +66,40 @@ ALL loss_r 0.509
 ALL loss_e 0.082
 
 ```
+
+
+## Create a simple Thresholded run
+
+The script create_new_run.py takes a result file, and a fixed rank threshold,
+and converts all actions after the rank to NS - i.e. not shown.
+tar_eval.py then ignores those documents
+
+For example, we can create a threshold so that the user stops after 1000 documents
+```
+python scripts/create_new_run.py  training/results/pubmed.res 1000 > training/results/pubmed.t1000.res
+
+```
+
+Ok, pretty crude - but gives us some test data.
+
+
+
+## Extract out the different parts of the topic
+
+Given the CLEF TAR topic file which contains, the topic id, title, query and the pids, this script parses
+the CLEF Tar topic file and extracts out the different parts. e.g.
+```
+python scripts/extract_parts_from_topic.py  training/topic_train/14
+
+```
+This will create several files.
+
+```
+CD009593.title
+CD009593.topicid
+CD009593.pids
+
+```
+You can customise the format of the *.pids file, with topic_id and doc_id, or in TREC results format.
+
+
