@@ -108,7 +108,7 @@ class CountBasedMeasures(EvalMeasure):
 
         self.outputs ={'num_shown':0, 'num_feedback':0,
                        'rels_found':0, 'last_rel':1,
-                       'WSS@100':0, 'WSS@95':0}
+                       'wss_100':0, 'wss_95':0}
         
         #self.outputs ={'num_shown':0, 'num_feedback':0,
         #               'rels_found':0, 'last_rel':1, 'last_rank':1, 'min_req':1,
@@ -144,8 +144,8 @@ class CountBasedMeasures(EvalMeasure):
 
     def finalize(self):
         self.min_req = float(self.last_rel) / float(self.num_docs)
-        self.wss_100 = float(self.num_docs - self.last_rel) / float(num_docs)
-        self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(num_docs)) - 0.05
+        self.wss_100 = float(self.num_docs - self.last_rel) / float(self.num_docs)
+        self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(self.num_docs)) - 0.05
 
 
 class MAPBasedMeasures(EvalMeasure):
@@ -265,7 +265,10 @@ class GainBasedMeasures(EvalMeasure):
 
         percent = 0
         for i in range(0,11):
-            print("{0} NCG@{1} {2}".format( self.topic_id, percent, round(float(self.cgat[i])/self.max_cg, 3)))
+            x = 0.0
+            if self.max_cg > 0:
+                x =round(float(self.cgat[i])/self.max_cg)
+            print("{0} NCG@{1} {2}".format( self.topic_id, percent, x, 3))
             percent += 10
 
 
