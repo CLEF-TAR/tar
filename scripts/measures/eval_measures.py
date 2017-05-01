@@ -95,15 +95,24 @@ class CountBasedMeasures(EvalMeasure):
         self.topic_id = topic_id
         self.num_docs = num_docs
         self.num_rels = num_rels
+        self.num_rels_95 = round(float(num_rels) * 0.95)
         self.num_shown = 0
         self.num_feedback = 0
         self.last_rel = 0
+        self.last_rel_95 = 0
         self.last_rank = 0
         self.rels_found = 0
         self.min_req = 0.0
+        self.wss_100 = 0.0
+        self.wss_95 = 0.0
 
         self.outputs ={'num_shown':0, 'num_feedback':0,
-                       'rels_found':0, 'last_rel':1, 'last_rank':1, 'min_req':1}
+                       'rels_found':0, 'last_rel':1,
+                       'WSS@100':0, 'WSS@95':0}
+        
+        #self.outputs ={'num_shown':0, 'num_feedback':0,
+        #               'rels_found':0, 'last_rel':1, 'last_rank':1, 'min_req':1,
+        #               'WSS@100':0, 'WSS@95':0}
 
 
 
@@ -124,6 +133,8 @@ class CountBasedMeasures(EvalMeasure):
             self.last_rank = self.last_rank + 1
 
             if judgment > 0 and judgment < 3:
+                if self.rels_found < self.num_rels_95:
+                    self.last_rel_95 = self.last_rel_95 + 1
                 self.rels_found = self.rels_found + 1
                 self.last_rel = self.last_rank
 
@@ -133,6 +144,8 @@ class CountBasedMeasures(EvalMeasure):
 
     def finalize(self):
         self.min_req = float(self.last_rel) / float(self.num_docs)
+        self.wss_100 = float(self.num_docs - self.last_rel) / float(num_docs)
+        self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(num_docs)) - 0.05
 
 
 class MAPBasedMeasures(EvalMeasure):
@@ -196,8 +209,9 @@ class GainBasedMeasures(EvalMeasure):
         self.threshold = num_docs
         self.norm_threshold = 0.0
         self.threshold_ncg = 0.0
-        self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
-                        'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
+        self.outputs = {'cgat':2}
+        #self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
+        #                'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
 
     def update(self, judgment, value, action):
         """
@@ -267,7 +281,8 @@ class AreaBasedMeasures(EvalMeasure):
         self.area = 0.0
         self.norm_area = 0.0
         self.max_area = num_rels * num_docs - (num_rels * num_rels) / 2.0
-        self.outputs = {'area':1, 'norm_area':1}
+        #self.outputs = {'area':1, 'norm_area':1}
+        self.outputs = {'norm_area':1}
 
     def update(self, judgment, value, action):
         """
@@ -326,9 +341,11 @@ class CostBasedMeasure(EvalMeasure):
         self.savings_weighted = 0.0
 
         self.outputs = {'total_cost':1, 'total_cost_uniform':1,
-                        'total_cost_weighted': 1,
-                        'savings_uniform':1,
-                        'savings_weighted':1}
+                        'total_cost_weighted': 1}
+        #self.outputs = {'total_cost':1, 'total_cost_uniform':1,
+        #                'total_cost_weighted': 1,
+        #                'savings_uniform':1,
+        #                'savings_weighted':1}
 
     def update(self, judgment, value, action):
         """
@@ -436,7 +453,7 @@ class LossBasedMeasures(CountBasedMeasures):
 
     def finalize(self):
         self.r = float(self.rels_found) / float(self.num_rels)
-        self.loss_r = (1 - self.r) * (1 - self.r)
+        self.loss_r = pow((1 - self.r), 2.0)
 
         self.loss_e = pow((self.b / self.num_docs), 2.0) * pow((self.num_shown/ (self.num_rels+self.b)) ,2.0)
         self.loss_er = self.loss_r + self.loss_e
