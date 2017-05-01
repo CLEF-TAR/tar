@@ -118,7 +118,7 @@ class CountBasedMeasures(EvalMeasure):
         if action == "NS":
             # Trigger threshold at the first NS (?)
             # print("NS")
-
+            pass
         else:
             self.num_shown = self.num_shown + 1
             self.last_rank = self.last_rank + 1
