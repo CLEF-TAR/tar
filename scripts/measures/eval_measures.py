@@ -346,7 +346,7 @@ class CostBasedMeasure(EvalMeasure):
             if judgment > 0:
                 self.rels_found = self.rels_found + 1
                 self.last_rel = self.last_rank
-        cost = CA
+            cost = CA
         if action == "AF":
             cost = cost + CF
             self.num_feedback = self.num_feedback + 1
