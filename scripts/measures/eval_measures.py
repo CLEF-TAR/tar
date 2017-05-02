@@ -108,11 +108,11 @@ class CountBasedMeasures(EvalMeasure):
 
         self.outputs ={'num_shown':0, 'num_feedback':0,
                        'rels_found':0, 'last_rel':1,
-                       'wss_100':0, 'wss_95':0}
+                       'wss_100':1, 'wss_95':1}
         
         #self.outputs ={'num_shown':0, 'num_feedback':0,
         #               'rels_found':0, 'last_rel':1, 'last_rank':1, 'min_req':1,
-        #               'WSS@100':0, 'WSS@95':0}
+        #               'wss_100':0, 'wss_95':0}
 
 
 
