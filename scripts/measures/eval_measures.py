@@ -134,7 +134,7 @@ class CountBasedMeasures(EvalMeasure):
 
             if judgment > 0 and judgment < 3:
                 if self.rels_found < self.num_rels_95:
-                    self.last_rel_95 = self.last_rel_95 + 1
+                    self.last_rel_95 = self.last_rank
                 self.rels_found = self.rels_found + 1
                 self.last_rel = self.last_rank
 
@@ -146,6 +146,11 @@ class CountBasedMeasures(EvalMeasure):
         self.min_req = float(self.last_rel) / float(self.num_docs)
         self.wss_100 = float(self.num_docs - self.last_rel) / float(self.num_docs)
         self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(self.num_docs)) - 0.05
+        if self.rels_found < self.num_rels:
+            self.wss_100 = 0
+        if self.rels_found < self.num_rels_95:
+            self.wss_95 = 0
+
 
 
 class MAPBasedMeasures(EvalMeasure):
@@ -209,7 +214,6 @@ class GainBasedMeasures(EvalMeasure):
         self.threshold = num_docs
         self.norm_threshold = 0.0
         self.threshold_ncg = 0.0
-        #self.outputs = {'cgat':2}
         self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
                         'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
 
@@ -235,7 +239,8 @@ class GainBasedMeasures(EvalMeasure):
         if self.last_rank % self.t == 0:
 
             pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0)
-            self.cgat[pos] = self.total_cg
+            for p in range(pos,11):
+                self.cgat[p] = self.total_cg
 
         if action == "NS":
             # measure is assuming that the first observed NS is the begginning of the threshold.
@@ -256,19 +261,19 @@ class GainBasedMeasures(EvalMeasure):
 
 
     def print_scores(self):
-        print("{0} total_cg {1}".format(self.topic_id, self.total_cg))
-        print("{0} max_cg {1}".format(self.topic_id, self.max_cg))
-        print("{0} threshold {1}".format(self.topic_id, self.threshold))
-        print("{0} norm_threshold {1}".format(self.topic_id, round(self.norm_threshold),3))
-        print("{0} threshold_cg {1}".format(self.topic_id, self.threshold_cg))
-        print("{0} threshold_ncg {1}".format(self.topic_id, round(self.threshold_ncg),3))
+        #print("{0} total_cg {1}".format(self.topic_id, self.total_cg))
+        #print("{0} max_cg {1}".format(self.topic_id, self.max_cg))
+        #print("{0} threshold {1}".format(self.topic_id, self.threshold))
+        #print("{0} norm_threshold {1}".format(self.topic_id, round(self.norm_threshold),3))
+        #print("{0} threshold_cg {1}".format(self.topic_id, self.threshold_cg))
+        #print("{0} threshold_ncg {1}".format(self.topic_id, round(self.threshold_ncg),3))
 
         percent = 0
-        for i in range(0,11):
+        for i in range(0,10):
             x = 0.0
             if self.max_cg > 0.0:
                 x = round(float(self.cgat[i])/float(self.max_cg),3)
-            print("{0} NCG@{1} {2}".format( self.topic_id, percent, x, 3))
+            print("{0} NCG@{1} {2}".format( self.topic_id, percent+10, x, 3))
             percent += 10
 
 
