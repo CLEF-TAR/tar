@@ -11,7 +11,7 @@ In scripts, there is the evaluation script called, tar_eval.py
 
 From the base directory you can evaluate the pubmed output order (held in results/pubmed.res)
 ```
-python scripts/tar_eval.py training/qrels/train.combined.qrels training/results/pubmed.res
+python scripts/tar_eval.py training/qrels/qrels_abs_train training/results/pubmed.res
 
 ```
 
@@ -20,7 +20,7 @@ we have also created pubmed.t1000.res and pubmed.t100.res which includes a thres
 You can also evaluate these to see how they perform.
 
 ```
-python scripts/tar_eval.py training/qrels/qrel_abs_train training/results/pubmed.res
+python scripts/tar_eval.py training/qrels/qrel_abs_train training/results/pubmed.t1000.res
 
 ```
 
