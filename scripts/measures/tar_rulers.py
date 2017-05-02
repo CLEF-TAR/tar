@@ -1,8 +1,8 @@
 __author__ = "Leif Azzopardi"
 
-from scripts.measures.eval_measures import CostBasedMeasure, AreaBasedMeasures, MAPBasedMeasures
-from scripts.measures.eval_measures import DescriptionMeasures, CountBasedMeasures, GainBasedMeasures
-from scripts.measures.eval_measures import LossBasedMeasures
+from measures.eval_measures import CostBasedMeasure, AreaBasedMeasures, MAPBasedMeasures
+from measures.eval_measures import DescriptionMeasures, CountBasedMeasures, GainBasedMeasures
+from measures.eval_measures import LossBasedMeasures
 
 
 class TarAggRuler(object):
@@ -79,11 +79,11 @@ class TarRuler(object):
         # to ensure the measures you have defined are outputted.
 
         self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
-                       CountBasedMeasures(topic_id, num_docs, num_rels),
-                         GainBasedMeasures(topic_id, num_docs, num_rels),
-                         CostBasedMeasure(topic_id, num_docs, num_rels),
-                         AreaBasedMeasures(topic_id, num_docs, num_rels),
-                         MAPBasedMeasures(topic_id, num_docs, num_rels),
+                          CountBasedMeasures(topic_id, num_docs, num_rels),
+                          GainBasedMeasures(topic_id, num_docs, num_rels),
+                          CostBasedMeasure(topic_id, num_docs, num_rels),
+                          AreaBasedMeasures(topic_id, num_docs, num_rels),
+                          MAPBasedMeasures(topic_id, num_docs, num_rels),
                           LossBasedMeasures(topic_id, num_docs, num_rels)]
 
 

@@ -4,7 +4,7 @@ __author__ = "Leif Azzopardi"
 import os
 import sys
 
-from scripts.measures.tar_rulers import TarRuler, TarAggRuler
+from measures.tar_rulers import TarRuler, TarAggRuler
 from seeker.trec_qrel_handler import TrecQrelHandler
 
 

@@ -1,9 +1,9 @@
 __author__ = 'leifos'
 
 
-from ifind.seeker.common_helpers import file_exists
-from ifind.seeker.common_helpers import AutoVivification
-from ifind.seeker.topic_document_file_handler import TopicDocumentFileHandler
+from seeker.common_helpers import file_exists
+from seeker.common_helpers import AutoVivification
+from seeker.topic_document_file_handler import TopicDocumentFileHandler
 
 class TrecQrelHandler(TopicDocumentFileHandler):
 
