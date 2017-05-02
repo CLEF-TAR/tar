@@ -198,8 +198,8 @@ class GainBasedMeasures(EvalMeasure):
         self.topic_id = topic_id
         self.num_docs = num_docs
         self.num_rels = num_rels
-        self.max_cg = num_rels
-        self.total_cg = 0
+        self.max_cg = float(num_rels)
+        self.total_cg = 0.0
         self.ncg = 0.0
         self.cgat = [0.0]*11
         self.last_rank = 0
@@ -209,9 +209,9 @@ class GainBasedMeasures(EvalMeasure):
         self.threshold = num_docs
         self.norm_threshold = 0.0
         self.threshold_ncg = 0.0
-        self.outputs = {'cgat':2}
-        #self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
-        #                'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
+        #self.outputs = {'cgat':2}
+        self.outputs = {'total_cg':1, 'max_cg':1, 'cgat': 2,
+                        'threshold':1, 'norm_threshold':1, 'threshold_cg':1, 'threshold_ncg':1}
 
     def update(self, judgment, value, action):
         """
@@ -266,8 +266,8 @@ class GainBasedMeasures(EvalMeasure):
         percent = 0
         for i in range(0,11):
             x = 0.0
-            if self.max_cg > 0:
-                x =round(float(self.cgat[i])/self.max_cg)
+            if self.max_cg > 0.0:
+                x = round(float(self.cgat[i])/float(self.max_cg),3)
             print("{0} NCG@{1} {2}".format( self.topic_id, percent, x, 3))
             percent += 10
 
