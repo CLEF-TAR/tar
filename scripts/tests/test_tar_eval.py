@@ -4,7 +4,7 @@ from scripts.measures.eval_measures import GainBasedMeasures
 class GainBasedTests(unittest.TestCase):
 
     def setUp(self):
-        self.gbm = GainBasedMeasures('A',10,3)
+        self.gbm = GainBasedMeasures('A',20,3)
 
         self.gbm.update(0,0,'NF')
         self.gbm.update(0,0,'NF')
@@ -16,6 +16,17 @@ class GainBasedTests(unittest.TestCase):
         self.gbm.update(0,0,'NF')
         self.gbm.update(1,1,'NF')
         self.gbm.update(0,0,'NF')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+        self.gbm.update(0,0,'NS')
+
         self.gbm.finalize()
 
 
@@ -27,9 +38,9 @@ class GainBasedTests(unittest.TestCase):
         self.assertEqual(self.gbm.total_cg, 3.0)
 
     def testNCGGain(self):
-        self.assertEqual(self.gbm.cgat[5], 1.0)
-        self.assertEqual(self.gbm.cgat[7], 2.0)
-        self.assertEqual(self.gbm.cgat[9], 3.0)
+        self.assertEqual(self.gbm.cgat[3], 1.0)
+        self.assertEqual(self.gbm.cgat[4], 2.0)
+        self.assertEqual(self.gbm.cgat[5], 3.0)
 
 
 
