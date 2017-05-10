@@ -1,0 +1,208 @@
+Topic: CD010896 
+
+Title: Regional Cerebral Blood Flow Single Photon Emission Computed Tomography for detection of Frontotemporal dementia in people with suspected dementia 
+
+Query: 
+Tomography, Emission-Computed, Single-Photon/ or Tomography, Emission-Computed/
+SPECT.ti,ab.
+SPET.ti,ab.
+single photon emission tomography.ti,ab.
+single photon emission computed tomography.ti,ab.
+"SPECT/CT".ti,ab.
+or/1-6
+exp Dementia/
+Delirium/
+Delirium, Dementia, Amnestic, Cognitive Disorders/
+dement*.ti,ab.
+alzheimer*.ti,ab.
+(lewy* adj2 bod*).ti,ab.
+(chronic adj2 cerebrovascular).ti,ab.
+("organic brain disease" or "organic brain syndrome").ti,ab.
+"benign senescent forgetfulness".ti,ab.
+(cerebr* adj2 deteriorat*).ti,ab.
+(cerebral* adj2 insufficient*).ti,ab.
+(pick* adj2 disease).ti,ab.
+"Frontotemporal lobar degeneration".ti,ab.
+"progressive non-fluent aphasia".ti,ab.
+"primary progressive aphasia".ti,ab.
+(FTD or FTLD).ti,ab.
+Frontotemporal Lobar Degeneration/
+Primary Progressive Nonfluent Aphasia/
+Aphasia, Primary Progressive/
+or/8-26
+7 and 27
+(animals not (humans and animals)).sh.
+28 not 29
+(2012* or 2013*).ed.
+30 and 31 
+
+Pids: 
+    22231337 
+    23777101 
+    23660005 
+    23594859 
+    23593396 
+    23572209 
+    23568100 
+    23553080 
+    23529520 
+    23412372 
+    23411076 
+    23403263 
+    23399676 
+    23392204 
+    23380679 
+    23377408 
+    23361395 
+    23357822 
+    23334141 
+    23314407 
+    23300102 
+    23273615 
+    23254635 
+    23224109 
+    23186984 
+    23160999 
+    23096071 
+    23031250 
+    23016870 
+    22742818 
+    22704835 
+    22682055 
+    22672107 
+    22512772 
+    22215142 
+    22211920 
+    23429844 
+    23402681 
+    23402204 
+    23210167 
+    23209065 
+    23196944 
+    23183589 
+    23158839 
+    23142262 
+    23115214 
+    23037962 
+    23026363 
+    23018627 
+    22994619 
+    22994615 
+    22989905 
+    22980226 
+    22967747 
+    22961551 
+    22941841 
+    22939818 
+    22929226 
+    22922592 
+    22915704 
+    22914831 
+    22902293 
+    22901967 
+    22879086 
+    22871906 
+    22869921 
+    22869920 
+    22868886 
+    22849990 
+    22849649 
+    22797130 
+    22791632 
+    22785519 
+    22785390 
+    22773150 
+    22772875 
+    22735249 
+    22735052 
+    22733085 
+    22722670 
+    22717776 
+    22710605 
+    22703622 
+    22691528 
+    22672770 
+    22665450 
+    22613760 
+    22596272 
+    22560011 
+    22531416 
+    22504315 
+    22495081 
+    22460325 
+    22460160 
+    22460159 
+    22435956 
+    22422214 
+    22416830 
+    22416826 
+    22410450 
+    22406443 
+    22382657 
+    22377781 
+    22366793 
+    22354229 
+    22353375 
+    22318093 
+    22284733 
+    22252239 
+    22226025 
+    22217392 
+    22212925 
+    22179564 
+    22173295 
+    22166447 
+    22135130 
+    22129783 
+    22119021 
+    22050286 
+    22042522 
+    22038765 
+    22024052 
+    22009380 
+    22008265 
+    21959363 
+    21959362 
+    21914569 
+    21879994 
+    21721045 
+    21699607 
+    21454094 
+    21411339 
+    20359778 
+    22787845 
+    22787842 
+    22714610 
+    22188660 
+    22163355 
+    22151238 
+    22095040 
+    22085955 
+    22057225 
+    21987568 
+    21971457 
+    21971454 
+    21962800 
+    21951958 
+    21951957 
+    21951956 
+    21920750 
+    21915510 
+    21896306 
+    21863316 
+    21843378 
+    21813038 
+    21810889 
+    21779719 
+    21762928 
+    21729421 
+    21729418 
+    21694448 
+    21640440 
+    21590591 
+    21463840 
+    21434859 
+    21418722 
+    21150861 
+    21143707 
+    21921445 
