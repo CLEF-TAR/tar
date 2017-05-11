@@ -28,6 +28,7 @@ def main(results_file, qrel_file):
                 v = None
         return v
 
+    skip_topic = False
     curr_topic_id = ""
     seen_dict = {}
 
@@ -40,20 +41,29 @@ def main(results_file, qrel_file):
                 break
             (topic_id,action,doc_id, rank, score, team) = line.split()
 
-            if topic_id == curr_topic_id:
-                # accumulate
-                #v = qrh.get_value(curr_topic_id, doc_id.strip())
-                d = doc_id.strip()
-                v = get_value_and_check(qrh, seen_dict, curr_topic_id, d)
+            if (topic_id == curr_topic_id):
+                if (skip_topic is False):
+                    # accumulate
+                    #v = qrh.get_value(curr_topic_id, doc_id.strip())
+                    d = doc_id.strip()
+                    v = get_value_and_check(qrh, seen_dict, curr_topic_id, d)
 
-                if v is not None:
-                    tar_ruler.update(v,v,action)
+                    if v is not None:
+                        tar_ruler.update(v,v,action)
+                else:
+                    continue
             else:
+                print(topic_id)
                 if curr_topic_id is not "":
-                    tar_ruler.finalize()
-                    tml.append(tar_ruler)
-                    tar_ruler.print_scores()
+                    if skip_topic is False:
+                        tar_ruler.finalize()
+                        tml.append(tar_ruler)
+                        tar_ruler.print_scores()
+                    else:
+                        skip_topic = False
+
                 # new topic
+                curr_topic_id = topic_id
                 dl = qrh.get_doc_list(topic_id)
                 num_docs = len(dl)
                 num_rels = 0
@@ -69,6 +79,11 @@ def main(results_file, qrel_file):
                     if val == -1 or val > 2:
                         num_docs_in_set = num_docs_in_set - 1
 
+                if (num_rels_in_set == 0):
+                    print(curr_topic_id)
+                    skip_topic = True
+                    continue
+                
                 #print("D: {0} DS: {1} R: {2} RS: {3} ".format(num_docs,num_docs_in_set,num_rels, num_rels_in_set))
                 tar_ruler = TarRuler(topic_id,num_docs_in_set, num_rels_in_set)
 
@@ -82,12 +97,10 @@ def main(results_file, qrel_file):
                     tar_ruler.update(v,v,action)
 
 
-                curr_topic_id = topic_id
-
-
-        tar_ruler.finalize()
-        tml.append(tar_ruler)
-        tar_ruler.print_scores()
+        if skip_topic is False:
+            tar_ruler.finalize()
+            tml.append(tar_ruler)
+            tar_ruler.print_scores()
 
         agg_tar = TarAggRuler()
         for tar in tml:
