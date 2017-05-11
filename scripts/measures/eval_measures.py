@@ -193,8 +193,10 @@ class MAPBasedMeasures(EvalMeasure):
 
 
     def finalize(self):
-        self.ap = self.ap / self.num_rels
-
+        if self.num_rels > 0:
+            self.ap = self.ap / float(self.num_rels)
+        else:
+            self.ap = 0.0
 
 
 class GainBasedMeasures(EvalMeasure):
@@ -251,14 +253,20 @@ class GainBasedMeasures(EvalMeasure):
 
     def finalize(self):
         self.cgat[10] = self.total_cg
-        self.ncg = self.total_cg / self.max_cg
+        if self.max_cg > 0:
+            self.ncg = self.total_cg / self.max_cg
+        else:
+            self.ncg = 0.0
+
         if self.threshold == self.num_docs:
             self.threshold_cg = self.total_cg
             self.threshold = self.last_rank
             self.norm_threshold = float(self.threshold) / float(self.num_docs)
 
-        self.threshold_ncg = float(self.threshold_cg) / float(self.max_cg)
-
+        if self.max_cg > 0:
+            self.threshold_ncg = float(self.threshold_cg) / float(self.max_cg)
+        else:
+            self.threshold_ncg = 0.0
 
     def print_scores(self):
         #print("{0} total_cg {1}".format(self.topic_id, self.total_cg))
@@ -460,7 +468,10 @@ class LossBasedMeasures(CountBasedMeasures):
 
 
     def finalize(self):
-        self.r = float(self.rels_found) / float(self.num_rels)
+        if self.num_rels > 0:
+            self.r = float(self.rels_found) / float(self.num_rels)
+        else:
+            self.r = 0.0
         self.loss_r = pow((1 - self.r), 2.0)
 
         self.loss_e = pow((self.b / self.num_docs), 2.0) * pow((self.num_shown/ (self.num_rels+self.b)) ,2.0)
