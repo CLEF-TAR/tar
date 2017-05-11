@@ -92,7 +92,7 @@ def main(results_file, qrel_file):
                 d = doc_id.strip()
 
 
-                v = get_value_and_check(qrh, seen_dict, curr_topic_id, d)
+                v = get_value_and_check(qrh, seen_dict, topic_id, d)
                 if v is not None:
                     tar_ruler.update(v,v,action)
 
