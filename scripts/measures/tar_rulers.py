@@ -17,7 +17,7 @@ class TarAggRuler(object):
         # for each measure in the ruler.
             # for each output from the measure
                 # sum the value
-        for i in range(0,len(self.agg_tar_ruler.measures)):
+        for i in range(0, len(self.agg_tar_ruler.measures)):
             measure = self.agg_tar_ruler.measures[i]
             for (output,fmt) in measure.outputs.items():
 
@@ -28,6 +28,7 @@ class TarAggRuler(object):
                 if fmt == 2:
                     # list based measure
                     total = getattr(measure, output)
+
                     l = len(total)
                     for j in range(0,l):
                         v = getattr(tar_ruler.measures[i],output)
@@ -43,7 +44,7 @@ class TarAggRuler(object):
     def finalize(self):
 
         if self.num_topics > 0:
-            for i in range(0,len(self.agg_tar_ruler.measures)):
+            for i in range(0, len(self.agg_tar_ruler.measures)):
                 measure = self.agg_tar_ruler.measures[i]
                 for (output,fmt) in measure.outputs.items():
                     if fmt == 1:
@@ -52,13 +53,13 @@ class TarAggRuler(object):
                         if isinstance(total,str):
                             v = ''
                         else:
-                            setattr(measure,output, total/ self.num_topics )
+                            setattr(measure,output, total/ float(self.num_topics) )
                     if fmt == 2:
                         # need to iterate through list.
                         total = getattr(measure, output)
                         l = len(total)
                         for j in range(0,l):
-                            total[j] = total[j]/ self.num_topics
+                            total[j] = total[j]/ float(self.num_topics)
                         setattr(measure, output, total)
 
 

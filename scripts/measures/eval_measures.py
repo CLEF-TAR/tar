@@ -64,7 +64,7 @@ class EvalMeasure(object):
             val = getattr(self,measure)
             if isinstance(val,float):
                 val = round(val,3)
-            print("{0} {1} {2}".format(self.topic_id, measure, val ))
+            print("{0}\t{1}\t{2}".format(self.topic_id, measure, val ))
 
 
 class DescriptionMeasures(EvalMeasure):
@@ -281,7 +281,7 @@ class GainBasedMeasures(EvalMeasure):
             x = 0.0
             if self.max_cg > 0.0:
                 x = round(float(self.cgat[i])/float(self.max_cg),3)
-            print("{0} NCG@{1} {2}".format( self.topic_id, percent+10, x, 3))
+            print("{0}\tNCG@{1}\t{2}".format( self.topic_id, percent+10, x, 3))
             percent += 10
 
 

@@ -3,7 +3,7 @@ __author__ = "Leif Azzopardi"
 
 import os
 import sys
-
+import re
 from measures.tar_rulers import TarRuler, TarAggRuler
 from seeker.trec_qrel_handler import TrecQrelHandler
 
@@ -39,7 +39,8 @@ def main(results_file, qrel_file):
             line = rf.readline()
             if not line:
                 break
-            (topic_id,action,doc_id, rank, score, team) = line.split()
+            #(topic_id, action,doc_id, rank, score, team) = re.split(" |\t",line)
+            (topic_id, action,doc_id, rank, score, team) = line.split()
 
             if (topic_id == curr_topic_id):
                 if (skip_topic is False):
@@ -53,9 +54,9 @@ def main(results_file, qrel_file):
                 else:
                     continue
             else:
-                print(topic_id)
                 if curr_topic_id is not "":
                     if skip_topic is False:
+
                         tar_ruler.finalize()
                         tml.append(tar_ruler)
                         tar_ruler.print_scores()
@@ -80,12 +81,12 @@ def main(results_file, qrel_file):
                         num_docs_in_set = num_docs_in_set - 1
 
                 if (num_rels_in_set == 0):
-                    print(curr_topic_id)
+                    print("Skipping topic: {0}".format(curr_topic_id))
                     skip_topic = True
                     continue
                 
                 #print("D: {0} DS: {1} R: {2} RS: {3} ".format(num_docs,num_docs_in_set,num_rels, num_rels_in_set))
-                tar_ruler = TarRuler(topic_id,num_docs_in_set, num_rels_in_set)
+                tar_ruler = TarRuler(topic_id, num_docs_in_set, num_rels_in_set)
 
                 # reset seen list
                 seen_dict = {}
@@ -95,7 +96,6 @@ def main(results_file, qrel_file):
                 v = get_value_and_check(qrh, seen_dict, topic_id, d)
                 if v is not None:
                     tar_ruler.update(v,v,action)
-
 
         if skip_topic is False:
             tar_ruler.finalize()
