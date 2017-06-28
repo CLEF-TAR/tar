@@ -143,6 +143,11 @@ class CountBasedMeasures(EvalMeasure):
 
 
     def finalize(self):
+        #TODO(leifos): Again problem if num_docs < num_shown
+        # hack if num_shown > num_docs, set num_docs = num_shown
+        if self.num_shown > self.num_docs:
+            self.num_docs = self.num_shown
+
         self.min_req = float(self.last_rel) / float(self.num_docs)
         self.wss_100 = float(self.num_docs - self.last_rel) / float(self.num_docs)
         self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(self.num_docs)) - 0.05
@@ -296,7 +301,8 @@ class AreaBasedMeasures(EvalMeasure):
         self.cg = 0
         self.area = 0.0
         self.norm_area = 0.0
-        self.max_area = num_rels * num_docs - (num_rels * num_rels) / 2.0
+        #self.max_area = num_rels * num_docs - (num_rels * num_rels) / 2.0
+        self.max_area = self._calc_max_area(num_rels, num_docs)
         #self.outputs = {'area':1, 'norm_area':1}
         self.outputs = {'norm_area':1}
 
@@ -311,6 +317,7 @@ class AreaBasedMeasures(EvalMeasure):
         if action == "NS":
             pass
         else:
+            # should we check to see if the document is in the set?
             self.num_shown = self.num_shown + 1
             v = 0
             if value > 0 and value < 3:
@@ -321,15 +328,29 @@ class AreaBasedMeasures(EvalMeasure):
 
     def finalize(self):
         num_not_shown = (self.num_docs - self.num_shown)
+
         if num_not_shown > 0:
             # we need to add in the rest of the area
             self.area = self.area + (num_not_shown * self.cg)
+
+
+        if num_not_shown < 0:
+            # then we need to recalculate the max area
+            # this is because extra documents have been shown, not in the set
+            #print("ALL num_not_shown {0}".format( num_not_shown))
+            #print("ALL max_area {0} area {1}".format(self.max_area, self.area))
+            #print("ALL area {0} cg {1} rels {2}".format(self.area, self.cg, self.num_rels))
+            #print("ALL norm_area {0}".format(self.norm_area))
+            self.max_area = self._calc_max_area(self.num_rels, (self.num_docs-num_not_shown))
 
         if self.max_area > 0.0:
             self.norm_area = round(self.area / self.max_area,3)
         else:
             self.norm_area = 0.0
 
+
+    def _calc_max_area(self, num_rels, num_docs):
+        return num_rels * num_docs - (num_rels * num_rels) / 2.0
 
 
 CN = 0.0
@@ -474,6 +495,10 @@ class LossBasedMeasures(CountBasedMeasures):
             self.r = 0.0
         self.loss_r = pow((1 - self.r), 2.0)
 
+        #TODO:(leifos) A problem occurs when num_shown is greater than num_docs
+        # current fixed - if num_shown > num_docs, then set num_docs = num_shown
+        if self.num_shown > self.num_docs:
+            self.num_docs = self.num_shown
         self.loss_e = pow((self.b / self.num_docs), 2.0) * pow((self.num_shown/ (self.num_rels+self.b)) ,2.0)
         self.loss_er = self.loss_r + self.loss_e
 
