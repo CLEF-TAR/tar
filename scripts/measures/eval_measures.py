@@ -391,6 +391,13 @@ class CostBasedMeasure(EvalMeasure):
         :param action:
         :return: None
         """
+        if action in ["AFN", "AFN", "DFN", "DFS"]:
+            action = "AF"
+        if action == "NFS":
+            action = "NF"
+        if action == "NFN":
+            action = "NS"
+
         if action == "NS":
             # Trigger threshold at the first NS (?)
             cost = CN
