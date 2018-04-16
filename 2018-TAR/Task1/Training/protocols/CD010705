@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess and compare the diagnostic accuracy of MTBDRsl for the detection of resistance to FQs in patient specimens (using direct testing) and culture isolates (using indirect testing) confirmed as TB positive.
+To assess and compare the diagnostic accuracy of MTBDRsl for the detection of resistance to SLIDs in patient specimens (using direct testing) and culture isolates (using indirect testing) confirmed as TB positive.
+To assess and compare the diagnostic accuracy of MTBDRsl for the detection of XDR-TB in patient specimens (using direct testing) and culture isolates (using indirect testing) confirmed as TB positive.
+Secondary objectives
+We planned to investigate heterogeneity in relation to the reference standard (culture-based DST compared with (1) genetic sequencing, (2) culture-based DST and genetic sequencing, and (3) culture-based DST followed by genetic sequencing with discordant results) and individual drugs within a drug class (for example, ofloxacin and moxifloxacin within the FQ class). We also pre-specified in the protocol investigations of heterogeneity in relation to HIV status, condition of the specimens (fresh or frozen, volume of specimen), patient population (patients suspected of having MDR-TB or XDR-TB) and whether WHO-recommended critical drug concentrations were used for culture-based reference testing.</objective>
+  <type_of_study>
+We included all studies that determined the diagnostic accuracy of the index test in comparison with a defined reference standard, including case-control designs, in which cases and controls were sampled from the same patient population. We only included studies from which data could be extracted for true positives (TP), true negatives (TN), false positives (FP) and false negatives (FN). We excluded unpublished studies reported only in abstracts.</type_of_study>
+  <participants>
+We included patients and specimens from patients of any age who were thought to have resistance to any of the second-line TB drugs, as well as patients and patient specimens with confirmed MDR-TB from all settings, irrespective of background burden and patient population.</participants>
+  <index_tests>
+We included studies that evaluated the MTBDRsl assay.</index_tests>
+  <target_conditions>
+We considered three target conditions:
+Resistance to any of the FQs. The FQs include ofloxacin, levofloxacin and moxifloxacin. We excluded ciprofloxacin because this drug is infrequently used in DST.
+Resistance to any of the SLIDs. The SLIDs include two aminoglycosides, kanamycin and amikacin, and one cyclic peptide, capreomycin.
+XDR-TB.
+For the FQs, the presence of mutations in each of the genes probed by the MTBDRsl assay has very high concordance with resistance to all drugs within that drug class. For example, a mutation in the gyrA usually means a strain is resistant to each of the FQs: ofloxacin, levofloxacin and moxifloxacin (Sirgel 2012a). The same holds true for the rrs gene and the two aminoglycosides, kanamycin and amikacin (Sirgel 2012b). Evidence is mixed regarding the level of concordance between resistance to the two aminoglycosides and capreomycin arising from mutations in the rrs gene. We acknowledge that determining resistance to all three SLIDs together, and thus including capreomycin with the aminoglycosides, may be a limitation. However, the index test results are reported in this manner. We discuss this issue further in the Discussion.</target_conditions>
+  <reference_standards>
+The following reference standards were used to define the target conditions:
+Phenotypic culture-based DST: solid culture or a commercial liquid culture system (BACTEC 460, MGIT 960 and MGIT Manual System, Becton Dickinson, USA) incorporating the drug of interest.
+Genetic sequencing of the gyrA or rrs genes, or both.
+Two reference standards used together: phenotypic culture-based DST and genetic sequencing of the same samples. If a specimen was resistant according to phenotypic culture-based DST or had a mutation in the gyrA or rrs genes, the specimen was classified as having the target condition. If both phenotypic culture-based DST and genetic sequencing indicated susceptibility, the specimen was classified as not having the target condition.
+Two reference standards used sequentially: phenotypic culture-based DST followed by selective testing by genetic sequencing of samples with discordant results (also referred to as discrepant analysis). Discordant results may be either index test positive/phenotypic culture-based DST negative or index test negative/phenotypic culture-based DST positive.
+There are strengths and limitations to each of the reference standards. As mentioned, phenotypic culture-based DST is the conventional reference standard, but it is considered to be imperfect and is dependent on the drug concentration threshold used to define resistance. Genetic sequencing is considered to be more accurate than phenotypic culture-based DST; however, this is only if it targets all known resistance determining regions, which are not completely defined for the FQs and the SLIDs. Therefore, genetic sequencing can miss mutations that may cause drug resistance which fall outside of the targeted genes. Furthermore, genetic sequencing is usually applied only to culture isolates when results for the index test and the culture-based reference test do not agree. In this latter situation, there is potential for verification bias because the same reference standard is not being used to verify all index test results.
+We carried out separate analyses for the different reference standards, described below. In our primary analysis we used culture-based DST as the reference standard. We expected all or nearly all included studies to report results using this reference standard.</reference_standards>
+</root>

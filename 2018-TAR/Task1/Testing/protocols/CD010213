@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine and compare the diagnostic accuracy of various imaging modalities in detecting cancerous and precancerous lesions in people with focal pancreatic lesions.
+Secondary objectives
+We planned to explore the following sources of heterogeneity.
+Studies at low risk of bias versus those at unclear or high risk of bias (as assessed by the revised Quality Assessment of Diagnostic Accuracy Studies (QUADAS) tool as recommended by the Cochrane Screening and Diagnostic Tests Methods Group) (Whiting 2006). In particular, we considered the studies classified as 'yes' for the items differential verification, un-interpretable results, and withdrawals as the most important sources of heterogeneity.
+Full-text publications versus abstracts (this might be indicative of publication bias, since there may be an association between the results of the study and the study reaching full publication) (Eloubeidi 2001).
+Prospective studies versus retrospective studies.
+Different types of reference standard.
+Symptomatic versus asymptomatic lesions (the presence of symptoms may increase the pre-test probability).
+Solid versus cystic lesions (as the diagnostic accuracy of the imaging modalities may vary depending upon whether the lesion is solid or cystic).
+Participants with chronic pancreatitis versus those without chronic pancreatitis.
+Different criteria used by the authors to classify the lesions.
+Single imaging versus sequential imaging (repeated imaging).
+Different intervals of sequential imaging (e.g. imaging every six months versus annual review).</objective>
+  <type_of_study>
+We included studies reporting on cross-sectional information of the index test and reference test in the appropriate patient population (see below), irrespective of language or publication status or whether the data were collected prospectively or retrospectively. However, we excluded case series in which only true-positive results or true-negative results were reported without any information on the other participants who underwent the test.</type_of_study>
+  <participants>
+Adults with focal pancreatic lesions.</participants>
+  <index_tests>
+CT scan, MRI scan, PET scan, EUS, EUS elastography, and EUS-guided biopsy either alone or in combination as replacement for major surgery for diagnostic purposes.
+We accepted the criteria stated by the authors to classify the lesion as benign, precancerous, and cancerous for different imaging modalities.
+There is no standard algorithm in the diagnosis or management of focal pancreatic lesions. Other tests that may be used in the diagnosis of focal pancreatic lesions include diagnostic laparoscopy, laparoscopic ultrasound, serum levels of CA 19-9, and surgical resection (surgical resection may be considered diagnostic when the diagnosis is uncertain after all other diagnostic modalities have been attempted).</index_tests>
+  <target_conditions>
+Benign versus precancerous and cancerous lesions (including the type of cancerous lesion).
+Benign and precancerous versus cancerous lesions.</target_conditions>
+  <reference_standards>
+We accepted the following reference standards.
+Histopathological examination of the entire lesion by surgical resection (gold standard). This classified the lesion as benign, precancerous, or cancerous.
+Histopathological examination (irrespective of how the tissues were obtained for histopathological examination) in people with positive test (for cancerous or precancerous lesions) and clinical follow-up by a doctor (with or without sequential follow-up with imaging but using appropriate criteria such as metastases or confirmation of cancer by biopsy or death of participants due to cancer) of all participants with negative test for a period of at least six months and for a maximum period of 24 months. Until a definitive diagnosis is available, percutaneous biopsy is generally avoided because of the fear of seeding of cancer cells in potentially resectable cancers. As anticipated, the tissues obtained for histopathological examination were obtained from surgical resection. It is unlikely that patients with a low likelihood for cancer based on clinical symptoms and signs and test results (may include the results of index test) are subject to surgery or biopsy. Even if a biopsy is performed in such patients, a cancerous or precancerous lesion cannot be ruled out because of sampling error. Consequently, such patients are usually followed up clinically with sequential imaging. Pancreatic adenocarcinoma will cause clinical deterioration or increase in tumour size during a period of six months, and so we accepted clinical follow-up or sequential follow-up imaging (irrespective of the modality of the imaging) of all participants with a negative biopsy or no biopsy for at least six months as one of the reference standards. However, we accepted clinical follow-up as a reference standard only when the criteria used for diagnosis were appropriate (e.g. identification of metastases, later biopsy of the lesion confirming the nature of the lesion, and death of participants due to cancer). The choice of a maximum period of 24 months was an arbitrary choice based on the low probability of precancerous lesions becoming cancerous during 24 months. Clinical follow-up of patients is unlikely to classify precancerous lesions correctly since patients are unlikely to develop metastases or die within this interval.</reference_standards>
+</root>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+To provide the estimates of the diagnostic accuracy of imaging modalities for the diagnosis of pelvic endometriosis, ovarian endometriosis and deeply infiltrating endometriosis (DIE) versus surgical diagnosis as a reference standard.
+To describe performance of imaging tests for mapping of deep endometriotic lesions in the pelvis at specific anatomical sites.
+Imaging tests were evaluated as replacement tests for diagnostic surgery and as triage tests that would assist decision making regarding diagnostic surgery for endometriosis.
+Secondary objectives
+To investigate the influence of heterogeneity on the diagnostic accuracy of imaging modalities for endometriosis. Potential sources of heterogeneity include the following.
+Characteristics of the study population: age (adolescence vs later reproductive years); clinical presentation (subfertility, pelvic pain, ovarian mass, asymptomatic women); stage of disease (revised American Society for Reproductive Medicine (rASRM) classification system); geographic location of study.
+Histological confirmation in conjunction with laparoscopic visualisation versus laparoscopic visualisation alone.
+Changes in technology over time: year of publication; modifications applied to conventional imaging techniques.
+Methodological quality: differences in the QUADAS-2 (Quality Assessment of Diagnostic Accuracy Studies-2) evaluation (low vs unclear or high risk); consecutive versus non-consecutive enrolment; blinding of surgeons to results of index tests.
+Study design ('single gate design' vs 'two-gate design' studies).</objective>
+  <type_of_study>
+Published peer-reviewed studies that compared results of one or several types of imaging tests versus results obtained from a surgical diagnosis of endometriosis.
+We included studies if they were:
+randomised controlled trials;
+observational studies of prospectively recruited women of the following designs:
+‘single gate design’ (studies with a single set of inclusion criteria defined by clinical presentation). All participants had clinically suspected endometriosis; or
+‘two-gate design’ (studies in which participants are sampled from distinct populations with respect to clinical presentation). The same study includes participants with a clinical suspicion of having the target condition (e.g. women with pelvic pain) and participants in whom the target condition is not suspected (e.g. women admitted for tubal ligation). Two-gate studies were eligible only when all cases and controls belonged to the same population with respect to the reference standard (i.e. all participants were scheduled for laparoscopy) (Rutjes 2005).
+performed in any healthcare setting; or
+published in any language;
+We did not impose a minimal limit on the number of participants in the included studies nor on the number of studies that have evaluated each index test.
+We excluded the following studies.
+Studies of specific study designs.
+Narrative or systematic review.
+Study of retrospective design when the index test was performed after execution of a reference test, or participants were selected through a retrospective review of case notes. Knowledge of the reference test could bias relatively subjective index tests. If endometriosis is found at a diagnostic surgical procedure, excision is commonly carried out concurrently, and this could bias the results of an index test performed after the reference standard.
+Case report or case series.
+Studies reported only in abstract form or in conference proceedings for which the full text was not available. This limitation was applied when we faced substantial difficulty in obtaining the information from abstracts, which precluded a reliable assessment of eligibility and methodological quality.</type_of_study>
+  <participants>
+Study participants included women of reproductive age (puberty to menopause) with suspected endometriosis based on clinical symptoms and/or pelvic examination, who undertook both the index test and the reference standard.
+ were selected from populations of women undergoing abdominal surgery for the following indications: (1) clinically suspected endometriosis (pelvic pain, infertility, abnormal pelvic examination or a combination of these), (2) ovarian mass regardless of symptoms, (3) a mixed group, which consists of women with suspected endometriosis/ovarian mass and/or women with other benign gynaecological conditions (e.g. surgical sterilisation, fibroid uterus).
+Articles that included participants of postmenopausal age were eligible when data for the reproductive age group were available in isolation. Studies were excluded when the study population involved participants who clearly would not undergo the index test in a clinical scenario and/or would not benefit from the test (e.g. women with ectopic pregnancies, gynaecological malignancies, acute pelvic inflammatory disease). We also excluded publications in which only a subset of participants with a positive index test or reference standard were included in the analysis, and data for the whole cohort were not available.</participants>
+  <index_tests>
+All types of imaging modalities for endometriosis, including possible modifications to conventional techniques, were assessed separately or in combination with other imaging tests. We attempted to group several types of tests that were based on common technical principles and similarity in clinical applicability. The index tests assessed are presented and described in Table 2.
+We considered studies only if data were reported in sufficient detail for construction of 2 × 2 contingency tables. We included only studies that reported diagnostic accuracy estimates per number of participants ('participant-level' analysis).
+We undertook an independent evaluation of the diagnostic test accuracy of imaging tests to anatomically map endometriotic lesions because multiple endometriotic implants can co-exist at different sites in the same individual. For this 'region level' analysis, only analyses that recorded data estimates per number of participants were included, as information about the accuracy of imaging tests for mapping the disease is more informative and clinically applicable when presented as per-participant calculations of accuracy estimates.
+Combined evaluations of imaging tests and other methods of diagnosing endometriosis (e.g. pelvic examination; urine, endometrial or blood tests) are beyond the scope of this review and are presented separately in another review titled 'Combined tests for the non-invasive diagnosis of endometriosis'. We excluded from the review studies that solely assessed specific technical aspects, radiological criteria or interobserver variability of index tests without reporting data on diagnostic performance.
+The diagnostic performance of an index test was considered high when the test reached the criteria for a replacement test (sensitivity ≥ 94% with specificity ≥ 79%) or a triage test (sensitivity ≥ 95% with specificity ≥ 50%, or vice versa). We categorised as 'approaching' high accuracy imaging tests with diagnostic estimates within 5% of set thresholds. We considered all other diagnostic estimates as low.</index_tests>
+  <target_conditions>
+Investigators assessed three target conditions.
+Pelvic endometriosis: defined as endometrial tissue located within the pelvic cavity, including any of the pelvic organs, peritoneum and pouch of Douglas.
+Ovarian endometriosis (endometrioma): defined as ovarian cysts lined by endometrial tissue and appearing as an ovarian mass of varying size.
+DIE: defined as subperitoneal infiltration of endometrial implants, for example, when endometriotic implants penetrate the retroperitoneal space for a distance of 5 mm or more. Posterior DIE is the most common form of DIE, and both conditions are interchangeably reported. For the purpose of this review, we combined them as a single target condition - DIE/posterior DIE.
+In addition, the ability of diagnostic imaging to map endometriotic lesions at specific anatomical pelvic locations was evaluated. Anatomical locations included rectovaginal septum (RVS), uterosacral ligament (USL), vaginal wall, POD obliteration, anterior DIE, rectosigmoid colon and the entire bowel from ileum to rectum. These locations are defined in Table 3.
+Table 3.  - types and anatomical distribution of endometriosis
+Type of endometriosis Description
+Main clinical types of endometriosis
+Pelvic endometriosis Endometriotic lesions, deep or superficial, located at any site in pelvic/abdominal cavity: on the peritoneum, fallopian tubes, ovaries, uterus, bowel, bladder or PODa
+Ovarian endometriosis Ovarian cysts lined by endometrial tissue (endometrioma)
+DIEb Deep endometriotic lesions extending more than 5 mm under the peritoneum located at any site of pelvic/abdominal cavity
+Subtypes of deep endometriosis per anatomical localisationc
+Posterior DIE Deep endometriotic lesions involve ≥ 1 site of the posterior pelvic compartment (USLd RVSe, vaginal wall, bowel) and/or obliterate PODa
+USLd endometriosis Endometriotic lesions infiltrate uterosacral ligaments unilaterally or bilaterally
+RVSe endometriosis Deep endometriotic implants infiltrate the retroperitoneal area between posterior wall of vaginal mucosa and anterior wall of rectal muscularis
+Vaginal endometriosisf Endometriotic lesions infiltrate vaginal wall, particularly posterior vaginal fornix
+PODa obliteration Defined when the peritoneum of the PODa is only partially or no longer visible during surgery, and occurs as a result of adhesion formation; can be partial or complete, respectively
+Bowel endometriosis Endometriotic lesions infiltrating at least the muscular layer of the intestinal wall ileum - rectum; predominantly affects rectosigmoid colon
+Rectosigmoid endometriosis Endometriotic lesions infiltrating at least the muscular layer of the rectosigmoid colon; the most common form of bowel endometriosis
+Anterior DIE Deep endometriotic lesions located at any site of the anterior pelvic compartment (bladder ± anterior pouch)
+Rare types of endometriosis (not included in this review)
+Bladder endometriosis Endometriotic lesions infiltrating bladder muscularis propria
+Ureteral endometriosis Endometriotic lesions involving ureters
+Extrapelvic/Atypical endometriosis
+Rare types of endometriosis involving various sites outside pelvic cavity, such as:
+CNS: cerebral endometriosis, extradural spinal endometriosis
+Thoracic: pleural endometriosis, pulmonary endometriosis, diaphragmatic endometriosis
+Abdominal: hepatic endometriosis, renal endometriosis, appendix endometriosis, pancreas endometriosis
+Musculoskeletal: abdominal wall endometriosis, umbilical endometriosis, pyramidalis muscle endometriosis, inguinal endometriosis, canal of Nuck endometriosis
+Perianal endometriosis, perineal endometriosis, extrapelvic endometriosis of sciatic nerve
+Subcutaneous endometriosis, operative scar endometriosis
+aDIE: deep infiltrating endometriosis
+bPOD: pouch of Douglas
+cDefinitions of subtypes of DIE are adopted from Bazot 2007c. Additional definitions presented in the literature include 'Rectovaginal endometriosis (RVE)' defined as DIE that infiltrates the vagina, rectum and RVS and obliterates POD (Martin 2001) or 'deep retrocervical endometriosis' defined as involvement of USL, torus uterini, posterior vaginal fornix and/or RVS by endometriotic lesions (Abrao 2007).
+dUSL: uterosacral ligament
+eRVS: rectovaginal septum
+fVaginal endometriosis also defined as 'lesions infiltrating the anterior rectovaginal pouch, posterior vaginal fornix and retroperitoneal area between anterior rectovaginal pouch and posterior vaginal fornix (Chapron 2003a)
+Certain rare types of endometriosis such as extrapelvic, bladder and ureteric endometriosis were not included in this review because most of these were described in case reports or in case series, and laparoscopy and laparotomy are not reliable reference standards for these conditions.
+We excluded studies in which the diagnosis of endometriosis was not the primary outcome of the trial (e.g. malignant vs benign masses, normal vs abnormal pelvis) and separate data for endometriosis were not available.
+We also excluded studies in which findings of the index test formed the basis of selection for the reference standard because this was likely to distort any assessment of the diagnostic value of the index test.
+We included studies that involved only selected populations of women with endometriosis (i.e. at specific rASRM stages), in view of emerging evidence on poor correlation of this classification with infertility and pain symptoms. Exclusion of these studies could result in loss of potentially important diagnostic information from otherwise eligible publications. When possible, we addressed the impact of these studies in investigations of heterogeneity. When a study analysed a large population with a wide spectrum of endometriosis and additionally reported subgroup analyses of different stages of disease severity, we considered only estimates for the entire population because subgroup analyses do not directly address the review question regarding clinical utility of biomarkers in detecting the disease.</target_conditions>
+  <reference_standards>
+The reference standard was visualisation of endometriosis at surgery (laparoscopy or laparotomy) with or without histological confirmation, as this is currently the best available test for endometriosis. We reviewed information regarding interobserver and intraobserver correlation of the reference standard, if reported.
+We included only studies in which the reference test was performed within 12 months of the index test, on the assumption that disease status could change within a period of one year or longer, naturally or as a result of treatment. We did not include in this review studies in which the participants did not undergo the reference standard, or for whom findings of the index test formed the basis of selection for the reference standard.
+Summary of inclusion/exclusion criteria
+Inclusion criteria
+Types of studies.
+Published peer-reviewed.
+Randomised controlled trials (RCTs).
+Observational with prospective recruitment in the following design.
+‘Single-gate design’ (single set of inclusion criteria defined by clinical presentation) - all participants had clinically suspected endometriosis.
+‘Two-gate design’ (two sets of inclusion criteria with respect to clinical presentation and one set of inclusion criteria with respect to reference standard) - participants with or without clinical suspicion of endometriosis scheduled for abdominal surgery.
+Published in any language.
+Performed in any healthcare setting.
+Any sample size.
+Participants.
+Women of reproductive age.
+Women with clinically suspected endometriosis, including women who underwent abdominal surgery for other benign gynaecological conditions and surgical assessment for presence/absence of endometriosis.
+Those who undertook both index test and reference standard.
+Index tests.
+One or several types of imaging tests.
+Data reported in sufficient detail for construction of 2 × 2 tables and presented as 'participant-level' analysis.
+Target conditions.
+Pelvic endometriosis, ovarian endometrioma, DIE or specific pelvic sites of DIE.
+Reference standard.
+Surgical visualisation of lesions for the diagnosis of endometriosis (laparoscopy or laparotomy) with or without histological verification.
+Performed within 12 months of the index test.
+Exclusion criteria
+Types of studies.
+Narrative or systematic reviews.
+Retrospective design in which the index test was performed after execution of the reference test and/or participants were selected from a retrospective review of case notes.
+Case reports or case series.
+Conference proceedings.
+Participants.
+Included cohort was not representative of the target population that would benefit from the test (e.g. women with known genital tract malignancy, ectopic pregnancy, acute pelvic inflammatory disease).
+Study included participants of postmenopausal age, and data for the reproductive age group were not available in isolation.
+Only participants with positive index test or positive reference standard were included in the analysis.
+Index tests.
+Imaging tests were presented in combination with other diagnostic tests for endometriosis, and separate information was not available for the imaging modalities.
+Study presented only specific technical aspects of an index test or data on interobserver variability, rather than diagnostic performance of the test.
+Study presented only qualitative description of radiological appearance of endometriotic lesions.
+Only the number of lesions rather than the number of participants with endometriosis was reported (i.e. 'lesion-level' analyses).
+Target conditions.
+Endometriosis was not the primary outcome of the trial (e.g. malignant vs benign masses, normal vs abnormal pelvis).
+Atypical, rare sites of endometriosis.
+Reference standard.
+Reference standard performed only in a subset of study/control group.
+Findings of the index test formed the basis of selection for the reference standard.
+Other than specified in inclusion criteria.</reference_standards>
+</root>

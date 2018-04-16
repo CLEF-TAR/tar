@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess from the current literature the sensitivity of CT cerebral angiography as an additional confirmatory test for diagnosing death using neurological criteria, following satisfaction of clinical neurological criteria for brain death.
+Secondary objectives
+No secondary objective was examined.</objective>
+  <type_of_study>
+We included studies of patient populations, published in all languages. If relevant non-English articles were identified but full-text translations could not be obtained in press, we placed them in the 'Studies awaiting assessment' section and sought help from colleagues within The Cochrane Collaboration to obtain accurate translations.
+We considered studies to be acceptable if:
+the studies compared cerebral CTA (with or without other imaging or ancillary tests) with a clinical diagnosis of brain death, that is satisfaction of accepted clinical neurological criteria to diagnose death;
+the participant population was defined as those in whom either a clinical diagnosis of brain death had already been made or a clinical diagnosis of brain death was established as part of the study;
+the absolute numbers of true and false positives, and true and false negatives, were either available directly from the published study data, secondarily derivable from data within the published study or as supplementary published material, or available directly from the original study authors. Although at the outset we sought to collect data regarding numbers of true negatives and false positives from studies, it rapidly became apparent from a preliminary review of the literature that all but one of the published studies included no control group.
+Other comparator tests were not reviewed as part of this study. We anticipated that many studies would include at least one other imaging or investigative comparator test; if these studies fulfilled our criteria for acceptance they were included.  
+In some studies, cerebral CTA may have been considered as a reference test and a further clinical test compared against it. Our search strategy was tailored to include these studies, however they were not included unless they provided a statement to the effect that 'all included patients satisfied a clinical diagnosis of brain death', or similar, allowing cerebral CTA to be viewed as an index test against the reference test of clinical testing. We planned to contact authors of any such studies to obtain relevant supplementary data.
+Studies ideally defined clinical and imaging variables that were employed as part of their methodology. In particular, if details of the following were not specifically included we contacted the author(s) for further details.
+Methodological variables
+Time interval from reference standard to CTA (or vice versa)
+Evidence of blinding of clinicians, reporters of CT angiography, reference standard findings
+Clinical variables
+Criteria used for diagnosis of brain death (including country of origin, name of approving regulatory body if applicable)
+Experience of clinician(s)
+Imaging acquisition
+Contrast dose, contrast volume, acquisition volume, scanner type (single spiral or multislice), study time
+Imaging reporting
+Single, double, consensus reporting
+Experience of reporter(s)
+We excluded study reports that were written to focus on specific technical aspects of either the clinical or imaging technique. We also excluded commentary or opinion-forming articles that did not have a clinical study component.
+In the case of multiple publications by the same author or group of authors with similar data, we contacted the author(s) to establish the degree of similarity within their described patient populations. If this was not possible, we included only the most recent or complete study.
+We considered it possible that we might encounter two patient subgroups in reviewed articles. That is:
+patients who had already received a diagnosis of clinical brain death prior to undergoing CTA;
+patients who did not have a diagnosis of clinical brain death but were suspected to be in such a state at the time of CTA and who subsequently went on to receive a diagnosis of clinical brain death.
+It is possible that this temporal relationship may be of significance when looking for sources of heterogeneity, particularly as this review aimed to assess the role of CTA as an additional, confirmatory test rather than as a replacement, supplementary, triage or screening test. If sufficient data were available, we planned to perform a subgroup analysis for these two cohorts. However, this was not possible given sparse data.</type_of_study>
+  <participants>Methodological variables
+Time interval from reference standard to CTA (or vice versa)
+Evidence of blinding of clinicians, reporters of CT angiography, reference standard findings</participants>
+  <index_tests>Clinical variables
+Criteria used for diagnosis of brain death (including country of origin, name of approving regulatory body if applicable)
+Experience of clinician(s)</index_tests>
+  <target_conditions>Imaging acquisition
+Contrast dose, contrast volume, acquisition volume, scanner type (single spiral or multislice), study time</target_conditions>
+  <reference_standards>Imaging reporting
+Single, double, consensus reporting
+Experience of reporter(s)
+We excluded study reports that were written to focus on specific technical aspects of either the clinical or imaging technique. We also excluded commentary or opinion-forming articles that did not have a clinical study component.
+In the case of multiple publications by the same author or group of authors with similar data, we contacted the author(s) to establish the degree of similarity within their described patient populations. If this was not possible, we included only the most recent or complete study.
+We considered it possible that we might encounter two patient subgroups in reviewed articles. That is:
+patients who had already received a diagnosis of clinical brain death prior to undergoing CTA;
+patients who did not have a diagnosis of clinical brain death but were suspected to be in such a state at the time of CTA and who subsequently went on to receive a diagnosis of clinical brain death.
+It is possible that this temporal relationship may be of significance when looking for sources of heterogeneity, particularly as this review aimed to assess the role of CTA as an additional, confirmatory test rather than as a replacement, supplementary, triage or screening test. If sufficient data were available, we planned to perform a subgroup analysis for these two cohorts. However, this was not possible given sparse data.</reference_standards>
+</root>

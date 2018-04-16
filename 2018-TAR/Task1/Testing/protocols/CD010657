@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+The primary objective of this review is to evaluate the diagnostic accuracy of DMSA and RBUS in identifying VUR and high-grade VUR.
+Secondary objectives
+A secondary objective is to compare the rate of adverse events between DMSA scans and RBUS.</objective>
+  <type_of_study>
+Cross-sectional and cohort designs were acceptable for inclusion. We excluded case-control studies because they are known to inflate estimates of sensitivity and specificity.</type_of_study>
+  <participants>
+We considered published studies that compared the results of an index test (DMSA scan or RBUS) with the results of a radiographic VCUG in children from zero to 19 years of age with a culture-confirmed episode of UTI. Studies were considered whether or not they included children with previous UTIs. UTI was defined as growth of ≥ 104 colony-forming units (CFU)/mL organisms from a catheterized specimen, ≥ 105 CFU/mL organisms from a clean catch, midstream, or bag specimen, or any growth from a suprapubic specimen (Hoberman 1994). Studies that did not meet these minimum criteria were excluded.</participants>
+  <index_tests>
+Studies in which DMSA scan was performed were included only if the DMSA was conducted within the first month of the UTI diagnosis. Planar DMSA scans are two-dimensional images of the distribution of radioisotope uptake, whereas SPECT (single-photon emission computed tomography) DMSA scans reconstruct the three-dimensional distribution by taking multiple images from different angles. For the purpose of this analysis, any photopenia on a DMSA scan, with or without loss of contours, was considered positive. Studies in which RBUS was performed for the evaluation of UTI were included regardless of whether or not the timing of the RBUS was specified in the manuscript. Almost all centres we are aware of conduct the RBUS within the first two months after the diagnosis of a UTI. An ultrasound with any abnormality was considered positive.</index_tests>
+  <target_conditions>
+VUR (any grade) and high-grade VUR (VUR grades III to V) were the target conditions.</target_conditions>
+  <reference_standards>
+VCUG is the reference standard for diagnosing VUR. VUR is graded from I to V according to the International Reflux Study criteria (IRSC 1981); Grades III to V are considered high-grade.</reference_standards>
+</root>

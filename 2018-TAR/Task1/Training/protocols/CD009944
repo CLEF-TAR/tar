@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To provide both a comprehensive overview and a quantitative analysis of the published data regarding the ability of endoscopic ultrasonography (EUS) to preoperatively define the locoregional disease spread (i.e., primary tumor depth (T-stage) and regional lymph node status (N-stage)) in people with primary gastric carcinoma. 
+Secondary objectives
+To provide the tools to calculate EUS diagnostic accuracy measures based on pre-test information, such as gastric cancer T-stage and N-stage prevalence (Bayes nomograms).
+To assess whether EUS performs differently in different subgroups of patients identified by the following parameters: year of publication, country (Western versus Eastern), EUS technical features (radial versus linear array; ultrasound frequency (MHz)), definition of target condition (for N-stage: lymph node morphology versus size), gastric tumor site (any site versus cardia region only) and prevalence of target condition.</objective>
+  <type_of_study>
+We include studies that meet the following inclusion criteria:
+A minimum sample size of 10 patients with histologically-proven primary carcinoma of the stomach;
+Evaluation of endoscopic ultrasonography (EUS) compared with histopathology of primary tumor (T-stage) and regional lymph nodes (N-stage);
+Sufficient data to construct a two-by-two contingency table such that the cells in the table could be labeled as true positive, false positive, true negative, and false negative (see the Target conditions for more details).
+This type of study typically include both retrospective and prospective series of patients. As long as the above information is available,we did not exclude any specific type of study design.
+We excluded studies that had possible overlap with the selected studies (i.e. studies from the same study group, institution, and period of inclusion). We excluded studies reporting on EUS performed before preoperative chemotherapy and or radiotherapy (neoadjuvant therapy) in order to avoid the confounding effect of disease downstaging by neoadjuvant treatments.</type_of_study>
+  <participants>
+For this review, patients were people with gastric carcinoma undergoing preoperative locoregional disease staging (T-stage and N-stage) by means of EUS and postoperative pathology evaluation of the surgical specimen, including those having early gastric cancer (EGC) or advanced gastric cancer (AGC). We imposed no restrictions by age, gender or any other category.</participants>
+  <index_tests>
+The index test is EUS. We compared the results of EUS to those of pathology evaluation (reference test) in terms of both T-stage and N-stage (see Target conditions for more details).
+We did not consider any comparator test.</index_tests>
+  <target_conditions>
+The target condition was gastric cancer locoregional staging, for both primary tumor depth and regional lymph node status.
+For lymph node status (N-stage), we considered a patient either negative if no lymph node was metastatic (N0) or positive if one or more lymph nodes were metastatic (N+), as assessed by pathology evaluation.
+For the primary tumor invasion of the gastric wall (T-stage), we considered two main conditions according to the clinical questions that EUS aims to answer:
+In order to identify patients who would best benefit from surgery without preoperative radio-chemotherapy, EUS was to be investigated for its ability to distinguish superficial tumors (T1 - T2) versus advanced tumors (AGC, T3 - T4, which are likely to benefit from neoadjuvant preoperative chemotherapy); in this case, a patient was considered either positive if his/her gastric cancer was classified as T1 - T2 by pathology examination, or negative if his/her gastric cancer is classified as T3 - T4.
+Within the frame of superficial cancers (T1 - T2), in order to identify patients with superficial tumors amenable to endoscopic resection (T1 tumors), EUS was investigated for its ability to distinguish T1 tumors (EGC) versus T2 tumors; in this case, a patient was considered either positive if his/her gastric cancer is classified as T1 by pathology evaluation, or negative if his/her gastric cancer is classified as T2.
+Finally, where the data permitted and within the frame of EGC (T1 tumors), EUS was also tested for its ability to further discriminate between T1a and T1b tumors, since it is believed that the former type of cancers benefit the most from endoscopic mucosal resection (EMR). To this end, a patient was considered either positive if his/her gastric cancer was classified as T1a by pathology evaluation, or negative if his/her gastric cancer was classified as T1b.</target_conditions>
+  <reference_standards>
+The reference standard was routine histopathology evaluation (i.e., microscopic examination of hematoxylin-eosin stained samples) of primary tumor and regional lymph nodes. Since pathological examination of the surgical specimen is the only way to know precisely the depth of invasion through the gastric wall as well as the status of regional lymph nodes, all eligible patients must have undergone surgery and all tumors must have undergone routine pathology evaluation. According to the pathology report, four T categories (T1 to T4) indicate the extent of gastric wall invasion by the primary tumor; the status of the regional lymph nodes (positive versus negative) was also taken into consideration.</reference_standards>
+</root>

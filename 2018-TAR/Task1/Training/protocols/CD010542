@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of transient elastography for diagnosis and staging hepatic fibrosis in people with alcoholic liver disease when compared with liver biopsy. In addition, to identify the optimal cut-off values for differentiating the five stages of hepatic fibrosis.</objective>
+  <type_of_study>
+We sought to include diagnostic cohort studies and diagnostic case-control studies that had assessed hepatic fibrosis in participants with alcoholic liver disease through transient elastography and liver biopsy, irrespective of language or publication status, or whether data were collected prospectively or retrospectively. We considered studies for inclusion also if they had included participants with different aetiologies of liver disease.</type_of_study>
+  <participants>
+The studies had to include participants of any sex and ethnic origin, above 16 years old, and diagnosed with alcoholic liver disease. The participants could have been hospitalised or managed as outpatients. The diagnosis of alcoholic liver disease in the study participants had to be established based on registered history of excessive intake of alcohol of sufficient duration and quantity together with clinical evidence of liver disease expressed with physical signs at examination and followed by laboratory evidence of liver disease. To ascertain the diagnosis of alcoholic liver disease and study the presence or absence of hepatic fibrosis or cirrhosis, the studies had to perform both transient elastography and liver biopsy (Bouchier 1992).
+For this review, we did not consider for inclusion data on participants diagnosed with alcoholic liver disease and having a concomitant liver disease such as non-alcoholic fatty liver disease, chronic hepatitis C virus infection, chronic hepatitis B virus infection, autoimmune liver disease, or human immunodeficiency virus (HIV) infection. We extracted data on study participants with alcoholic liver disease alone whenever such data were available in the study report or whenever we could obtain the data required for the review through personal communication with study authors. In the latter case, we disregarded some of the data presented in the publication and used the data provided by the study authors through personal communication.</participants>
+  <index_tests>
+Transient elastography, a non-invasive test measuring liver stiffness in kiloPascals (kPa).
+Following the recommended technical parameters for transient elastography and to ensure the validity of the transient elastography result for every participant in the single studies, participants should have undergone at least 10 validated stiffness measurements at the same measurement point. The measurements should have had an interquartile range of 30% or less, and the ratio of the number of successful measurements to the total number of acquisitions should have been 60% or less (Echosens 2009). We only considered data from people who provided the full set of the described data.
+Transient elastography is not recommended for use in pregnant women, people with pacemakers, and people with ascites. Factors that may influence the success of transient elastography investigation are experience of the operator and body mass index of the person. Liver stiffness measurement can produce biased results depending on the grade of necro-inflammation and grade of steatosis (Myers 2010).</index_tests>
+  <target_conditions>
+The presence of hepatic fibrosis in people with alcoholic liver disease. Based on the METAVIR histopathological score for interpreting liver biopsy, there are five stages of hepatic fibrosis (Table 1).
+F0: no fibrosis.
+F1: mild fibrosis.
+F2: significant fibrosis.
+F3: severe fibrosis.
+F4: cirrhosis.
+We dichotomised the hepatic fibrosis estimated by the METAVIR score as follows:
+people with METAVIR score of F1 or worse were considered 'diseased' and people with METAVIR score of F0 are considered 'non-diseased';
+people with METAVIR score of F2 or worse were considered 'diseased' and people with METAVIR score of F0 plus F1 are considered 'non-diseased';
+people with METAVIR score of F3 or worse were considered 'diseased' and people with METAVIR score of F0 plus F1 plus F2 are considered 'non-diseased';
+people with METAVIR score of F4 were considered 'diseased' and people with METAVIR score of F0 plus F1 plus F2 plus F3 are considered 'non-diseased'.</target_conditions>
+  <reference_standards>
+Liver biopsy is the reference standard that is obtained by percutaneous needle techniques, transjugular method, ultrasound-guided fine-needle, or surgical specimens (Kuntz 2008; Ivashkin 2011b).
+Liver biopsy is the only existing reference standard so far for diagnosing hepatic fibrosis stages in people with alcoholic liver disease. Specimens of liver tissue with a mean length of at least 15 mm and at least seven portal tracts are among the factors that can provide reliable morphological staging of hepatic fibrosis and grading of inflammation (Rockey 2009).
+If liver biopsy samples were reported with any of the semi-quantitative scores, that is, METAVIR (Franciscus 2007), Knodell (Franciscus 2007), Ishak (Franciscus 2007), Kleiner (Kleiner 2005), Scheuer (Regev 2002), Brunt (Brunt 1999), or Batts-Ludwig (Haque 2010), we used a conversion grid for hepatic fibrosis staging adapted after Goodman 2007 (Table 1) to unify results on the grade of hepatic fibrosis on liver biopsy. For grading alcoholic steatosis, we used the Nonalcoholic Steatohepatitis Clinical Research Network scoring system (Kleiner 2005) (Table 2).
+Table 2. Nonalcoholic Steatohepatitis Clinical Research Network scoring system for grade of hepatic steatosis
+Evaluation of parenchymal involvement by steatosis Steatosis grade
+&lt; 5% 0
+5% to 33% 1
+34% to 66% 2
+&gt; 66% 3</reference_standards>
+</root>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To compare the diagnostic test accuracy of magnetic resonance imaging (MRI), magnetic resonance arthrography (MRA) and ultrasonography (US) for detecting any rotator cuff tears (i.e. partial or full thickness) in people with shoulder pain for whom surgery is being considered.
+We divided our objectives as follows.
+To compare the diagnostic accuracy of US, MRI and MRA for diagnosing any rotator cuff tears (partial or full thickness)
+To compare the diagnostic accuracy of US, MRI and MRA for diagnosing full thickness rotator cuff tears (one or more tendons)
+To compare the diagnostic accuracy of US, MRI and MRA for diagnosing partial thickness rotator cuff tears
+Investigation of sources of heterogeneity
+We planned to investigate the following potential sources of heterogeneity:
+Type of tear: acute traumatic and chronic degenerative
+Type of reference standard: open (including mini-open) surgery or arthroscopy</objective>
+  <type_of_study>
+All diagnostic accuracy studies that compared one or more of the index tests with one or both of the reference tests in patients suspected of having a partial or full thickness rotator cuff tear were included. We only included results from full reports of prospective studies. Studies with an excessively long period of time (i.e. a year or longer) between the index and reference tests were excluded because there is evidence that rotator cuff tears can progress over time (Mall 2010; Melis 2010); however, the rate of progression is not clearly defined.
+We included articles in English and languages for which a full translation could be obtained. Non-English articles where a full translation could not be obtained are cited in the Characteristics of studies awaiting classification but not included in the review.
+For studies reported in multiple publications, we included only the most recent or complete report. References to the other publications were cited under the same study identifier.</type_of_study>
+  <participants>
+We included people with shoulder pain suspected of having a rotator cuff tear for whom surgery was being considered. Studies that included healthy controls or participants who had been previously diagnosed with other specific shoulder pain (e.g. shoulder instability, osteoarthritis, rheumatoid arthritis, frozen shoulder, benign or malignant tumours or referred pain) were excluded. Studies that included participants with shoulder pain, but in which it was unclear if all the participants were suspected of having rotator cuff tears, were also excluded.</participants>
+  <index_tests>
+Studies that assessed the accuracy of US, MRI or MRA were included.</index_tests>
+  <target_conditions>
+We included studies that evaluated the index tests for detection of at least one of three target conditions:
+presence of any rotator cuff tears (partial or full thickness);
+presence of full thickness tears;
+presence of partial thickness tears.
+To standardise classification for this review, rotator cuff tears were dichotomised as absence or presence of any, full and partial thickness tears.</target_conditions>
+  <reference_standards>
+We required arthroscopy or open (including mini-open) surgery findings to be the reference standards.</reference_standards>
+</root>
