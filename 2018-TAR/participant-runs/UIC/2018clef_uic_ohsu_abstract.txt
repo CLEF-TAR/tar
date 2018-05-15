@@ -1,0 +1,9 @@
+TEAM DESCRIPTION
+University of Illinois at Chicago and Oregon Health & Science University (UIC/OHSU).
+Neil R. Smalheiser, Jodi Schneider, Aaron M. Cohen
+
+ABSTRACT
+The UIC/OHSU CLEF 2018 Task 2 submission applies a machine learning approach to ranking the PMID by topic. First, publication type clusters, including diagnostic test accuracy papers (DTAs), were built by searching Pubmed from 1987-2015. The clusters were used to create several types of cluster similarity measures for each publication type. Similarity vector types included: indirect similarity, most important word similarity, journal similarity, and author count similarity. These similarity features were then used with weighted and un-weighted linear SVM machine learning algorithms, which was trained with
+a data set retrieved from Pubmed searches consisting of 3481 PMIDS likely to be diagnostic test accuracy papers (DTAs), and 71684 PMIDS not likely to be DTAs. The trained models produce probability scores predicting whether or not an individual PMID is a DTA. The CLEF 2018 Task 2 Test PMIDs for each topic were scored and ranked, and the cut-off probability for each of the two models determined by visual inspection of the score distribution on the test data. Cutoff probabilities chosen were 0.20 for the unweighted SVM model and 0.40 for the weighted SVM model.
+
+ 
