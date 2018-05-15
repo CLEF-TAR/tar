@@ -411,8 +411,6 @@ class LossBasedMeasures(DescriptionMeasures):
             self.rels_found = self.rels_found + 1
             self.last_rel = self.last_rank
 
-
-
     def finalize(self):
         if self.num_rels > 0:
             self.r = float(self.rels_found) / float(self.num_rels)
@@ -436,7 +434,6 @@ class LossBasedMeasures(DescriptionMeasures):
 
 class RecallBasedMeasures(DescriptionMeasures):
 
-
     def __init__(self, topic_id, num_docs, num_rels):
         super(self.__class__, self).__init__(topic_id, num_docs, num_rels)
         self.recall_max = float(num_rels)
@@ -447,8 +444,7 @@ class RecallBasedMeasures(DescriptionMeasures):
         self.current_rank = 0
 
 
-        self.outputs = {'recall_total':1, 'recall_max':1, 'recallat': 2,
-                        }
+        self.outputs = {'recall_total':1, 'recall_max':1, 'recallat': 2, }
 
     def update_all(self, judgment, value):
         """
@@ -474,8 +470,6 @@ class RecallBasedMeasures(DescriptionMeasures):
         pass
 
 
-
-
     def print_scores(self):
         print("{0}\trecall_total\t{1}".format(self.topic_id, round(self.recall_total,3)))
         print("{0}\trecall_max\t{1}".format(self.topic_id, round(self.recall_max,3)))
@@ -486,4 +480,3 @@ class RecallBasedMeasures(DescriptionMeasures):
             if self.recall_max > 0.0:
                 x = round(float(self.recallat[i])/float(self.recall_max),3)
             print("{0}\trecall@{1}\t{2}".format( self.topic_id, self.recall_levels[i], x))
-
