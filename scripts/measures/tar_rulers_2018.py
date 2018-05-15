@@ -2,7 +2,7 @@ __author__ = "Leif Azzopardi"
 
 from measures.eval_measures_2018 import UtilityBasedMeasure, AreaBasedMeasures, MAPBasedMeasures
 from measures.eval_measures_2018 import DescriptionMeasures, CountBasedMeasures, GainBasedMeasures
-from measures.eval_measures_2018 import LossBasedMeasures
+from measures.eval_measures_2018 import LossBasedMeasures, RecallBasedMeasures
 
 
 class TarAggRuler(object):
@@ -116,7 +116,8 @@ class TarRulerTask1(TarRuler):
         # to ensure the measures you have defined are outputted.
 
         self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
-                        MAPBasedMeasures(topic_id, num_docs, num_rels)
+                        MAPBasedMeasures(topic_id, num_docs, num_rels),
+                        RecallBasedMeasures(topic_id, num_docs, num_rels),
                         ]
 
 

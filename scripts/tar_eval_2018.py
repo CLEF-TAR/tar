@@ -112,16 +112,16 @@ def main(task, results_file, qrel_file):
         agg_tar.finalize()
         agg_tar.print_scores()
 
-
-
 def usage(args):
     print("Usage: {0} <task> <qrel_file> <results_file>".format(args[0]))
     print("<task> is either 1 or 2")
+    print("<qrel_file> is a TREC Format qrel file")
+    print("<results_file> is a TREC format result file")
 
 
 if __name__ == "__main__":
     filename = None
-    format = "TOP"
+
     if len(sys.argv) >= 3:
         task = int(sys.argv[1])
         qrels = sys.argv[2]

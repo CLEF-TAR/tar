@@ -432,3 +432,58 @@ class LossBasedMeasures(DescriptionMeasures):
 #        print("{0} loss_r {1}".format(self.topic_id, self.loss_r))
 #        print("{0} loss_e {1}".format(self.topic_id, self.loss_e))
 #        print("{0} loss_er {1}".format(self.topic_id, self.loss_er))
+
+
+class RecallBasedMeasures(DescriptionMeasures):
+
+
+    def __init__(self, topic_id, num_docs, num_rels):
+        super(self.__class__, self).__init__(topic_id, num_docs, num_rels)
+        self.recall_max = float(num_rels)
+        self.recall_total = 0.0
+        self.recall_levels = [50,100,200,300,400,500,1000,2000,3000,4000,5000]
+        self.recallat = [0.0]*(len(self.recall_levels)+1)
+
+        self.current_rank = 0
+
+
+        self.outputs = {'recall_total':1, 'recall_max':1, 'recallat': 2,
+                        }
+
+    def update_all(self, judgment, value):
+        """
+        assumes the judgements are being given in a linear fashion from rank 1 to num_docs
+        :param judgment: int, 0 non relevant, 1 relevant
+        :return: None
+        """
+        self.current_rank += 1
+        v = 0.0
+        if value > 0 and value < 3:
+            # only accrue value for those retrieved by the original query (no reward for 3 or 4 relevance scores)
+            v = 1.0
+
+        self.recall_total += v
+
+        if self.current_rank in self.recall_levels:
+            recall_index =  self.recall_levels.index(self.current_rank)
+
+            for pos in range(recall_index,(len(self.recall_levels))):
+                self.recallat[pos] = self.recall_total
+
+    def finalize(self):
+        pass
+
+
+
+
+    def print_scores(self):
+        print("{0}\trecall_total\t{1}".format(self.topic_id, round(self.recall_total,3)))
+        print("{0}\trecall_max\t{1}".format(self.topic_id, round(self.recall_max,3)))
+
+        percent = 0
+        for i in range(0,(len(self.recall_levels))):
+            x = 0.0
+            if self.recall_max > 0.0:
+                x = round(float(self.recallat[i])/float(self.recall_max),3)
+            print("{0}\trecall@{1}\t{2}".format( self.topic_id, self.recall_levels[i], x))
+
