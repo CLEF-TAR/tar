@@ -17,11 +17,33 @@ Example.
 ```
 cd ~/tar/2018-TAR
 
-python ../scripts/tar_eval_2018.py \\
-    1
+python ../scripts/tar_eval_2018.py 1
     Task1/Testing/qrels/qrel_content_task1
-    participant-runs/AUTh/auth_run2_2500.task1
+        participant-runs/AUTh/auth_run2_2500.task1
 
+```
+
+
+Output.
+
+```
+ALL	num_rels	759
+ALL	num_docs	759
+ALL	topic_id	ALL
+ALL	ap	0.308
+ALL	recall_total	20.667
+ALL	recall_max	25.3
+ALL	recall@50	0.258
+ALL	recall@100	0.387
+ALL	recall@200	0.523
+ALL	recall@300	0.61
+ALL	recall@400	0.664
+ALL	recall@500	0.702
+ALL	recall@1000	0.789
+ALL	recall@2000	0.806
+ALL	recall@3000	0.816
+ALL	recall@4000	0.816
+ALL	recall@5000	0.817
 ```
 
 
@@ -64,10 +86,9 @@ Example.
 ```
 cd ~/tar/2018-TAR
 
-python ../scripts/tar_eval_2018.py
-    2
+python ../scripts/tar_eval_2018.py 2
     Task2/Testing/qrels/full.test.abs.2018.qrels
-    participant-runs/AUTh/auth_run2_1000.task2
+        participant-runs/AUTh/auth_run2_1000.task2
 
 ```
 
