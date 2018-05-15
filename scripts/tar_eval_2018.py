@@ -4,11 +4,11 @@ __author__ = "Leif Azzopardi"
 import os
 import sys
 import re
-from measures.tar_rulers_2018 import TarRuler, TarAggRuler
+from measures.tar_rulers_2018 import TarRulerTask2, TarRulerTask1, TarAggRuler
 from seeker.trec_qrel_handler import TrecQrelHandler
 
 
-def main(results_file, qrel_file):
+def main(task, results_file, qrel_file):
 
     qrh = TrecQrelHandler(qrel_file)
     #print(qrh.get_topic_list()) # show what qrel topics have been read in
@@ -86,7 +86,10 @@ def main(results_file, qrel_file):
                     continue
 
                 #print("D: {0} DS: {1} R: {2} RS: {3} ".format(num_docs,num_docs_in_set,num_rels, num_rels_in_set))
-                tar_ruler = TarRuler(topic_id, num_docs_in_set, num_rels_in_set)
+                if task == 1:
+                    tar_ruler = TarRulerTask1(topic_id, num_docs_in_set, num_rels_in_set)
+                else:
+                    tar_ruler = TarRulerTask2(topic_id, num_docs_in_set, num_rels_in_set)
 
                 # reset seen list
                 seen_dict = {}
@@ -102,7 +105,8 @@ def main(results_file, qrel_file):
             tml.append(tar_ruler)
             tar_ruler.print_scores()
 
-        agg_tar = TarAggRuler()
+        agg_tar = TarAggRuler(task)
+
         for tar in tml:
             agg_tar.update(tar)
         agg_tar.finalize()
@@ -111,22 +115,24 @@ def main(results_file, qrel_file):
 
 
 def usage(args):
-    print("Usage: {0} <qrel_file> <results_file>".format(args[0]))
+    print("Usage: {0} <task> <qrel_file> <results_file>".format(args[0]))
+    print("<task> is either 1 or 2")
 
 
 if __name__ == "__main__":
     filename = None
     format = "TOP"
-    if len(sys.argv) >= 2:
-        qrels = sys.argv[1]
+    if len(sys.argv) >= 3:
+        task = int(sys.argv[1])
+        qrels = sys.argv[2]
 
-    if len(sys.argv)==3:
-        results = sys.argv[2]
+    if len(sys.argv)==4:
+        results = sys.argv[3]
     else:
         usage(sys.argv)
         exit(1)
 
     if os.path.exists( results ) and os.path.exists(qrels):
-        main(results,qrels)
+        main(task, results,qrels)
     else:
         usage(sys.argv)

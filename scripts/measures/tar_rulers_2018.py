@@ -7,8 +7,11 @@ from measures.eval_measures_2018 import LossBasedMeasures
 
 class TarAggRuler(object):
 
-    def __init__(self):
-        self.agg_tar_ruler = TarRuler("ALL",0,0)
+    def __init__(self, task):
+        if task==1:
+            self.agg_tar_ruler = TarRulerTask1("ALL",0,0)
+        else:
+            self.agg_tar_ruler = TarRulerTask2("ALL",0,0)
         self.num_topics = 0
 
     def update(self, tar_ruler):
@@ -79,13 +82,7 @@ class TarRuler(object):
         # Make sure you set the outputs dictionary
         # to ensure the measures you have defined are outputted.
 
-        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
-                          CountBasedMeasures(topic_id, num_docs, num_rels),
-                          GainBasedMeasures(topic_id, num_docs, num_rels),
-                          UtilityBasedMeasure(topic_id, num_docs, num_rels),
-                          AreaBasedMeasures(topic_id, num_docs, num_rels),
-                          MAPBasedMeasures(topic_id, num_docs, num_rels),
-                          LossBasedMeasures(topic_id, num_docs, num_rels)]
+        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels), ]
 
 
     def update(self, judgment, value, action):
@@ -106,3 +103,37 @@ class TarRuler(object):
         for measure in self.measures:
             measure.print_scores()
 
+
+class TarRulerTask1(TarRuler):
+
+    def __init__(self, topic_id, num_docs, num_rels):
+        self.topic_id = topic_id
+        self.num_docs = num_docs
+        self.num_rels = num_rels
+
+        # Add your measure to the list
+        # Make sure you set the outputs dictionary
+        # to ensure the measures you have defined are outputted.
+
+        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
+                        MAPBasedMeasures(topic_id, num_docs, num_rels)
+                        ]
+
+
+class TarRulerTask2(TarRuler):
+    def __init__(self, topic_id, num_docs, num_rels):
+        self.topic_id = topic_id
+        self.num_docs = num_docs
+        self.num_rels = num_rels
+
+        # Add your measure to the list
+        # Make sure you set the outputs dictionary
+        # to ensure the measures you have defined are outputted.
+
+        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
+                          CountBasedMeasures(topic_id, num_docs, num_rels),
+                          GainBasedMeasures(topic_id, num_docs, num_rels),
+                          UtilityBasedMeasure(topic_id, num_docs, num_rels),
+                          AreaBasedMeasures(topic_id, num_docs, num_rels),
+                          MAPBasedMeasures(topic_id, num_docs, num_rels),
+                          LossBasedMeasures(topic_id, num_docs, num_rels)]
