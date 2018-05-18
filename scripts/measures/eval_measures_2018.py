@@ -106,7 +106,7 @@ class CountBasedMeasures(DescriptionMeasures):
         self.wss_95 = 0.0
         self.threshold = num_docs
         self.norm_last_rel = 0.0
-        self.norm_threshold = 1.0
+        self.norm_threshold = 0.0
 
         self.outputs ={'num_shown':0,
                        'rels_found':0,

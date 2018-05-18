@@ -132,3 +132,8 @@ ALL	loss_e	0.157
 ```
 
 **Note** the qrels for this task are different from that used in sub-task 2, e.g. Task2/Testing/qrels/full.test.abs.2018.qrels
+
+## Evaluation
+In participant runs, you can run the bash script ```evaluate.sh``` which will run ```tar_eval.py```
+ over all participant runs for each task and create an `.out` file containing the performance for each measure used.
+ 
