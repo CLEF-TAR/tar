@@ -460,11 +460,19 @@ class RecallBasedMeasures(DescriptionMeasures):
 
         self.recall_total += v
 
-        if self.current_rank in self.recall_levels:
-            recall_index =  self.recall_levels.index(self.current_rank)
+        # EK: I have changed the following piece of the code, so that the updates
+        # of the measure take place at every step up to the rank level, so that rankigs
+        # that do not make it up to the cut-off are assumed to have retrieved all zeros.
+        updated_cutoffs = [c for c in self.recall_levels if c >= self.current_rank]
+        recall_index =  self.recall_levels.index(updated_cutoffs[0])
+        for pos in range(recall_index,(len(self.recall_levels))):
+            self.recallat[pos] = self.recall_total
+        
+        #if self.current_rank in self.recall_levels:
+        #    recall_index =  self.recall_levels.index(self.current_rank)
 
-            for pos in range(recall_index,(len(self.recall_levels))):
-                self.recallat[pos] = self.recall_total
+        #    for pos in range(recall_index,(len(self.recall_levels))):
+        #        self.recallat[pos] = self.recall_total
 
     def finalize(self):
         pass

@@ -11,6 +11,7 @@ from seeker.trec_qrel_handler import TrecQrelHandler
 def main(task, results_file, qrel_file):
 
     qrh = TrecQrelHandler(qrel_file)
+    print(qrh.get_doc_list('CD009263')) # show what qrel topics have been read in
     #print(qrh.get_topic_list()) # show what qrel topics have been read in
     #print( len(qrh.get_topic_list())) # show how many
 
