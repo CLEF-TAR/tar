@@ -440,11 +440,13 @@ class RecallBasedMeasures(DescriptionMeasures):
         self.recall_total = 0.0
         self.recall_levels = [50,100,200,300,400,500,1000,2000,3000,4000,5000]
         self.recallat = [0.0]*(len(self.recall_levels)+1)
+        self.recall_thres = 0.0
+        self.recall_threshold = 0
 
         self.current_rank = 0
 
 
-        self.outputs = {'recall_total':1, 'recall_max':1, 'recallat': 2, }
+        self.outputs = {'recall_total':1, 'recall_max':1, 'recall_thres':1, 'recall_threshold':1, 'recallat': 2, }
 
     def update_all(self, judgment, value):
         """
@@ -474,6 +476,22 @@ class RecallBasedMeasures(DescriptionMeasures):
         #    for pos in range(recall_index,(len(self.recall_levels))):
         #        self.recallat[pos] = self.recall_total
 
+    def update_seen(self, judgment, value):
+        """
+        assumes the judgements are being given in a linear fashion from rank 1 to num_docs
+        :param judgment: int, 0 non relevant, 1 relevant
+        :return: None
+        """
+
+        self.recall_threshold += 1
+        v = 0.0
+        if value > 0 and value < 3:
+            # only accrue value for those retrieved by the original query (no reward for 3 or 4 relevance scores)
+            v = 1.0
+
+        self.recall_thres += v
+
+
     def finalize(self):
         pass
 
@@ -481,6 +499,8 @@ class RecallBasedMeasures(DescriptionMeasures):
     def print_scores(self):
         print("{0}\trecall_total\t{1}".format(self.topic_id, round(self.recall_total,3)))
         print("{0}\trecall_max\t{1}".format(self.topic_id, round(self.recall_max,3)))
+        print("{0}\trecall_at_threshold\t{1}".format(self.topic_id, round(self.recall_thres/float(self.recall_max), 3)))
+        print("{0}\trecall_threshold\t{1}".format(self.topic_id, round(self.recall_threshold, 3)))
 
         percent = 0
         for i in range(0,(len(self.recall_levels))):
