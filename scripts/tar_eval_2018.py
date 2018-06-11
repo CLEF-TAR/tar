@@ -11,12 +11,12 @@ from seeker.trec_qrel_handler import TrecQrelHandler
 def main(task, results_file, qrel_file):
 
     qrh = TrecQrelHandler(qrel_file)
-    print(qrh.get_doc_list('CD009263')) # show what qrel topics have been read in
+    #print(qrh.get_doc_list('CD009263')) # show the documents in the qrels for the particular topic
     #print(qrh.get_topic_list()) # show what qrel topics have been read in
     #print( len(qrh.get_topic_list())) # show how many
 
 
-    def get_value_and_check(qrh,seen_dict, topic_id, doc_id):
+    def get_value_and_check(qrh, seen_dict, topic_id, doc_id):
         # checks to make sure the document is in the qrels and was retrieved by the pubmed query
         v = 0
         if doc_id in seen_dict:
@@ -41,7 +41,7 @@ def main(task, results_file, qrel_file):
             if not line:
                 break
             #(topic_id, action,doc_id, rank, score, team) = re.split(" |\t",line)
-            (topic_id, action,doc_id, rank, score, team) = line.split()
+            (topic_id, action, doc_id, rank, score, team) = line.split()
 
             if (topic_id == curr_topic_id):
                 if (skip_topic is False):

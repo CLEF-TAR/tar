@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/usr/local/Cellar/bash/4.4.19/bin/bash
 # version-test.sh
 echo $BASH_VERSION
 echo "This script requires Bash 4+"
