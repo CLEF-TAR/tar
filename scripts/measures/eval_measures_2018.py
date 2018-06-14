@@ -12,7 +12,7 @@ class EvalMeasure(object):
 
         # For each of the different measures you create,
         # you need to specify which ones should be output
-        # 0 - means you want the AggRule to take the total over all topics
+        # 0 - means you want the AggRuler to take the total over all topics
         # 1 - means you want the AggRuler to take the mean over all topics
         # 2 - means it is a list of measures to be output and needs to be iterated.
         #   - probably could use reflection to identify this.. and handle appropriately
@@ -72,7 +72,10 @@ class EvalMeasure(object):
         for measure in self.outputs.keys():
             val = getattr(self,measure)
             if isinstance(val,float):
-                val = round(val,3)
+                if val < 1:
+                    val = round(val,3)
+                else:
+                    val = round(val,0)
             print("{0}\t{1}\t{2}".format(self.topic_id, measure, val ))
 
 
@@ -94,24 +97,23 @@ class CountBasedMeasures(DescriptionMeasures):
         #self.topic_id = topic_id
         #self.num_docs = num_docs
         #self.num_rels = num_rels
-        self.num_rels_95 = round(float(num_rels) * 0.95)
-        self.num_shown = 0
+        self.num_rels_95 = round(float(num_rels) * 0.95) # holds the number of relevant documents required to reach 95% recall
+        self.num_shown = 0        # Total number of documents shown; thresholded ranking measure; Task 1 and Task 2
         #self.num_feedback = 0
-        self.last_rel = 0
-        self.last_rel_95 = 0
+        self.last_rel = 0         # The rank of the last relevant document found; a full ranking measure; (Task 1) & Task 2
+        self.last_rel_95 = 0      # The rank of the last relevant document that reaches 95% recall; a full ranking measure; Task 2
         self.last_rank = 0
-        self.rels_found = 0
+        self.rels_found = 0       # Total number of relevant documents found; a full and thresholded ranking measure; Task 1 and Task 2
         self.min_req = 0.0
-        self.wss_100 = 0.0
-        self.wss_95 = 0.0
-        self.threshold = num_docs
-        self.norm_last_rel = 0.0
-        self.norm_threshold = 0.0
+        self.wss_100 = 0.0        # Work saved to reach 100% recall; a full ranking measure; Task 2
+        self.wss_95 = 0.0         # Work saved to reach 95% recall; a full ranking measure; Task 2
+        self.threshold = num_docs # The thresholding rank; a thresholded ranking measure; Task 1 and Task 2
+        self.norm_last_rel = 0.0  # Percentage of documents to be read to find the last relevant; (Task 1) & Task 2
+        self.norm_threshold = 0.0 # Percentage of documents to be read; Task 1 and Task 2
 
-        self.outputs ={'num_shown':0,
-                       'rels_found':0,
-                       'num_rels':0, 'last_rel':1, 'norm_last_rel':1,
-                        'threshold': 1, 'norm_threshold': 1, 'wss_100':1, 'wss_95':1,}
+        self.outputs ={'num_shown':0, 'rels_found':0, 'num_rels':0,
+                       'last_rel':1, 'norm_last_rel':1, 'threshold': 1,
+                       'norm_threshold': 1, 'wss_100':1, 'wss_95':1,}
 
 
     def update_all(self, judgment, value):
@@ -121,18 +123,18 @@ class CountBasedMeasures(DescriptionMeasures):
         :return: None
         """
 
-        self.num_shown = self.num_shown + 1
-        self.last_rank = self.last_rank + 1
+        self.num_shown = self.num_shown + 1 # increases the number of documents shown
+        self.last_rank = self.last_rank + 1 # increases the last rank of the ranking
 
         if judgment > 0 and judgment < 3:
-            if self.rels_found < self.num_rels_95:
-                self.last_rel_95 = self.last_rank
-            self.rels_found = self.rels_found + 1
-            self.last_rel = self.last_rank
+            if self.rels_found < self.num_rels_95: # If the number of relevants found is still not enough to reach 95% recall
+                self.last_rel_95 = self.last_rank  #   Increase the rank of the last rel found for 95% recall to the current rank
+            self.rels_found = self.rels_found + 1  # Icrease the number of rels found by one
+            self.last_rel = self.last_rank         # Increase the rank of the last rel found to the current rank
 
     def update_post(self,judgment, value, action):
         if int(action) == 1:
-            self.threshold = self.last_rank
+            self.threshold = self.last_rank        # If the action is 1, then set the thresholding rank to the current rank
 
 
     def finalize(self):
@@ -142,15 +144,17 @@ class CountBasedMeasures(DescriptionMeasures):
             self.num_docs = self.num_shown
 
         self.min_req = float(self.last_rel) / float(self.num_docs)
-        self.wss_100 = float(self.num_docs - self.last_rel) / float(self.num_docs)
-        self.wss_95 = (float(self.num_docs - self.last_rel_95) / float(self.num_docs)) - 0.05
-        if self.rels_found < self.num_rels:
+        self.wss_100 = float(self.num_docs - self.last_rel) / float(self.num_docs) # The percentage of documents that do not need to be read to 100% recall
+        self.wss_95 = (float(self.num_docs - self.last_rel_95) # The percentage of docs that do not need to be read for 95% recall penalized by 5%
+                       / float(self.num_docs)) - 0.05          # In some sense it assumes that if you wish to find the remaining 5% of the rel docs you need
+                                                               # to read 5% of the remaining documents, so to some extend makes a uniform assumption
+        if self.rels_found < self.num_rels: # If you never reach 100% recall; this should never be invoked in Task 2
             self.wss_100 = 0
-        if self.rels_found < self.num_rels_95:
+        if self.rels_found < self.num_rels_95: # If you never reach 95% recall; this should never be invoken in Task 2
             self.wss_95 = 0
 
-        self.norm_last_rel = round((float(self.last_rel) / float(self.num_docs)), 3)
-        self.norm_threshold = round((float(self.threshold)/float(self.num_docs)),3 )
+        self.norm_last_rel = round((float(self.last_rel) / float(self.num_docs)),3) # Percentage of documents to be read to find the last relevant
+        self.norm_threshold = round((float(self.threshold)/float(self.num_docs)),3) # Percentage of documents to be read
 
 
 
@@ -193,20 +197,20 @@ class GainBasedMeasures(DescriptionMeasures):
 
     def __init__(self, topic_id, num_docs, num_rels):
         super(self.__class__, self).__init__(topic_id, num_docs, num_rels)
-        self.cg_max = float(num_rels)
-        self.cg_total = 0.0
-        self.ncg = 0.0
-        self.cgat = [0.0]*11
+        self.cg_max = float(num_rels) # number of relevant documents in the collection
+        self.cg_total = 0.0           # number of relevant documents found by the run
+        self.ncg = 0.0                # recall
+        self.cgat = [0.0]*11          # number of relevant documents found by the run up to a certain percentile
         self.last_rank = 0
         self.t = int(num_docs / 10.0)
         #Assume no threshold has been set.
         self.threshold = num_docs
-        self.cg_threshold = 0.0
-        self.ncg_threshold = 0.0
+        self.cg_threshold = 0.0       # number of relevant documents found by the run up to threshold
+        self.ncg_threshold = 0.0      # recall at the threshold
 
         self.outputs = {'cg_total':1, 'cg_max':1, 'cgat': 2,
                         'threshold':1,  'cg_threshold':1, 'ncg_threshold':1}
-
+        
     def update_all(self, judgment, value):
         """
         assumes the judgements are being given in a linear fashion from rank 1 to num_docs
@@ -220,24 +224,23 @@ class GainBasedMeasures(DescriptionMeasures):
             # only accrue value for those retrieved by the original query (no reward for 3 or 4 relevance scores)
             v = 1.0
 
-        self.cg_total = self.cg_total + v
+        self.cg_total = self.cg_total + v # number of relevant documents found so far
 
     def update_post(self, judgment, value, action):
+        if (self.last_rank % self.t) == 0: # if you have reached 10%, 20%, ..., 100% of the documents shown then
 
-        if (self.last_rank % self.t) == 0:
-
-            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0)
+            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) # find the percentile you are at
             for p in range(pos,11):
                 self.cgat[p] = self.cg_total
 
         if int(action) == 1:
-            self.cg_threshold = self.cg_total
-            self.threshold = self.last_rank
+            self.cg_threshold = self.cg_total # number of relevant documents found until threshold
+            self.threshold = self.last_rank   # threshold
 
     def finalize(self):
         self.cgat[10] = self.cg_total
         if self.cg_max > 0.0:
-            self.ncg = self.cg_total / self.cg_max
+            self.ncg = self.cg_total / self.cg_max # recall
         else:
             self.ncg = 0.0
 
@@ -245,24 +248,24 @@ class GainBasedMeasures(DescriptionMeasures):
             self.cg_threshold = self.cg_total
 
         if self.cg_max > 0.0:
-            self.ncg_threshold = self.cg_threshold / self.cg_max
+            self.ncg_threshold = self.cg_threshold / self.cg_max # recall at threshold
         else:
             self.ncg_threshold = 0.0
 
     def print_scores(self):
-        print("{0}\tcg_total\t{1}".format(self.topic_id, round(self.cg_total,3)))
-        print("{0}\tcg_max\t{1}".format(self.topic_id, round(self.cg_max,3)))
+        print("{0}\tcg_total\t{1}".format(self.topic_id, round(self.cg_total,0)))
+        print("{0}\tcg_max\t{1}".format(self.topic_id, round(self.cg_max,0)))
 
-        print("{0}\tcg_threshold\t{1}".format(self.topic_id, self.cg_threshold))
-        print("{0}\tncg_threshold\t{1}".format(self.topic_id, round(self.ncg_threshold,3)))
-        print("{0}\tthreshold\t{1}".format(self.topic_id, self.threshold))
+        print("{0}\tcg_threshold\t{1}".format(self.topic_id, round(self.cg_threshold,0)))
+        print("{0}\trecall_threshold\t{1}".format(self.topic_id, round(self.ncg_threshold,3)))
+        print("{0}\tthreshold\t{1}".format(self.topic_id, round(self.threshold,0)))
         #print(self.cgat)
         percent = 0
         for i in range(0,10):
             x = 0.0
             if self.cg_max > 0.0:
                 x = round(float(self.cgat[i])/float(self.cg_max),3)
-            print("{0}\tNCG@{1}\t{2}".format( self.topic_id, percent+10, x, 3))
+            print("{0}\trecall@{1}%\t{2}".format( self.topic_id, percent+10, x, 3))
             percent += 10
 
 
@@ -497,8 +500,8 @@ class RecallBasedMeasures(DescriptionMeasures):
 
 
     def print_scores(self):
-        print("{0}\trecall_total\t{1}".format(self.topic_id, round(self.recall_total,3)))
-        print("{0}\trecall_max\t{1}".format(self.topic_id, round(self.recall_max,3)))
+        print("{0}\trecall_total\t{1}".format(self.topic_id, round(self.recall_total,0)))
+        print("{0}\trecall_max\t{1}".format(self.topic_id, round(self.recall_max,0)))
         print("{0}\trecall_at_threshold\t{1}".format(self.topic_id, round(self.recall_thres/float(self.recall_max), 3)))
         print("{0}\trecall_threshold\t{1}".format(self.topic_id, round(self.recall_threshold, 3)))
 

@@ -115,9 +115,11 @@ class TarRulerTask1(TarRuler):
         # Make sure you set the outputs dictionary
         # to ensure the measures you have defined are outputted.
 
-        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
-                        MAPBasedMeasures(topic_id, num_docs, num_rels),
-                        RecallBasedMeasures(topic_id, num_docs, num_rels),
+        self.measures = [ CountBasedMeasures(topic_id, num_docs, num_rels),
+                          UtilityBasedMeasure(topic_id, num_docs, num_rels),
+                          AreaBasedMeasures(topic_id, num_docs, num_rels),                          
+                          MAPBasedMeasures(topic_id, num_docs, num_rels),
+                          RecallBasedMeasures(topic_id, num_docs, num_rels),
                         ]
 
 
@@ -131,8 +133,7 @@ class TarRulerTask2(TarRuler):
         # Make sure you set the outputs dictionary
         # to ensure the measures you have defined are outputted.
 
-        self.measures = [ DescriptionMeasures(topic_id, num_docs, num_rels),
-                          CountBasedMeasures(topic_id, num_docs, num_rels),
+        self.measures = [ CountBasedMeasures(topic_id, num_docs, num_rels),
                           GainBasedMeasures(topic_id, num_docs, num_rels),
                           UtilityBasedMeasure(topic_id, num_docs, num_rels),
                           AreaBasedMeasures(topic_id, num_docs, num_rels),

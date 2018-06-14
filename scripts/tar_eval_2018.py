@@ -67,7 +67,10 @@ def main(task, results_file, qrel_file):
                 # new topic
                 curr_topic_id = topic_id
                 dl = qrh.get_doc_list(topic_id)
-                num_docs = len(dl)
+                if task == 1:
+                    num_docs = 5000
+                else:
+                    num_docs = len(dl)
                 num_rels = 0
                 num_rels_in_set = 0
                 num_docs_in_set = num_docs
