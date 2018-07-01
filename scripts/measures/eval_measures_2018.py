@@ -1,5 +1,6 @@
 __author__ = "Leif Azzopardi"
 
+import math
 
 class EvalMeasure(object):
 
@@ -197,12 +198,14 @@ class GainBasedMeasures(DescriptionMeasures):
 
     def __init__(self, topic_id, num_docs, num_rels):
         super(self.__class__, self).__init__(topic_id, num_docs, num_rels)
+        self.maxt = 100
+        self.rng = [round((num_docs * rg)/self.maxt) for rg in range(1,self.maxt+1)]
         self.cg_max = float(num_rels) # number of relevant documents in the collection
         self.cg_total = 0.0           # number of relevant documents found by the run
         self.ncg = 0.0                # recall
-        self.cgat = [0.0]*11          # number of relevant documents found by the run up to a certain percentile
+        self.cgat = [0.0]*(self.maxt+1) # num of relevant documents found by the run up to a certain percentile
         self.last_rank = 0
-        self.t = int(num_docs / 10.0)
+        #self.t = int(math.floor(num_docs / self.maxt))
         #Assume no threshold has been set.
         self.threshold = num_docs
         self.cg_threshold = 0.0       # number of relevant documents found by the run up to threshold
@@ -227,10 +230,11 @@ class GainBasedMeasures(DescriptionMeasures):
         self.cg_total = self.cg_total + v # number of relevant documents found so far
 
     def update_post(self, judgment, value, action):
-        if (self.last_rank % self.t) == 0: # if you have reached 10%, 20%, ..., 100% of the documents shown then
-
-            pos = int((float(self.last_rank) / float(self.num_docs)) * 10.0) # find the percentile you are at
-            for p in range(pos,11):
+        #if (self.last_rank % self.t) == 0: # if you have reached % of the documents shown then
+        if self.last_rank in self.rng: # if you have reached % of the documents shown then
+            #pos = int((float(self.last_rank) / float(self.num_docs)) * self.maxt) # find the percentile
+            pos = self.rng.index(self.last_rank)
+            for p in range(pos,self.maxt+1):
                 self.cgat[p] = self.cg_total
 
         if int(action) == 1:
@@ -238,7 +242,7 @@ class GainBasedMeasures(DescriptionMeasures):
             self.threshold = self.last_rank   # threshold
 
     def finalize(self):
-        self.cgat[10] = self.cg_total
+        self.cgat[self.maxt] = self.cg_total
         if self.cg_max > 0.0:
             self.ncg = self.cg_total / self.cg_max # recall
         else:
@@ -261,12 +265,12 @@ class GainBasedMeasures(DescriptionMeasures):
         print("{0}\tthreshold\t{1}".format(self.topic_id, round(self.threshold,0)))
         #print(self.cgat)
         percent = 0
-        for i in range(0,10):
+        for i in range(0,self.maxt):
             x = 0.0
             if self.cg_max > 0.0:
                 x = round(float(self.cgat[i])/float(self.cg_max),3)
-            print("{0}\trecall@{1}%\t{2}".format( self.topic_id, percent+10, x, 3))
-            percent += 10
+            print("{0}\trecall@{1}%\t{2}".format( self.topic_id, percent+(100/self.maxt), x, 3))
+            percent += (100/self.maxt)
 
 
 

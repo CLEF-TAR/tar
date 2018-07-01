@@ -32,6 +32,6 @@ cat data/*.pids >> data/pids.test
 echo "Making the full set of qrels"
 echo "..."
 
-python ../../../scripts/create_full_qrels_2018.py qrels/qrel_abs_task2 data/pids.test qrels/full.test.abs.2018.qrels
+python ../../../scripts/create_full_qrels_2018.py qrels/qrel_content_task2 data/pids.test qrels/full.test.content.2018.qrels
 echo "..."
 echo "Done!"

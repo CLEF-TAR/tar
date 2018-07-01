@@ -1,9 +1,9 @@
 __author__ = "Leif Azzopardi"
 
-
 import os
 import sys
 import re
+import math
 from measures.tar_rulers_2018 import TarRulerTask2, TarRulerTask1, TarAggRuler
 from seeker.trec_qrel_handler import TrecQrelHandler
 
