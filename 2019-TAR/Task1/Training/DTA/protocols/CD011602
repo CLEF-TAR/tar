@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of ultrasonography for detecting the presence or absence of cirrhosis in people with alcoholic liver disease compared with liver biopsy as reference standard.
+Secondary objectives
+To determine the diagnostic accuracy of any of the ultrasonography tests, B-mode or Echo-colour Doppler ultrasonography, used singly or combined, or plus ultrasonography signs, or a combination of these, for detecting hepatic cirrhosis in people with alcoholic liver disease compared with liver biopsy as a reference standard, irrespective of sequence.
+In case of discrepancies in the results, we planned to explore heterogeneity analysing:
+liver biopsy as the reference standard:
+different grade of inflammation (amount of ongoing inflammation and necrosis) according to the liver biopsy (below two grades compared to two or greater grades of activity);
+different lengths of liver biopsy sample (shorter than 15 mm compared to 15 mm or longer) or number of portal tracts (fewer than six compared to six or more), as reported in the studies;
+percutaneous liver biopsy versus transvenous (transjugular) liver biopsy versus laparoscopic liver biopsy;
+different technical characteristics of the ultrasonography equipment (e.g., different transducers, different wave lengths);
+different skills of the operator as stated by the authors;
+complete abstinent (teetotalers) or non-abstinent study participants (as defined in the included studies).
+In addition, we attempted to identify the most accurate ultrasonographic tests and indices for diagnosis of cirrhosis in people with alcoholic liver disease.</objective>
+  <type_of_study>
+Diagnostic cohort study designs and diagnostic case-control study designs that assessed alcoholic cirrhosis in people with alcoholic liver disease through ultrasonography and liver biopsy, irrespective of language or publication status, or whether data were collected prospectively or retrospectively. We planned to include randomised clinical trials or controlled clinical studies had they fulfilled the inclusion criteria of our review protocol.
+We included studies published as full paper articles, in the form of abstracts published in conference proceedings, or presented as posters if any of these were identified with the searches.
+We also considered studies if they had included participants with different aetiologies of liver disease.</type_of_study>
+  <participants>
+ Participants of any sex and ethnic origin, over 16 years old, and diagnosed with alcoholic liver disease, following study authors' statements. The participants could have been hospitalised or managed as outpatients.
+The diagnosis of alcoholic liver disease in the study participants should have been established based on registered history of excessive alcohol intake of sufficient duration and quantity together with clinical evidence of liver disease expressed with physical signs at examination and followed by laboratory evidence of liver disease. To ascertain the diagnosis of alcoholic liver disease and study the presence or absence of cirrhosis, both ultrasonography and liver biopsy should have been performed, irrespective of the sequence.
+We planned to also include participants if suspected of having non-alcoholic fatty liver disease, in addition to diagnosed alcoholic liver disease.
+We did not consider for inclusion people diagnosed with alcoholic liver disease and having a concomitant liver disease such as chronic hepatitis C virus infection, chronic hepatitis B virus infection, autoimmune liver disease, or human immunodeficiency virus (HIV) infection. We extracted data on study participants with alcoholic liver disease alone whenever such data were available in the study report or whenever we could obtain the data required for the review through personal communication with study authors. In the latter case, we disregarded some of the data presented in the publication and used the data provided by the study authors through personal communication.</participants>
+  <index_tests>
+Ultrasonography in any mode.
+As we expected that study authors would have used different measurements, signs, and combinations of signs for assessment of cirrhosis by ultrasonography with different techniques and mode, we did not specify these here in advance. However, we considered parenchymal, vascular, and extrahepatic ultrasonographic signs as different index tests.</index_tests>
+  <target_conditions>
+There are five stages of liver fibrosis by METAVIR (Table 1):
+F0 = no fibrosis;
+F1 = mild fibrosis;
+F2 = significant fibrosis;
+F3 = severe fibrosis;
+F4 = cirrhosis.
+The target condition is the presence of cirrhosis in people with alcoholic liver disease, defined using the METAVIR score.
+Thus, we dichotomised the fibrosis estimated by the METAVIR score as follows: we considered people with a METAVIR score of F4 as 'diseased' and people with a METAVIR score of F0 plus F1 plus F2 plus F3 as 'non-diseased'.</target_conditions>
+  <reference_standards>
+Liver biopsy.
+Liver biopsy could have been obtained by percutaneous needle techniques with needles 1.4 to 1.6 mm (16 to 18 gauge) in diameter, transjugular method, or surgical specimens including laparoscopy (Kuntz 2008; Ivashkin 2011b).
+Liver biopsy is the only existing reference standard for diagnosing hepatic cirrhosis in people with alcoholic liver disease. Specimens of liver tissue with a length of at least 15 mm and at least six portal tracts are among the factors that can provide reliable morphological diagnosis of cirrhosis (Bedossa 2003; Colloredo 2003; Rockey 2009).
+If liver biopsy samples were reported with any of the semi-quantitative scores, that is, METAVIR (Michalak 2003), Knodell (Franciscus 2007), Ishak (Franciscus 2007), Kleiner (Kleiner 2005), Scheuer (Regev 2002), Brunt (Brunt 1999), or Batts-Ludwig (Haque 2010), we planned to use a conversion grid for hepatic fibrosis staging adapted after Goodman 2007 to only unify results for hepatic cirrhosis on liver biopsy (Table 1). METAVIR has already been validated for staging alcoholic cirrhosis (Michalak 2003).</reference_standards>
+</root>

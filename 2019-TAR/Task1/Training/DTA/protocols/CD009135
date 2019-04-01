@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of rapid tests for the diagnosis of visceral leishmaniasis in patients with suspected disease presenting at health services in endemic areas.
+Secondary objectives
+Investigation of sources of heterogeneity
+We investigated differences in diagnostic accuracy in relation to test conditions (index and reference: commercial brand of index test, type of reference standard), geographical region (the Indian subcontinent, eastern Africa, Latin America and the Mediterranean region), disease prevalence in the sample, and study quality.</objective>
+  <type_of_study>
+Only original diagnostic accuracy studies of the phase III type (Zhou 2002) were included in the review, that is, prospective or retrospective cohort studies (meaning studies with patients who were consecutively enrolled, be it prospectively or retrospectively, and in which all patients were given the index test and reference standard), or studies that enrolled a random selection of patients from a series of patients. Randomized controlled trials in which patients were randomized to one of several index tests and all received the reference test could also be included.</type_of_study>
+  <participants>
+Patients with a clinical suspicion of VL, that is, those who are febrile for more than two weeks, and present with splenomegaly; according to the WHO case definition (WHO 2010) presenting at health services in endemic areas.
+We excluded studies with participants:
+who were previously treated for VL (non-responders or relapsed cases); and
+who had signs and symptoms of other forms of leishmaniasis, such as post kala-azar dermal leishmaniasis (PKDL).
+Studies in which only a subgroup of participants was eligible for the review were included if it was possible to extract relevant data specific to that subgroup.
+Studies of patients with HIV or other co-infections were eligible for this review.</participants>
+  <index_tests>
+All types of RDTs for VL, with results that are read out within one hour, regardless of the manufacturer. The RDTs could be assessed alone or in comparison with other tests.</index_tests>
+  <target_conditions>
+The target condition was restricted to current clinical VL, and did not include asymptomatic leishmanial infection or VL in the past. </target_conditions>
+  <reference_standards>
+We accepted the following reference standards for the diagnosis of active VL (adapted from Boelaert 2007):
+reference standard including direct smears or culture of splenic aspirate;
+composite reference standard (Sullivan 2003) based on a combination of several tests. Test algorithms could include smears or culture of tissue aspirate, serology (other than the index test), or clinical arguments; and
+latent class analysis (LCA) (Zhou 2002) based on one or more of the following: smears or culture of tissue aspirates, serology (other than the index test), clinical response to antimonial treatment; or specific clinical signs (pancytopenia, darkened skin). To be selected, the studies had to assess the conditional independence assumption between the tests, and, if conditional dependence was expected, they had to use appropriate statistical methods (Dendukuri 2001). More information about LCA is given in Appendix 1.</reference_standards>
+</root>

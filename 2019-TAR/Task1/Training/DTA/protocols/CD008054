@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Main objective
+For studies where both triage methods, i.e. repeat cytology and the HC2 assay, were assessed:
+To assess the sensitivity and specificity of triage with HC2 and with repeat cytology to detect underlying cervical intraepithelial neoplasia of grade 2 or worse (CIN2+), or grade 3 or worse (CIN3+), in women with an index smear showing ASCUS (triage group I) or LSIL (triage group II), and to compare the accuracy of both triage methods.
+Secondary objectives
+To assess the accuracy of the HC2 assay to detect CIN2+ or CIN3+ in women with ASCUS or LSIL in a larger group of studies that investigated hrHPV testing, irrespective whether repeat cytology was done.
+Investigation of sources of heterogeneity
+The following sources of heterogeneity were investigated:
+Different cytological classification systems used to categorise equivocal and mild cytological abnormalities.
+Characteristics of the study population (study location, age distribution).
+Properties of the HPV testing (collection device, transport medium).
+Properties of repeat cytology (collection device, preparation method (conventional or liquid-based), cytological thresholds).
+Blinding of interpreters for other test results.
+Procedures of reference standard verification.</objective>
+  <type_of_study>
+Two types of studies were considered:
+Studies with concomitant testing where all study participants were tested with the HC2 assay and repeat cytology, followed by verification with the reference standard; and studies where all study participants were tested only with HC2 followed by verification with the reference standard (coloscopy and biopsy).
+Randomised clinical trials (RCTs) where study participants were randomised to HPV-based triage or repeat cytology, and where, subsequently, all women were submitted to verification with the reference standard (coloscopy and biopsy).</type_of_study>
+  <participants>
+ were women with a cervical cytology result of ASCUS (triage group I) or LSIL (triage group II) detected in the framework of cervical cancer screening. For a discussion on the cytological definitions of ASCUS and LSIL the reader is referred to Appendix 1.</participants>
+  <index_tests>
+The index test was the B probe of the HC2 assay, which detects DNA of 13 hrHPV types (see Index test(s)).
+For the main meta-analysis on the accuracy of triage with HC2, the review authors only considered the standard cut-off of test positivity as defined by the manufacturer. This standard cut-off of test positivity corresponds with a light signal of the test sample equivalent to that of a positive control containing 1 pg/mL of HPV DNA (RLU = 1).</index_tests>
+  <target_conditions>Target conditions
+Presence of histologically-confirmed high-grade CIN was the target outcome of disease. Two separate outcomes were distinguished:
+CIN2 or worse disease (CIN2, CIN3, invasive squamous cervical cancer, and adenocarcinoma of the cervix (CIN2+));
+CIN3 or worse (CIN3, invasive squamous cervical cancer, and adenocarcinoma of the cervix (CIN3+)).
+CIN3 is the most relevant clinical outcome, since it is considered to be an obvious precursor of cervical cancer, whereas CIN2 is a mixed condition that is less reproducible, with a lower probability of progression to cervical cancer. However, the outcome CIN2+ is reported more often than CIN3+. See Appendix 1 for a more detailed discussion on the natural history of the different degrees of CIN.</target_conditions>
+  <reference_standards>The following reference standards were considered as acceptable for judging on presence or absence of the target condition: colposcopy and colposcopy‐directed punch biopsies or excision biopsies by large loop excision of the transformation zone or conization, with or without endocervical curettage, followed by histological verification of the biopsy specimen. Cases where no biopsy was taken, because colposcopy was negative and satisfactory, were considered as being free of CIN2+.</reference_standards>
+</root>

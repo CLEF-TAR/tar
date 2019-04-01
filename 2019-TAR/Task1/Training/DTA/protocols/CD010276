@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To estimate the diagnostic accuracy of index tests for the detection of oral cancer and potentially malignant disorders of the lip and oral cavity, in patients presenting with clinically evident lesions.
+Secondary objectives
+To estimate the relative accuracy of the different index tests.</objective>
+  <type_of_study>
+Studies evaluating index test(s) that reported on the diagnostic accuracy for individuals presenting with clinically evident lesions. The index tests assessed in this review are provided in Table 1. Eligible study designs included cross-sectional diagnostic test accuracy studies (or consecutive series) and randomised studies of diagnostic test accuracy. We excluded studies that reported in abstract form alone, case-control studies, uncontrolled reports and randomised controlled trials (RCTs) of the effectiveness of screening programmes (intervention studies).
+We had intended to exclude studies that analysed at the lesion level rather than at the individual level, unless the authors could provide patient-level data. In a change from the original protocol, we included studies reporting at the lesion level, and identified these studies in any analyses.</type_of_study>
+  <participants>
+Adults (aged 16 years or over) presenting with clinically evident oral lesions.</participants>
+  <index_tests>
+ used alone, or in combination, as an adjunct to the COE (Table 1). Where multiple index tests were used together, we classed as positive a positive test result from the COE or the index test or both.</index_tests>
+  <target_conditions>
+Following the consensus views of the expert working group of the WHO collaborating centre for oral cancer and pre-cancer (Warnakulasuriya 2007), the following target conditions of the lip or oral cavity were considered for inclusion in this review.
+Carcinoma
+Oral squamous cell carcinoma (OSCC)
+Potentially malignant disorders (PMD)
+Leukoplakia
+Erythroplakia
+Lichen planus
+Lupus erythematosus
+Submucous fibrosis
+Actinic keratosis
+Hereditary disorders such as dyskeratosis congenita or epidermolysis bullosa
+This review classified any level of dysplasia (mild, moderate or severe) as the target condition.</target_conditions>
+  <reference_standards>
+Scalpel, punch or fine needle aspiration biopsy with histological diagnosis. Studies not specifying any reference standard were ineligible for inclusion in this review.</reference_standards>
+</root>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objective 
+1.1 To determine the diagnostic accuracy of ¹²³I-MIBG (SPECT-CT) scintigraphy for detecting a neuroblastoma and its metastases at first diagnosis or at recurrence in children from 0 to 18 years old.
+1.2 To determine the diagnostic accuracy of negative ¹²³I-MIBG scintigraphy in combination with 18F-FDG-PET(-CT) imaging for detecting a neuroblastoma and its metastases at first diagnosis or at recurrence in children from 0 to 18 years old. In this case 18F-FDG-PET(-CT) is an add-on test.
+Secondary objectives
+2.1 To determine the diagnostic accuracy of 18F-FDG-PET(-CT) imaging for detecting a neuroblastoma and its metastases at first diagnosis or at recurrence in children from 0 to 18 years old.
+2.2 To compare the diagnostic accuracy of ¹²³I-MIBG (SPECT-CT) scintigraphy and of 18F-FDG-PET(-CT) imaging for detecting a neuroblastoma and its metastases at first diagnosis or at recurrence in children from 0 to 18 years old. This was performed within and between (objective 1.1 compared to objective 2.1) included studies. ¹²³I-MIBG (SPECT-CT) scintigraphy was the comparator test in this case.</objective>
+  <type_of_study>
+We included primary diagnostic studies if they compared the results of ¹²³I-MIBG (SPECT-CT) scintigraphy, 18F-FDG-PET(-CT) imaging, or both, with the tests described as reference standards (as defined below) and if they compared the results of both tests with each other. Studies needed to be of a cross-sectional design or a case series of proven neuroblastoma. Patient selection could be either retrospective or prospective. We excluded case reports, studies that described fewer than ten patients suspected for neuroblastoma and diagnostic case-control studies.
+Studies had to report sufficient data to construct (part of) a two-by-two table, i.e. at least the absolute number of true positives and false negatives had to be available from the data reported in the primary studies or obtainable from the study authors to calculate the sensitivity and if possible the specificity. ¹²³I-MIBG scintigraphy is only performed when there is a high suspicion of a neuroblastoma based on clinical information, excretion of catecholamines in the urine and different imaging methods. Therefore, it is expected that mainly the outcome of MIBG scans in patients with finally proven neuroblastoma will be reported and that thus often only sensitivity can be analysed.</type_of_study>
+  <participants>
+Children from 0 to 18 years old with suspected neuroblastoma and its metastases of any stage at first diagnosis or at recurrence in a tertiary care centre of paediatric oncology. We excluded studies on animals, studies not performed in children with suspected neuroblastoma, studies performed in children with esthesioneuroblastoma and olfactory neuroblastoma, and studies on the therapeutic use of MIBG.</participants>
+  <index_tests>
+¹²³I-MIBG scintigraphy (WB, SPECT or SPECT-CT) of a neuroblastoma and its metastases at first diagnosis or at recurrence.
+18F-FDG-PET(-CT) scans of a neuroblastoma and its metastases at first diagnosis or at recurrence.
+¹²³I-MIGB scintigraphy plus 18F-FDG-PET(-CT).</index_tests>
+  <target_conditions>Target conditions
+Neuroblastoma at first diagnosis or at recurrence.</target_conditions>
+  <reference_standards>The optimal combination of reference tests is described below. However, we did not exclude studies that did not use the optimal combination of reference tests.
+
+The reference tests for the diagnosis of the primary neuroblastoma tumour were as follows:
+
+An unequivocal pathological diagnosis according to the Shimada classification or the International Neuroblastoma Pathology Classification (INPC) (Brodeur 1984; Joshi 2000; Peuchmaur 2003; Shimada 1984; Shimada 1993; Shimada 1999a; Shimada 1999b; Shimada 2003). Tumour tissue was examined by use of light or electron microscopy with immunohistochemistry. At least two of the following antigens had to be positive: neuron-specific enolase (NSE), synaptophysin or chromogranin A (CGA). Tissue had to be preferably obtained by the use of Trucut, core-needle biopsy. However, if this approach was contra-indicated, fine-needle aspiration could be used (Brodeur 1993).
+
+A bone marrow aspirate or trephine biopsy containing unequivocal tumour cells. These are immunocytologically positive clumps of cells, containing antibodies against at least two of the following antigens: NSE, synaptophysin or CGA (Brodeur 1993).
+
+Histopathology during or after treatment (e.g. tissue obtained during surgery), if excretion of catecholamines in the urine was elevated at diagnosis and additional imaging modalities (e.g. ultrasound, CT scan, MRI scan) suggested a neuroblastoma at diagnosis.
+
+Three different tests were used as possible reference standards. If only one of the three reference standards had a positive result, the diagnosis neuroblastoma could be confirmed. However, to reject the diagnosis neuroblastoma all three had to give a negative result.
+
+The reference tests for the diagnosis of neuroblastoma metastases (separately from the primary tumour) were as follows:
+
+Bone marrow metastases: To determine bone marrow invasion, at least two different puncture sites were mandatory (although four puncture sites should always be aimed for). Representative smears (five smears from each puncture site) and EDTA/heparin bone marrow (3 to 5 mL from each puncture site) had to be sampled for PCR or immunocytology, or both. Only if no fluid bone marrow in sufficient quality or quantity could be aspirated, trephine biopsies from this puncture site are recommended (Beiske 2009).
+
+Bone metastases: Positive lesions on a 99m-Tc skeleton scintigraphy, MRI, CT scan, or a combination of these tests.
+
+Lymph node metastases: Histologically proven palpable nodes or ultrasound, MRI or CT scan for non-palpable nodes, or both.
+
+Liver metastases: Ultrasound, MRI, CT scan or a combination of these tests.
+
+Diagnosis of neuroblastoma metastases resulted from at least one positive result of these reference tests. The result for the metastases was assumed negative if all reference tests were negative.
+
+There are no inadequate reference standards in the diagnostic process of neuroblastoma. Histopathology is the gold standard, but it is not always possible to perform. Therefore other reference tests, when combined, are also needed in the diagnosis of neuroblastoma.</reference_standards>
+</root>

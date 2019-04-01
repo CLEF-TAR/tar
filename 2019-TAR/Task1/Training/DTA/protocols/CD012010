@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To compare the diagnostic accuracy of serum amylase, serum lipase, urinary trypsinogen-2, and urinary amylase, either alone or in combination, in the diagnosis of acute pancreatitis in people with acute onset of a persistent, severe epigastric pain or diffuse abdominal pain.
+Secondary objectives
+We planned to explore the following sources of heterogeneity.
+Studies at low risk of bias in all of the domains versus those at unclear or high risk of bias (as assessed by the Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2) tool, recommended by the Cochrane Diagnostic Test Accuracy Group) (Whiting 2006; Whiting 2011).
+Prospective studies versus retrospective studies (to determine whether there is a difference in diagnostic accuracy between prospective and retrospective studies).
+Full-text publications versus abstracts (this can be indicative of publication bias since there may be an association between the results of the study and the study reaching full publication status) (Eloubeidi 2001).
+Previous history of acute pancreatitis.
+Different aetiology for acute pancreatitis (gallstone versus alcohol versus other aetiology). The accuracy of the test may depend upon the aetiology of the acute pancreatitis.
+Presence of organ failure. The accuracy of the test may depend upon the presence of organ failure.
+Average time to performance of the test. The accuracy of the test may depend upon the interval between the onset of clinical symptoms and the performance of the test.
+Different test manufacturers.</objective>
+  <type_of_study>
+We included studies that evaluated the accuracy of the index tests mentioned above in the appropriate patient population (see below). We included relevant studies irrespective of language or publication status (i.e. published as full text or abstract), whether the data were collected prospectively or retrospectively, and whether there was a comparison between the tests. However, we excluded case reports (which describe how the diagnosis of acute pancreatitis was made on an individual patient or a group of patients and which do not provide sufficient diagnostic test accuracy data, i.e. true positive, false positive, false negative, and true negative). We also excluded case-control studies because they are prone to bias (Whiting 2011).</type_of_study>
+  <participants>
+Adults with acute epigastric or diffuse abdominal pain (with or without previous history of acute pancreatitis and with or without systemic signs and symptoms of acute pancreatitis), presenting to the hospital within three days of the onset of symptoms, irrespective of the interval between onset of symptoms and the time at which the test was performed.</participants>
+  <index_tests>
+Serum amylase, serum lipase, urinary trypsinogen, and urinary amylase either alone or in combination. A variety of kits are available for measuring these tests. We included kits from all manufacturers, and included studies irrespective of the threshold used. Although we did not plan to include repeat tests, the diagnostic test accuracy of these index tests on later days might give some indication of the performance of these tests in patients with a prolonged period of symptoms before going to the hospital. We have therefore analysed and reported this information separately from the tests conducted on admission.</index_tests>
+  <target_conditions>
+Acute pancreatitis (regardless of severity: mild, moderately severe, or severe)</target_conditions>
+  <reference_standards>
+While inflammation of the pancreas confirmed by biopsy can be considered to be the gold standard for the diagnosis of acute pancreatitis, for ethical reasons it is unlikely to be performed in any participant. As a result, different study authors may use different reference standards such as radiological features of acute pancreatitis or the presence of organ failure. However, such reference standards may miss some cases of mild acute pancreatitis, which will result in an underestimation of diagnostic test accuracy of the index tests. We also accepted the consensus conference definition of acute pancreatitis, that is when at least two of the following three features are present (Banks 2013).
+Acute onset of a persistent, severe epigastric pain often radiating to the back.
+Serum lipase activity (or amylase activity) at least three times greater than the upper limit of normal.
+Characteristic findings of acute pancreatitis on CECT, and less commonly on MRI or transabdominal ultrasonography.
+We also accepted any of the following reference standards, used alone or in combination: biopsy, radiological features of acute pancreatitis (CT or MRI), diagnosis of acute pancreatitis during laparotomy or autopsy, organ failure, or the consensus conference definition (including or excluding the index test being evaluated). In terms of ranking the reference standards, we considered biopsy to be the best reference standard (although for ethical reasons it is unlikely to have been performed in any participant) followed by the consensus definition of acute pancreatitis; radiological, laparotomy, or autopsy features of acute pancreatitis; or the presence of organ failure, in that order. However, we anticipated that the authors would exclude the test being assessed to be incorporated into the reference standard. For example, if serum amylase was being evaluated, the final diagnosis of acute pancreatitis would not depend upon the levels of serum amylase; this was not the case, as described below. If the test being assessed was incorporated into the reference standard, the diagnostic accuracy of the test would be overestimated.</reference_standards>
+</root>

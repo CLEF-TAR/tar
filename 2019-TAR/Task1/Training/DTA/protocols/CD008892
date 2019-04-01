@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess the diagnostic accuracy of commercially available rapid diagnostic tests (RDTs) and prototypes for detecting Salmonella Typhi or Paratyphi A infection in symptomatic persons living in endemic areas.
+Secondary objectives
+To identify which types and brands of commercial test best detect enteric fever.
+To investigate the sources of heterogeneity between study results (see the 'Investigations of heterogeneity' section).</objective>
+  <type_of_study>
+We included the following types of studies.
+Randomized controlled trials (RCTs) in which patients are randomized to one of several index tests and all receive a reference standard.
+Paired comparative trials in which a series of patients receive two or more index tests and a reference standard.
+Prospective cohort studies in which a series of patients from a given population are recruited and receive one or more index test and a reference standard.
+Retrospective case control studies that compare a group of patients with laboratory-confirmed enteric fever cases (positive reference standard) and a group of patients without enteric fever (negative reference standard). In case control design studies, we only extracted data relating to the index test(s) from control groups participants with fever, and not from healthy control participants without fever.</type_of_study>
+  <participants>
+Patients living in enteric fever-endemic areas attending a healthcare facility with fever were eligible. This may or may not have included patients with a clinical suspicion of enteric fever.
+When only a subgroup of participants in a study was eligible for inclusion in the review, we included the study provided that we were able to extract relevant data specific to that subgroup. Subgroups included participants enrolled as separate groups, for example a clinical cohort subgroup without healthy control patient subgroup (Fadeel 2011).</participants>
+  <index_tests>
+All rapid diagnostic tests (RDTs) specifically designed to detect enteric fever cases. We categorized the tests as follows.
+RDTs that were applied to blood samples (venous or capillary) to detect antigens.
+RDTs that were applied to blood samples (venous or capillary) to detect antibodies (IgG, IgM, or both).
+RDTs that were applied to urine samples to detect antigens.
+RDTs that were applied to urine samples to detect antibodies (IgG, IgM, or both).
+We classified the RDTs further by format, for example, lateral flow, flow-through, agglutination, or solid phase kits.
+Studies may have compared one or more RDT against one or more reference standard.</index_tests>
+  <target_conditions>
+Typhoid fever caused by Salmonella enterica serovar Typhi.
+Paratyphoid fever caused by Salmonella enterica serovar Paratyphi A.</target_conditions>
+  <reference_standards>
+Studies were required to diagnose enteric fever using one of the following reference standards.
+Bone marrow culture.
+Peripheral blood culture, peripheral blood PCR, or both.
+We defined a Grade 1 study as one that used both bone marrow culture and peripheral blood culture as the reference standard. In Grade 1 studies, we considered either bone marrow or peripheral blood culture positivity a positive reference standard.
+We defined a Grade 2 study as one that used either peripheral blood culture only as the reference standard, or peripheral blood culture and peripheral blood PCR as the composite reference standard. In Grade 2 studies, we considered either blood culture or blood PCR positivity a positive composite reference standard.
+As overall estimates of accuracy ignoring the use of different reference standards are difficult to interpret, we reported the results separately for each grade of reference standard (Reitsma 2009).</reference_standards>
+</root>

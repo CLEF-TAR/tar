@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To estimate the diagnostic accuracy of the ankle brachial index (ABI) - also known as the ankle brachial pressure index (ABPI) - for the diagnosis of peripheral arterial disease in people who experience leg pain on walking that is alleviated by rest.
+Secondary objectives
+We also intended to investigate the effect of sources of heterogeneity on diagnostic accuracy, specifically, study setting, previous tests, types of equipment used, types of reference standards applied, different groups of patients examined (people with type 1 or type 2 diabetes and suspected aorto-iliac disease) and duration of symptoms, by including them as co-variates in the meta-analysis, if sufficient studies provided relevant data. It was our intention that we would examine graphically other potential sources of heterogeneity for signs that they were a cause of heterogeneity.</objective>
+  <type_of_study>
+We included studies of ABI that used duplex ultrasonography or angiography as the reference standard. We included cross-sectional or diagnostic test accuracy (DTA) cohort studies examining both prospective and retrospective studies. These studies had to report that all participants received a reference standard; investigators had to present cross-tabulated results of the index test and the reference standard (2×2 table), or had to report sufficient information to allow the 2×2 table data to be back-calculated.</type_of_study>
+  <participants>
+Adults with leg pain on walking relieved by rest, who are tested in primary care settings or secondary care settings (hospital outpatients only) and do not have signs or symptoms of critical limb ischaemia (rest pain, ischaemic ulcers or gangrene). We excluded from the review patients who were free of exertional leg pain, as well as those with CLI.</participants>
+  <index_tests>
+Ankle brachial index (ABI), also called ankle brachial pressure index (ABPI). We included data collected by sphygmomanometers (both manual and aneroid) as well as by digital equipment that used manual or automatic inflation. We included studies that used hand-held doppler or oscillometry to detect ankle vessels.</index_tests>
+  <target_conditions>
+Peripheral arterial disease of the lower limbs.</target_conditions>
+  <reference_standards>
+We included studies that used duplex ultrasonography or angiography as the reference standard test, and we noted instances in which different reference standards were used to verify the presence or absence of disease in the same study population.</reference_standards>
+</root>

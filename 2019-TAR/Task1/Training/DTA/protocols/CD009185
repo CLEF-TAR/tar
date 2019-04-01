@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+The objectives of this review were:
+To determine whether any of these laboratory tests (procalcitonin, CRP, ESR) can replace (Bossuyt 2006) the acute DMSA scan in the diagnostic evaluation of children with UTI
+To assess the influence of patient and study characteristics on the diagnostic accuracy of these tests
+To compare the performance of the three tests to each other.</objective>
+  <type_of_study>
+We considered published studies that evaluated the results of an index test (procalcitonin, CRP, ESR) against the results of an acute-phase DMSA scan only. Cross-sectional, cohort and case-control designs were all acceptable.</type_of_study>
+  <participants>
+Studies including children from birth to 18 years of age with a culture-confirmed episode of UTI were eligible for inclusion. UTI was defined as growth of one or two organisms at:
+≥ 104 CFU/mL from a catheterized specimen, or
+≥ 105 CFU/mL clean catch, midstream, or bag specimen, or
+any growth from a suprapubic specimen (Hoberman 1994).
+Studies that did not meet these minimum, and rather permissive criteria, were excluded. Because specimens obtained using a perineal bag are often falsely positive, the effect of including studies in which some of the urine specimens were collected using a bag was explored. Because antibiotics can influence the levels of inflammatory markers, only studies in which blood (for ESR, CRP, or procalcitonin) was collected before administration of antibiotics were included.</participants>
+  <index_tests>
+Studies that examined the accuracy of procalcitonin, CRP, or ESR were considered.</index_tests>
+  <target_conditions>
+Acute pyelonephritis as evidenced by photopenia (with or without a change in contours) on an acute-phase DMSA scan was the target condition of interest.</target_conditions>
+  <reference_standards>
+The current reference standard for assessing the presence and extent of pyelonephritis is to conduct a planar DMSA renal scan. When radiolabeled DMSA is given to patients whose tubular cell function is impaired because of pyelonephritis, the scan will show a photon-deficient area(s). This test is conducted by trained nuclear medicine physicians in a hospital's radiology department. For the purpose of this analysis, any photopenia (with or without a loss of contours) was considered as pyelonephritis.
+Only studies in which a planar DMSA scan was performed within the first month of the diagnosis of UTI were included. Because the accuracy of the DMSA scan decreases significantly if obtained later than two weeks after the diagnosis of UTI (Stokland 1996), we conducted sensitivity analysis with respect to timing of the DMSA scan. Because single-photon emission computed tomography (SPECT) DMSA scans have much lower specificity (66%, Craig 2000), studies in which SPECT DMSA scans were used were not included in this review.</reference_standards>
+</root>

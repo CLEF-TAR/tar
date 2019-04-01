@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+In this review we aim to determine if an open laparoscopy, after the conventional diagnostic work-up of women suspected of advanced ovarian cancer, accurately predicts extensiveness and therefore, resectability of disease.</objective>
+  <type_of_study>
+We included studies that evaluated laparoscopy as a diagnostic added test to determine resectability of disease in women with suspected advanced ovarian cancer who were planned for primary debulking surgery after conventional staging. In these studies the extensiveness of disease diagnosed with a laparoscopy was compared with the diagnosis at laparotomy. Because of the bias which can be introduced by case-control studies, these were excluded from the review.
+We expected that there would be studies in which not all participants had undergone reference standard (i.e. laparotomy) when the index test was positive (i.e. unsuitable for debulking surgery as likely to lead to sub-optimal result). Therefore, we also included studies in which only the participants who had a negative result of the index test (meaning that the tumour was not too extensively spread to be operated upon) underwent the reference standard.</type_of_study>
+  <participants>
+ included women suspected of having advanced stage ovarian carcinoma (FIGO stage IIB, IIC, IIIA to C, IV), who were scheduled for primary debulking surgery and did not have contra-indications for laparoscopy or laparotomy.</participants>
+  <index_tests>
+The test under evaluation was an additional open diagnostic laparoscopy that was performed when a patient was planned for primary debulking surgery after conventional diagnostic work-up. Conventional diagnostic work-up consisted of physical and ultrasound examination, serum CA 125 measurement and/or CT or MRI scan.
+A positive index test result means that the tumour was too extensively spread to be operated upon; a negative index test result means that the tumour, according to laparoscopy, was not too extensively spread to be resected (Figure 2).
+Figure 2.
+Open in figure viewerDownload Powerpoint slide
+Two by two table of index test results by reference standard outcomes. TP= True Positive, TN= True Negative, FP= False Positive, FN= False Negative</index_tests>
+  <target_conditions>Target conditions
+The target condition was ovarian cancer deposits that could not be resected at laparotomy to at least less than 1 cm in diameter and therefore makes patients not suitable for primary debulking surgery. Examples of ovarian cancer deposits that cannot be resected include extensive peritoneal and mesenteric carcinomatoses (&gt; 100 spots) or extensive metastases in the upper abdomen, such as bulky disease on the diaphragm or liver surfaces. The definition of ovarian cancer deposits that could not be resected at laparotomy was extracted from each study.</target_conditions>
+  <reference_standards>Laparotomy was the reference standard. When performing a laparotomy one is able to explore the entire abdominal cavity and to locate all tumour deposits. The goal at laparotomy is to remove all macroscopic tumour, therefore giving a true impression of the resectability of ovarian cancer deposits in the abdominal cavity.</reference_standards>
+</root>

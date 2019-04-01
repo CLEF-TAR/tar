@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To provide an overall summary of the diagnostic accuracy of PCR based tests on blood specimens for the diagnosis of IA in the immunocompromised host.
+Secondary objectives
+When studies included in the analysis also compared the diagnostic performance of PCR techniques and the GM ELISA assay, we comparatively evaluated the diagnostic performance of PCR based tests and GM ELISA assays. However, since the objective of this review is not to identify all studies dealing with GM ELISA assays and IA, only those within the study comparison were included in the review.</objective>
+  <type_of_study>
+We included studies using PCR techniques on blood specimens for analysis if they:
+compared the results of PCR tests with the diagnosis made following the published case definition criteria for invasive fungal disease proposed by the EORTC/MSG or, for studies published before the publication of these criteria in 2002, used comparable criteria as a reference standard (Ascioglou 2002; De Pauw 2008);
+reported data on false-positive, true-positive, false-negative and true-negative results of the diagnostic tests under investigation separately; and
+evaluated the tests prospectively in a cohort of people from a relevant clinical population, defined as a group of individuals at high risk of IA.
+We classified studies, on the basis of the sampling method, as being consecutive or non-consecutive. We regarded studies evaluating specimens from a group of people known to have aspergillosis, and from a separate group of subjects without evidence of disease, as case-control studies (Lijmer 1999). These studies were included in the systematic review but excluded from the quantitative analysis.
+Aspergillus contamination and false positive PCR results with bronchoalveolar lavage (BAL) and sputum samples can follow inhalation of airborne spores or colonization of the lung (Lewis White 2006). Moreover, BAL is an invasive procedure performed only to confirm the aetiology in a subset of cases that already meet the clinical definitions of IA. Thus, to avoid bias related to the patient selection and specimen type, we analysed only studies evaluating PCR on blood, with exclusion of studies that analyse the accuracy of PCR tests on BAL only.</type_of_study>
+  <participants>
+Patients at risk of IA, including neutropenic cancer patients and HSCT or solid organ transplant recipients.</participants>
+  <index_tests>
+PCR methods on blood specimens (whole blood or serum). We considered different DNA extraction methods and PCR methods (e.g., nested, ELISA, qPCR).</index_tests>
+  <target_conditions>
+The target condition of this review is IA (systemic aspergillosis).</target_conditions>
+  <reference_standards>
+Definitions for invasive fungal disease were first published in 2002 by the EORTC/MSG (Ascioglou 2002) and were revised in 2008 (De Pauw 2008; Table 1). These were used as a reference standard and comparable criteria were used for studies published before the publication of the definitions in 2002. The EORTC/MSG definitions divide the patient population into four categories: people with proven IA, people with probable IA, people with possible IA, and people without IA. In accordance with the previous Aspergillus review on Aspergillus GM detection (Leeflang 2008), sensitivity and specificity were assessed in each study considering the proven and probable cases of IA as having the disease, and the cases of possible IA and no IA as not having the disease.</reference_standards>
+</root>

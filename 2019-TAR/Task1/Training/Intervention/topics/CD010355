@@ -1,0 +1,68 @@
+Topic: CD010355 
+
+Title: Non‐invasive positive pressure ventilation for prevention of complications after pulmonary resection in lung cancer patients 
+
+Query: 
+exp Positive-Pressure Respiration/
+positive pressure ventilation.ti,ab,kf
+pressure support ventilation.ti,ab,kf
+noninvasive ventilatory support.ti,ab,kf
+non invasive ventilatory support.ti,ab,kf
+NIVS.ti,ab,kf
+NPPV.ti,ab,kf
+NIPSV.ti,ab,kf
+#1 OR #2 OR #3 OR #4 OR #5 OR #6 OR #7 OR #8
+exp Pneumonectomy/
+lung resection*.ti,ab,kf
+lobectom*.ti,ab,kf
+pneumonectom*.ti,ab,kf
+#10 OR #11 OR #12 OR #13
+#9 AND #14
+(randomized controlled trial.pt OR controlled clinical trial.pt OR randomized.ti,ab,kf OR placebo.ti,ab,kf OR drug therapy.fs OR randomly.ti,ab,kf OR trial.ti,ab,kf OR groups.ti,ab,kf) NOT (exp animals/ NOT (humans/ AND exp animals/))
+#15 AND #16
+limit 17 to ED=19460101-20181221 
+
+Pids: 
+    2154154 
+    3318740 
+    17992482 
+    17505679 
+    18453351 
+    9620517 
+    2198997 
+    21357311 
+    20887415 
+    22613197 
+    21968296 
+    11673215 
+    23106907 
+    15648983 
+    17257820 
+    27310989 
+    20159726 
+    28598916 
+    12730818 
+    7985254 
+    24474079 
+    24496783 
+    26547348 
+    25033701 
+    12057100 
+    2519936 
+    26407182 
+    367546 
+    19325478 
+    21515479 
+    9296413 
+    27166086 
+    26263797 
+    15223462 
+    15919483 
+    23497934 
+    8408940 
+    21675066 
+    28437264 
+    17484789 
+    9228366 
+    16276197 
+    20829341 

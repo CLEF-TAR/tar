@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of state (one time), minimally invasive clinical symptoms, signs and tests to be used as screening tests for detecting water-loss dehydration in older people by systematically reviewing studies that have measured a reference standard and at least one index test in people aged 65 years and over. Water-loss dehydration was defined primarily as including everyone with either impending or current water-loss dehydration (including all those with serum osmolality ≥ 295 mOsm/kg as being dehydrated).
+Secondary objectives
+To assess the effect of different cut-offs of index test results assessed using continuous data on sensitivity and specificity in diagnosis of water-loss dehydration.
+To identify clinical symptoms, signs and tests that may be used in screening for water-loss dehydration in older people.
+To identify clinical symptoms, signs and tests that are not useful in screening for water-loss dehydration in older people.
+To assess clinical symptoms, signs and tests of current dehydration (including all those with serum osmolality &gt; 300 mOsm/kg).
+To assess clinical symptoms, signs and tests of impending dehydration (including all those with serum osmolality 295 to 300 mOsm/kg).
+To directly compare promising index tests (sensitivity ≥ 0.60 and specificity ≥ 0.75) where two or more are measured in a single study (direct comparison).
+To carry out an exploratory analysis to assess the value of combining the best three index tests where the three tests each have some predictive ability of their own, and individual studies include participants who had all three tests.
+Investigation of sources of heterogeneity
+We planned to explore sources of heterogeneity in the diagnostic accuracy of those individual clinical symptoms, signs and tests that showed some evidence of discrimination. Heterogeneity was to be explored according to the reference standard used, cut-off value for tests providing continuous data, type of participants (community-dwelling older people, those in residential care, and those in hospital), sex, and baseline prevalence of dehydration (Leeflang 2013).</objective>
+  <type_of_study>
+Diagnostic studies that compared an index test with a reference standard for water-loss dehydration in older people were included. We also considered cohort and cross-sectional studies that had not analysed diagnostic accuracy, but where at least one reference standard and at least one index test were measured in at least 10 participants aged 65 years or over and with at least two participants with water-loss dehydration and at least two participants without water-loss dehydration. These studies were included where the authors were able to provide a relevant 2 x 2 table comparing a reference with an index test, or a dataset from which relevant 2 x 2 tables could be calculated. Where we had access to the full study dataset we excluded any participants who did not receive both the index test and the reference standard. We attempted to access the full datasets (such as Excel spreadsheets or SPSS files) of all included studies.</type_of_study>
+  <participants>
+People aged 65 years and over who were hospitalised, living in the community, or in institutions, in a developed country were included.  could not have kidney failure, cardiac (heart) failure, had not recently been prepared for surgery or undergone surgery, but may have had other chronic or acute illnesses, such as stroke, fracture, diabetes or infection. For mixed populations of older people that included participants aged under 65 years, we excluded participants aged less than 65 years where we had access to the full dataset; but, where only summary data were available, the study was only included where the proportion of those under 65 years was less than 10%. In the same way, when using published data we excluded studies with more than 10% of participants having one or more of the following: kidney failure, cardiac failure or a recent operation; and when using full study datasets, participants diagnosed with any of these conditions (according to individual study criteria) were excluded from analysis.</participants>
+  <index_tests>
+Single clinical symptoms, signs and tests or a portfolio of symptoms, signs and/or tests and/or a checklist. Prespecified potential index tests for dehydration included dry axilla and other markers of transepidermal water loss; dry mucous membranes; dry or furrowed tongue; extended capillary refill time and measures of skin blood flow; poor sternal skin turgor; systolic blood pressure drop on standing; urine colour; USG; saliva osmolality; urine volume; sunken eyes; rapid pulse; postural pulse increment; postural dizziness; fluid balance charts; thirst; bad taste in the mouth; upper body weakness; measures of thermoregulation; bioelectrical impedance analysis (BIA); and checklists of risk factors.  that appeared appropriate and so were included during the review process included drink and fluid intake; number of urine voids; urine osmolality; tear osmolality; tear volume or symptoms of dry eyes; saliva volume; cognitive and consciousness levels; feelings of tiredness or dullness; enjoyment of food and appetite; need for iv or thickened fluids and presence of blue lips. These index tests were included regardless of the definition of test positivity or cut-off chosen (and these sometimes did vary between studies).
+BIA assesses electrical impedance through the body (commonly from the fingers to the toes) and is often used to estimate body fat. Equipment is portable and fairly easy to use, and some types of BIA are theoretically able to assess TBW. BIA is in use in some areas in assessing hydration status of older people (especially those living in residential care). Different measurements can be made, including resistance (the resistance of the extracellular path through the body) and multi-frequency machines use take measurements at several different electrical frequencies. BIA machines may produce raw data on resistance and impedance, or use internal functions (incorporating information such as participant height, weight and age) to automatically calculate TBW and the extracellular water (ECW) and intracellular water (ICW) components.</index_tests>
+  <target_conditions>Target conditions
+Water-loss dehydration (including people with either impending or current water-loss dehydration, anyone with a serum osmolality of ≥ 295 mOsm/kg) was the primary target condition. Impending water-loss dehydration (serum osmolality 295 to 300 mOsm/kg) and current water-loss dehydration (&gt; 300 mOsm/kg), treated as two separate conditions, were planned as secondary target conditions.</target_conditions>
+  <reference_standards>Studies that used one of our reference standards for water‐loss dehydration, ordered in terms of their importance to make best use of the reference standard better able to represent water‐loss dehydration in frail older people, were included. The primary standard was raised plasma or serum osmolality, followed by serum osmolarity, then body mass (weight) change.
+
+We have referred to those with either impending (serum osmolality 295 to 300 mOsm/kg) or current (serum osmolality > 300 mOsm/kg) dehydration as having water‐loss dehydration. Having water loss dehydration (having either impending or current dehydration, serum osmolality ≥ 295 mOsm/kg) has been contrasted with being euhydrated (serum osmolality 275 to < 295 mOsm/kg) as our primary target condition.
+
+The secondary target condition was current dehydration (serum osmolality > 300 mOsm/kg) compared with euhydration or impending dehydration (serum osmolality 275 to 300 mOsm/kg). We intended to assess another secondary target condition, impending dehydration alone (serum osmolality 295 to 300 mOsm/kg) compared to euhydration (serum osmolality 275 to < 295 mOsm/kg), but these analyses were not carried out.
+
+Serum or plasma osmolality
+
+The primary target condition, water‐loss dehydration, included all those with serum or plasma osmolality of 295 mOsm/kg or greater (people with either impending or current dehydration)
+
+Serum or plasma osmolality of 295 to 300 mOsmol/kg suggested impending water‐loss dehydration
+
+Serum or plasma osmolality > 300 mOsmol/kg suggested current dehydration.
+
+Serum osmolarity
+
+We planned to use serum and plasma osmolality in the protocol, but during the review process it was decided to include serum osmolarity as a reference standard as it is an estimate of serum osmolality. Serum osmolarity is calculated from serum sodium, potassium, glucose and urea, rather than being directly measured. The exact formula used to calculate serum osmolarity has been noted for each study, and the cut‐offs used are the same as the cut‐offs for serum osmolality.
+
+Body mass (weight) change
+
+Weight change could be naturally occurring or follow encouragement to limit fluid intake for a period, but could not result from unusual levels of exercise or saunas (because these may result in dehydration that is metabolically distinct from naturally occurring dehydration). Weight change was included where a baseline weight was measured and re‐weighing occurred within seven days (and no surgery had occurred within that period).
+
+We defined impending dehydration as a reduction of 3% to 5% of body weight within seven days or less, or an increase of 3% to 5% of body weight within seven days as an indication that a person was dehydrated before rehydration
+
+Current dehydration corresponded to changes of more than 5% of body weight
+
+Weight change over a period less than seven days was not multiplied up to the seven day equivalent.</reference_standards>
+</root>

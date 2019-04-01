@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+With the goals of making recommendations and informing policy makers on which tests to use and identifying research gaps, these were our primary objectives:
+To obtain summary estimates of the diagnostic accuracy of urine reagent strip tests for microhaematuria, proteinuria, and leukocyturia in detecting active S. haematobium infection, with microscopy of urine as the reference standard.
+To obtain summary estimates of the diagnostic accuracy of circulating antigen tests—a urine POC circulating cathodic antigen (CCA) test, a urine and serum CCA enzyme-linked immunosorbent assay (ELISA) test, and a urine and serum circulating anodic antigen (CAA) test—for detection of active Schistosoma infection in geographical regions endemic for S. mansoni or S. haematobium or both, with microscopy as the reference standard.
+To compare the accuracy of the above index tests.
+To investigate potential sources of heterogeneity in the diagnostic accuracy of the tests listed above.
+Secondary objectives
+To investigate whether age and gender of participants, positivity thresholds, prevalence of infection, intensity of infection, quality of the reference standard, effects of praziquantel treatment, infection stage, mixed infections, and the methodological quality of included studies can explain observed heterogeneity in estimates of test accuracy.</objective>
+  <type_of_study>
+We included primary observational studies that compared the results of one or more of the index tests versus the reference standard. These studies could be cross-sectional in design, cohort studies, or diagnostic case-control studies with cases and controls sampled from the same patient population.
+We included studies that provide participant data. Only studies in which true-positives (TPs), true-negatives (TNs), false-positives (FPs), and false-negatives (FNs) were reported or could be extracted from the data were included.
+We excluded case-control studies with healthy controls, controls from non-endemic areas, or controls with alternative diagnoses (patients with diseases similar to schistosomiasis), as specificity may be overestimated (Rutjes 2005). False-positive test results may occur when an alternative disease produces the same pathophysiological changes as the target condition. We also excluded studies that enrolled only participants with proven schistosomiasis, as sensitivity may be overestimated.</type_of_study>
+  <participants>
+ had to be individuals residing in regions where S. haematobium and S. mansoni infections were endemic. We excluded articles that studied travelers originating from non-endemic countries, as they were typically screened with other tests such as antibody tests.</participants>
+  <index_tests>
+We included studies that evaluated the following tests.
+Urine reagent strip tests
+A urine reagent strip test is a biochemical semiquantitative test. It is regarded as an indirect indicator of S. haematobium infection or morbidity, as it detects microhaematuria, proteinuria, or leukocyturia (white blood cells in urine) that can develop as a consequence of schistosomal infection (Doehring 1985b;Doehring 1988). This test is cheap and easy to use for rapid screening of urinary schistosomiasis (Feldmeier 1993; Gryseels 2006; Gryseels 2012).
+The results of urine reagent tests used to measure haematuria are scored as 0 (negative), trace-positive (tr), 1+ (5 to 10 erythrocytes/μL), 2++ (10 to 50 erythrocytes/μL), or 3+++ (50 to 250 erythrocytes/μL). For proteinuria, results are scored as 0 (negative), trace-positive (tr), 1+ (30 mg protein/dL), 2++ (100 mg protein/dL), or 3+++ (500 mg protein/dL) (Murare 1987).
+Antigen tests
+Antigen tests are based on detection of schistosome antigens in the serum and urine of individuals (Gryseels 2006; WHO/TDR 2006; Gryseels 2012). The main circulating antigens are adult worm gut–associated circulating antigens, and CAA and CCA are the main focus of research.
+The CCA dipstick is scored according to test band reaction intensity as negative (-), trace-positive (tr), single-positive (+), double-positive (++), and triple-positive (+++) (Stothard 2006). ELISA results are continuous, and positivity thresholds may vary. To estimate the accuracy of ELISA tests, ELISA must have been evaluated against the reference standard only.
+Urine reagent strip tests
+A urine reagent strip test is a biochemical semiquantitative test. It is regarded as an indirect indicator of S. haematobium infection or morbidity, as it detects microhaematuria, proteinuria, or leukocyturia (white blood cells in urine) that can develop as a consequence of schistosomal infection (Doehring 1985b;Doehring 1988). This test is cheap and easy to use for rapid screening of urinary schistosomiasis (Feldmeier 1993; Gryseels 2006; Gryseels 2012).
+The results of urine reagent tests used to measure haematuria are scored as 0 (negative), trace-positive (tr), 1+ (5 to 10 erythrocytes/μL), 2++ (10 to 50 erythrocytes/μL), or 3+++ (50 to 250 erythrocytes/μL). For proteinuria, results are scored as 0 (negative), trace-positive (tr), 1+ (30 mg protein/dL), 2++ (100 mg protein/dL), or 3+++ (500 mg protein/dL) (Murare 1987).
+Antigen tests
+Antigen tests are based on detection of schistosome antigens in the serum and urine of individuals (Gryseels 2006; WHO/TDR 2006; Gryseels 2012). The main circulating antigens are adult worm gut–associated circulating antigens, and CAA and CCA are the main focus of research.
+The CCA dipstick is scored according to test band reaction intensity as negative (-), trace-positive (tr), single-positive (+), double-positive (++), and triple-positive (+++) (Stothard 2006). ELISA results are continuous, and positivity thresholds may vary. To estimate the accuracy of ELISA tests, ELISA must have been evaluated against the reference standard only.
+</index_tests>
+  <target_conditions>
+Active infection with S. haematobium.
+Active infection with S. mansoni.
+  </target_conditions>
+  <reference_standards>S. haematobium
+
+For diagnosis of S. haematobium infection, the reference standard is microscopy of urine for examination of schistosome eggs. To increase sensitivity, urine samples can be concentrated by sedimentation, filtration, or centrifugation techniques (Gryseels 2006), or more samples can be examined (Feldmeier 1993). We therefore included studies that use all of these concentration techniques, and to estimate the effect of the quality of the reference standard, we accepted studies using microscopy on a single urine sample (lower‐quality reference standard) and studies performing microscopy on multiple urine samples (higher‐quality reference standard).
+
+S. mansoni
+
+For diagnosis of S. mansoni infection, microscopic examination of schistosome eggs in stool is the reference standard. Sensitivity is increased by preparing a faecal thick smear using the Kato‐Katz (KK) method (Gryseels 2006) or by examining multiple stool samples (Feldmeier 1993). To estimate the effect of the quality of the reference standard, we accepted studies using microscopy on a single stool sample (lower‐quality reference standard) and studies performing microscopy on multiple stool samples (higher‐quality reference standard).
+
+It is important to note that some regions experience mixed infections of S. haematobium and S. mansoni. In such situations, microscopy of both stool and urine samples must be carried out to confirm infection.</reference_standards>
+</root>

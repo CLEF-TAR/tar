@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess the diagnostic accuracy of RDTs for detecting clinical P. falciparum malaria (symptoms suggestive of malaria plus P. falciparum parasitaemia detectable by microscopy) in persons living in malaria endemic areas who present to ambulatory healthcare facilities with symptoms of malaria, and to identify which types and brands of commercial test best detect clinical P. falciparum malaria.
+Investigation of sources of heterogeneity
+We planned to investigate heterogeneity in relation to the index test (by commercial test, test type and grouped by HRP-2/pLDH) and reference tests (microscopy vs PCR), as well as the study participants' age, endemicity of malaria, and geographic area (by continent).</objective>
+  <type_of_study>
+Studies evaluating one or more RDTs in a consecutive series of patients, or a randomly-selected series of patients, were eligible. Where the report did not explicitly state that sampling was consecutive, but consecutive sampling was judged most probable, the study was included. Studies were excluded if they did not present sufficient data to allow us to extract or calculate absolute numbers of true positives, false positives, false negatives, and true negatives. Studies were also excluded if they were not available in English, or if they presented insufficient information to fully assess their eligibility.</type_of_study>
+  <participants>
+Studies recruiting people living in P. falciparum malaria endemic areas who attended ambulatory healthcare settings with symptoms of uncomplicated malaria. This included patients attending malaria clinics with self-assessed symptoms.
+We excluded studies if participants:
+1. were non-immune persons returning from endemic countries or were mainly recent migrant or displaced populations from non-endemic or very low endemicity areas;
+2. had been treated for malaria and the test was performed to assess treatment outcome;
+3. had symptoms suggestive of severe malaria;
+4. did not have symptoms suggestive of malaria;
+5. were recruited through active case finding (for example, door-to-door surveys).
+In studies with broader inclusion criteria but which presented results stratified by subgroups, we included the data relevant to our inclusion criteria. If studies included some participants with severe malaria, and data specific to a subgroup of participants with uncomplicated malaria could not be extracted, the study was included if 90% or more of the participants had uncomplicated malaria.</participants>
+  <index_tests>
+Studies evaluating any immunochromatography-based RDTs specifically designed to detect P. falciparum malaria.
+Commerical tests no longer available were included because they may use the same antibodies, and very similar technology, to tests that are currently available or may become available in the future. Older and more recently available versions of the same test, and tests available in both dipstick and cassette format, were included separately. Late prototype tests corresponding to one of the commercially-available types were also included.</index_tests>
+  <target_conditions>
+Studies aimed to detect P. falciparum malaria parasitaemia. Studies that presented RDT results relating only to all types of malaria without distinction by species, but where over 98% of malaria infections by reference standard were associated with P. falciparum, were included in this review and analysed as for P. falciparum.</target_conditions>
+  <reference_standards>
+Studies were required to diagnose P. falciparum malaria using at least one of the following two reference standards.
+Conventional microscopy of thick blood smears, thin blood smears or both. Presence of asexual P. falciparum parasites of any density was regarded as a positive smear.
+PCR test.
+We required that the reference standard was carried out on blood samples taken at the same time and from the same person as the index tests. Where studies used more than one reference standard, we presented data relating to comparisons with each.
+  </reference_standards>
+</root>

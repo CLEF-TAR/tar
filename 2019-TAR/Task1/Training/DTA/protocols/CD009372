@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To evaluate the diagnostic test accuracy of CTA and MRA versus IADSA for the detection of intracranial vascular malformations as a cause of ICH.
+Secondary objectives
+To investigate the influence of the timing of the index and reference tests on diagnostic test accuracy.
+Investigation of sources of heterogeneity
+We planned to investigate the differences in diagnostic accuracy in subgroups defined by:
+age;
+ICH volume;
+timing of the index test(s) after symptom onset;
+CT technology (for example non-helical CT scanners, helical CT scanners, and multi-detector helical CT scanners) and MRI technology (for example MRI magnet strength and the type of angiographic technique used to image the arteries);
+the coverage of the brain that is investigated by CTA/MRA in each study (e.g. some users may only evaluate the region around the haematoma while others may choose to also evaluate vessels distant from the bleed);
+the number of arterial territories and orientations investigated by IADSA (e.g. the internal carotid artery territory, the external carotid artery territory, the vertebral artery territory, or all three);
+whether three-dimensional angiography was used;
+differences in the qualifications and experience of the radiologists reporting the index tests and reference standards.</objective>
+  <type_of_study>
+Single or comparative test accuracy studies of CTA or MRA, or both (index tests) versus IADSA (reference standard) in patients with radiographically verified ICH were eligible for inclusion as long as participants underwent at least one index test as well as the reference standard. We included retrospective and prospective case series and cohort studies of consecutive patients (Gluud 2005), irrespective of their date of publication, country, or language of origin. There were no restrictions based on the medical setting in which the tests were performed. We set a minimum overall sample size per study of 20 or more participants. We accepted studies that had fewer than 20 individuals undergoing IADSA as long as the overall study size was greater than 20 participants.</type_of_study>
+  <participants>
+We included all participants with ICH (as defined by study authors), who were investigated with one or more index tests and a reference standard.  were included irrespective of the severity of their disease as long as they were stable enough to undergo an index test and a reference standard.</participants>
+  <index_tests>
+We assessed the following index tests.
+Computed tomography angiography (CTA).
+Magnetic resonance angiography (contrast enhanced or non-enhanced) (MRA).</index_tests>
+  <target_conditions>Target conditions
+The target conditions were aneurysms, arteriovenous malformations, or pial/dural arteriovenous fistulae that have caused ICH. We re-classified patients with moya-moya as 'non-diseased' for the purposes of the review.</target_conditions>
+  <reference_standards>A single reference standard for the diagnosis of intracranial vascular malformations does not exist. In clinical practice, however, expert assessment of IADSA is considered the most valid test and therefore we only included studies that used this test as the reference standard in the review. If studies had used more than one reference standard, we only included these studies if they provided data on patients who had been investigated with IADSA.</reference_standards>
+</root>

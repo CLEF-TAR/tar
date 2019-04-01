@@ -1,0 +1,108 @@
+Topic: CD011380 
+
+Title: Interventions for infantile seborrhoeic dermatitis (including cradle cap) 
+
+Query: 
+cradle cap.ti,ab.
+ crusta lactea.ti,ab.
+ milk crust.ti,ab.
+ honeycomb disease.ti,ab.
+ or/1-4
+ pityriasis capitis.ti,ab.
+ seborrhea.ti,ab.
+ Dermatitis, Seborrheic/
+ seborrh$ dermatitis.ti,ab.
+ scalp dermatos$.ti,ab.
+ Scalp Dermatoses/
+ scalp dermatitis.ti,ab.
+ scalp eczema.ti,ab.
+ seborrh$ eczema.ti,ab.
+ or/6-14
+ neonat$.mp.
+ child$.ti,ab.
+ infant$.mp.
+ exp Infant/
+ Child, Preschool/
+ 16 or 17 or 18 or 19 or 20
+ 15 and 21
+ 5 or 22
+ randomized controlled trial.pt.
+ controlled clinical trial.pt.
+ randomized.ab.
+ placebo.ab.
+ clinical trials as topic.sh.
+ randomly.ab.
+ trial.ti.
+ 24 or 25 or 26 or 27 or 28 or 29 or 30
+ exp animals/ not humans.sh.
+ 31 not 32
+ 23 and 33
+limit 34 to ED=19460101-20180522 
+
+Pids: 
+    20220184 
+    22798972 
+    8560510 
+    6339288 
+    21790793 
+    12926604 
+    8205601 
+    22592706 
+    6455969 
+    24004959 
+    16703782 
+    26092045 
+    132601 
+    16085658 
+    16650232 
+    22360010 
+    12389342 
+    18289325 
+    2939636 
+    1755072 
+    18783606 
+    17845167 
+    7672742 
+    18173523 
+    15461548 
+    22758350 
+    12898873 
+    9865873 
+    8245236 
+    6339295 
+    4263888 
+    23247810 
+    19706558 
+    20428365 
+    21834600 
+    11822849 
+    2444395 
+    27286033 
+    23113480 
+    12410195 
+    19951427 
+    4620141 
+    4282136 
+    20973770 
+    24053067 
+    23652893 
+    10950230 
+    6226593 
+    20718901 
+    21864348 
+    15609890 
+    15951310 
+    150351 
+    24881281 
+    20199404 
+    23278618 
+    1498376 
+    7043013 
+    21974965 
+    7684080 
+    21634249 
+    25223568 
+    27255407 
+    11230611 
+    18211496 
+    19343362 

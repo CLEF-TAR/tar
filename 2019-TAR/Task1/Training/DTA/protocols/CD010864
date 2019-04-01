@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To investigate the ability of the D-dimer test to rule out a diagnosis of acute PE in patients treated in hospital outpatient and accident and emergency (A&amp;E) settings who have had a pre-test probability (PTP) of PE determined according to a clinical prediction rule (CPR), by estimating the accuracy of the test according to estimates of sensitivity and specificity. The review focuses on those patients who are not already established on anticoagulation at the time of study recruitment.
+Secondary objectives
+To investigate the following as potential sources of heterogeneity: age, sex, previous PE, prolonged immobilisation and type of reference standard. We recognise that all of these listed items except type of reference standard are patient-specific rather than study-specific, and we anticipate that study reports may lack the necessary level of detail to enable an informative analysis.</objective>
+  <type_of_study>
+We included cross-sectional studies evaluating the diagnostic test accuracy of D-dimer and diagnostic cohort studies, including both prospective and retrospective designs. We excluded diagnostic case-control studies (two-gate design). Case-control designs are known to overestimate the sensitivity and specificity of a diagnostic test in clinical practice (Rutjes 2005). In this review, we considered studies that use a CPR with D-dimer testing to rule out PE in patients treated in outpatient and A&amp;E departments. Specifically, we included studies that recruited symptomatic outpatients with low-, intermediate- or high-risk CPR scores.</type_of_study>
+  <participants>
+Adults treated in hospital outpatient and A&amp;E settings and suspected of acute PE as a result of clinical features such as breathlessness, chest pain, coughing up blood, increased respiratory rate, tachycardia, low blood pressure and fainting, in whom a PTP of PE has been assessed by a CPR for PE (examples of which can be found above under the heading Index test(s)) were eligible for inclusion in the review. When the data were available, we intended to group patients according to whether or not they received anticoagulant treatment, the specific CPR and the D-dimer assay, as these are not standardised (Schreiber 2002).
+Patients with indeterminate or conflicting test results may undergo repeat imaging; the most commonly used imaging test for this is CTPA or V/Q scanning, but eligibility criteria of the review specify inclusion only of studies investigating the diagnostic accuracy of the initial D-dimer test. We excluded studies that included pregnant women, people with cancer and mixed groups of patients, when results were not reported separately for those who are pregnant or with and without cancer.</participants>
+  <index_tests>
+Quantitative, semi quantitative and qualitative D-dimer tests.</index_tests>
+  <target_conditions>
+Acute pulmonary embolism (PE).</target_conditions>
+  <reference_standards>
+We included studies that used various reference standards (RS) encompassing pulmonary angiography, V/Q scintigraphy, CTPA and MRPA. We judged all patients' D-dimer tests (index tests) against these reference tests.</reference_standards>
+</root>

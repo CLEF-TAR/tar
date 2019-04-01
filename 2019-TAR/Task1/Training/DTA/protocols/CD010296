@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of colour duplex ultrasound (CDUS) and contrast-enhanced-colour duplex ultrasound (CE-CDUS) in terms of sensitivity and specificity for endoleak detection after endoluminal abdominal aortic aneurysm repair (EVAR).
+Secondary objectives
+We aimed to explore several potential sources of heterogeneity by examining differences in diagnostic accuracy estimation according to technical differences of the imaging tests, US of different generations, and age of participants. We also aimed to explore heterogeneity related to methodological study quality items of the Quality Assessment of Diagnostic Accuracy Studies (QUADAS) checklists. We planned to explore further sources of heterogeneity concerning the size of the aneurysm, characteristics of patient population (concomitant disease, severity of aneurismal disease, location of aneurysm), and rupture of aneurysm.</objective>
+  <type_of_study>
+Any cross-sectional diagnostic study was considered for inclusion if:
+the participants were evaluated by both US (with or without contrast) and CT scan;
+the assessments of both US and CT scan were performed at regular intervals during follow-up.</type_of_study>
+  <participants>
+People who received EVAR for AAA treatment and were under follow-up for endoleak detection.</participants>
+  <index_tests>
+The index test was Doppler US (either CDUS or CE-CDUS) for the assessment of endoleak in people with EVAR.
+The CDUS is a non-invasive, non-expensive, easy-to-use instrument for endoleak detection. CDUS depends on the experience of the operator and provides limited images for independent review by others. CE-CDUS requires an intravenous injection with a contrast which consists of microbubbles that resonate when examined with sound of low intensity. The outcome of the index test is the presence of a leak from the endovascular graft that allows blood flow outside the stent but within the aneurysm sac.</index_tests>
+  <target_conditions>
+Endoleak detected during follow-up surveillance in people who received EVAR for AAA.</target_conditions>
+  <reference_standards>
+CT is the imaging technique of choice for follow-up after EVAR.</reference_standards>
+</root>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of amylase in drain fluid at 48 hours or more for the diagnosis of pancreatic leak in people who had undergone pancreatic resection.
+Secondary objectives
+If we identified heterogeneity, we planned to explore heterogeneity by using the following sources of heterogeneity as covariate(s) in the regression model.
+Studies at low risk of bias in all the domains versus those at unclear or high risk of bias (as assessed by the QUADAS-2 tool, recommended by the Cochrane Diagnostic Test Accuracy Group) (Whiting 2006; Whiting 2011).
+Full-text publications versus abstracts (this can give an idea about publication bias since there may be an association between the results of the study and the study reaching full publication status) (Eloubeidi 2001).
+Prospective studies versus retrospective studies.
+Pancreatoduodenectomies versus distal pancreatic resection.
+Participants with cancers versus those with benign diseases.
+Different reference standards (confirmation by surgical resection in all participants versus a combination of surgical resection and clinical follow-up).</objective>
+  <type_of_study>
+We included all studies that evaluated the diagnostic test accuracy of amylase in drain fluid for the diagnosis of clinically significant pancreatic leak in people who had undergone pancreatic resection excluding total pancreatectomy. We included studies that provided information on the index test and reference standards irrespective of language or publication status, or whether the data was collected prospectively or retrospectively. However, we excluded case reports that describe how the diagnosis of pancreatic leak was made on an individual participant or a group of participants and which did not provide sufficient diagnostic test accuracy data, i.e. true positive, false positive, false negative, and true negative. We also excluded case-control studies because these studies are prone to bias (Whiting 2011).</type_of_study>
+  <participants>
+People who have undergone pancreatic resection with drain fluid at least 48 hours after pancreatic resection irrespective of the volume of the drain fluid.</participants>
+  <index_tests>
+Drain fluid amylase.</index_tests>
+  <target_conditions>
+Clinically significant pancreatic leak (pancreatic leaks that require radiological or surgical intervention)</target_conditions>
+  <reference_standards>
+We planned to accept one of the following reference standards as per our review protocol. However, according to these reference standards we could not have included any studies as none of the studies reported used one of the two reference standards below.
+Pancreatic leak confirmed at surgery. This is confirmation of pancreatic leak at surgery usually on the basis of the presence of partial or complete separation of the anastomosis allowing leakage of contents, abdominal collections, or fistula (a tract between the anastomosis and exterior), and is a subjective decision made by the surgeon. Nevertheless, this is the best reference standard available.
+Pancreatic leak confirmed at surgery for participants with elevated amylase and clinical follow-up for a minimum period of six weeks (to ensure that they do not have complications due to pancreatic leak such as abdominal collections requiring drainage, intra-abdominal sepsis, generalised sepsis resulting from intra-abdominal sepsis, or mortality due to intra-abdominal sepsis) in people with negative amylase. The clinical follow-up should have included clinical examination of the patient, and may or may not have included radiological follow-up done as follow-up of suspected pancreatic leak or routine radiological follow-up to detect the recurrence of cancer. In retrospective studies, we accepted hospital records of physical examination of the patient after a minimum follow-up period of six weeks as an acceptable reference standard. The presence of one or more complications due to pancreatic leak such as abdominal collections requiring drainage, intra-abdominal sepsis, generalised sepsis resulting from intra-abdominal sepsis, or mortality due to intra-abdominal sepsis was considered as a positive reference standard.
+Because of the lack of any studies using one of the two reference standards mentioned above, we accepted ISGPF grades B and C POPF as reference standards. People with grade C POPF require surgery while those with grade B POPF usually do not undergo surgery but may require additional radiological drainage (Bassi 2005). These people with grade B POPF do not have systemic sepsis but have localised intra-abdominal infection. Although the intra-abdominal infections are usually because of pancreatic leaks in people undergoing pancreatic resection (these leaks are usually at least partially 'contained' (i.e. the effects limited) by the body's defence mechanism), one cannot be sure that the intra-abdominal infection was because of pancreatic leak. So, the reference standards used in this review might misclassify the target condition of pancreatic leak.</reference_standards>
+</root>
