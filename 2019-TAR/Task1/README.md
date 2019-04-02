@@ -14,6 +14,7 @@ For each topic participants will be provided with
 - A part of the protocol: The Objective
 - The entire PubMED database (it can be downloaded directly from PubMED).
 
+- Other parts of the protocol. For intervention 
 
 *Data Set*:
 
