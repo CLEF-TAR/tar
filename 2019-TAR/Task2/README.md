@@ -10,9 +10,13 @@ For each topic participants will be provided with:
 - Topic-ID
 - The title of the review, written by Cochrane experts;
 - The Boolean query manually constructed by Cochrane experts;
-- The set of PubMed Document Identifiers (PID's) returned by running the query in MEDLINE.
+- The set of PubMed Document Identifiers (PID's) returned by running the query in MEDLINE. The actual PubMed documents can be retrieved by PubMed with the following code:
+
+import requests
+payload = {'db': 'pubmed', 'id': list_of_pids, 'rettype': 'xml', 'retmode': 'xml'}
+r = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?', params=payload)
+xml_data = r.content.decode('utf-8')
 
 *Data Set*:
 
-Participants are provided with a test set consisting of N topics of Diagnostic Test Accuracy (DTA) reviews which were used in CLEF 2017 and 2018 .
-Participants can use the CLEF 2017 and 2018 72 topics as training set.
+Participants are provided with a test set consisting of N topics of Diagnostic Test Accuracy (DTA), Intervention, Prognosis, and Qualitative reviews. They are also provided with a training set that consists of 72 DTA reviews which were used in CLEF 2017 and 2018, and 20 Intervention reviews.
