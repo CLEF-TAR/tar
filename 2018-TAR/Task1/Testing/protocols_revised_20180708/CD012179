@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+To evaluate blood biomarkers as replacement tests for diagnostic surgery and as triage tests to inform decisions to undertake surgery for endometriosis. Specific objectives include the following.
+To provide summary estimates of the diagnostic accuracy of blood biomarkers for the diagnosis of peritoneal, ovarian and deep infiltrating pelvic endometriosis, compared to surgical diagnosis as a reference standard.
+To assess the diagnostic utility of biomarkers that could differentiate ovarian endometrioma from other ovarian masses.
+Secondary objectives
+To investigate the influence of heterogeneity on the diagnostic accuracy of blood biomarkers for endometriosis. Potential sources of heterogeneity include:
+participant characteristics: age (adolescents versus later reproductive years), clinical presentation (subfertility, pelvic pain, ovarian mass, asymptomatic women), stage of disease (rASRM classification system), geographic location of study;
+histological confirmation in conjunction with laparoscopic visualisation compared to laparoscopic visualisation alone;
+changes in technology over time: year of publication, modifications applied to conventional laboratory techniques;
+methodological quality: differences in the revised Quality Assessment of Diagnostic Accuracy Studies (QUADAS-2) evaluation (Table 3), including low versus unclear or high risk; consecutive versus non-consecutive enrolment; and blinding of surgeons to the results of index tests;
+Table 3. Application of the QUADAS-2 tool for assessment of methodological quality of the included studies
+Domain 1 - Patient selection  
+Description Describe methods of patient selection and included patients  
+Type of bias assessed Selection bias, spectrum bias  
+Review Question Women of reproductive age with clinically suspected endometriosis (symptoms, clinical examination ± presence of pelvic mass), scheduled for surgical exploration of pelvic/abdominal cavity for confirmation of the diagnosis ± treatment  
+Informaton collected Study objectives, study population, selection (inclusion/exclusion criteria), study design, clinical presentation, age, number of enrolled and number of available for analysis, setting, place and period of the study  
+Signalling question 1 Was a consecutive or random sample of patients enrolled?  
+Yes If a consecutive sample or a random sample of the eligible participants was included in the study  
+No If a consecutive sample or a random sample of the eligible participants was not included in the study  
+Unclear If this information was unclear  
+Signalling question 2 Did the study avoid inappropriate exclusions?  
+Yes If inclusion and exclusion criteria were presented and all participants with suspected endometriosis were included, with an exception for those who either had a history of medical conditions or were on medical therapy that would have potentially interfered with interpretation of index test (e.g. malignancy, pregnancy, autoimmune disorders, infectious diseases, treatment with hormonal or immunomodulator substances); refused to participate in the study; or were unfit for surgery  
+No If the study excluded the participants based on education level, psychosocial factors, genetic testing or phenotype or excluded participants with any comorbidities commonly present in general population, including a population that could have undergone a testing for endometriosis in clinical setting (hypertension, asthma, obesity, benign gastrointestinal or renal disease, etc)  
+Unclear If the study did not provide clear definition of the selection (inclusion/exclusion) criteria and 'no' judgement was not applicable  
+Signalling question 3 Was a 'two-gate' design avoided?  
+Yes If the study had a single set of inclusion criteria, defined by the clinical presentation (i.e. only participants in whom the target condition is suspected) - a single-gate design  
+No If the study had more than one set of inclusion criteria in respect to clinical presentation (i.e. participants suspected of target condition and participants with alternative diagnosis in whom the target condition would not be suspected in clinical practice) - a two-gate study design  
+Unclear If it was unclear whether a two-gate deign was avoided or not  
+Risk of bias Could the selection of patients have introduced bias?  
+Low If 'yes' classification for all the above 3 questions  
+High If 'no' classification for any of the above 3 questions  
+Unclear If 'unclear' classification for any of the above 3 questions and 'high risk' judgement was not applicable  
+Concerns about applicability Are there concerns that the included patients do not match the review question?  
+Low If the study includes only clinically relevant population that would have undergone index test in real practice and includes representative form of target condition  
+High If the study population differed from the population defined in the review question in terms of demographic features and comorbidity (e.g. studies with multiple sets of inclusion criteria with respect to clinical presentation including either healthy controls or alternative diagnosis controls that would not have undergone index test in real practice). Further, if target condition diagnosed in the study population was not representative of the entire spectrum of disease, such as limited spectrum of severity (e.g. only mild forms) or limited type of endometriosis (e.g. only deep infiltrating endometriosis)  
+Unclear If this information was unclear (e.g. severity of endometriosis was not reported)  
+Domain 2 - Index test  
+Description Describe the index test, how it was conducted and interpreted  
+Type of bias assessed Test review bias, clinical review bias, interobserver variation bias  
+Review question Any type of blood-based biomarker  
+Informaton collected Index test name, description of positive case definition by index test as reported, threshold for positive result, examiners (number, level of expertise, blinding), interobserver variability, conflict of interests  
+Signalling question 1 Were the index test results interpreted without knowledge of the results of the reference standard?  
+Yes If the operators performing/interpreting index test were unaware of the results of the reference standard  
+No If the operators performing/interpreting index test were not blinded to the results of the reference standard  
+Unclear If this information was unclear  
+Signalling question 2 If a threshold was used, was it pre-specified?  
+Yes If study clearly provided a threshold for positive result and was defined before execution/interpretation of index test  
+No If a threshold for positive result was not provided or not defined prior to test execution  
+Unclear If it was unclear whether a threshold was pre-specified or not  
+Signalling question 3 Was a menstrual cycle phase considered in interpreting the index test?  
+Yes If all the included participants were in the same phase of menstrual cycle, if the study reported subgroup analyses per cycle phase, or if study reported the pooled estimates after impact of the cycle phase on biomarker expression was not detected  
+No If study included participants in different phases of menstrual cycle, but effect of cycle phase on index test was not assessed  
+Unclear If the cycle phase was not reported  
+Risk of bias Could the conduct or interpretation of the index test have introduced bias?  
+Low If 'yes' classification for all the above 3 questions  
+High If 'no' classification for any of the above 3 questions  
+Unclear If 'unclear' classification for any of the above 3 questions and 'high risk' judgement was not applicable  
+Concerns about applicability Are there concerns that the index test, its conduct, or interpretation differ from the review question?  
+Low We considered all types of blood-based biomarkers as eligible, therefore all the included studies were classified as 'low concern', unless 'unclear' judgement was applicable  
+High We did not consider the studies where index tests other than blood-based biomarkers were included (or excluded information on other index tests reported in addition to blood tests) or where index test looked at other target conditions not specified in the review (e.g. studies aimed at classifying pelvic masses as benign and malignant); therefore none of the included studies was classified as 'high concern'  
+Unclear If study reported, but did not present sufficient information on any of the following: laboratory method, sample handling, reagents used or experience of the test operators  
+Domain 3 - Reference standard  
+Description Describe the reference standard, how it was conducted and interpreted  
+Type of bias assessed Verification bias, bias in estimation of diagnostic accuracy due to inadequate reference standard  
+Review question Target condition - pelvic endometriosis, ovarian endometriosis, deep infiltrating endometriosis. Reference standard - visualisation of endometriosis at surgery (laparoscopy or laparotomy) with or without histological confirmation  
+Informaton collected Target condition, prevalence of target condition in the sample, reference standard, description of positive case definition by reference test as reported, examiners (number, level of expertise, blinding), interobserver variability, conflict of interests  
+Signalling question 1 Is the reference standard likely to correctly classify the target condition?  
+Yes If the study reported at least one of the following: surgical procedure was described in sufficient detail; criteria for positive reference standard were stated; diagnosis was confirmed by histopathology; or the procedure was performed by a team with high level of expertise in diagnosis/surgical treatment of target condition, including tertiary referral centres for endometriosis  
+No If reference standard did not classify target condition correctly; considering the inclusion criteria and nature of the reference standard, none of the studies were classified as 'no' for this item  
+Unclear If information on execution of the reference standard, its interpretation or operators was unclear  
+Signalling question 2 Were the reference standard results interpreted without knowledge of the results of the index tests?  
+Yes If operators performing the reference test were unaware of the results of the index test  
+No If operators performing the reference test were aware of the results of the index test  
+Unclear If this information was unclear  
+Risk of bias Could the reference standard, its conduct, or its interpretation have introduced bias?  
+Low If 'yes' classification for both of the above 2 questions  
+High If 'no' classification for any of the above 2 questions  
+Unclear If 'unclear' classification for any of the above 2 questions and 'high risk' judgement was not applicable  
+Concerns about applicability Are there concerns that the target condition as defined by the reference standard does not match the question?  
+Low Considering the inclusion criteria, all the studies were classified as 'low concern', unless 'unclear' judgement was applicable  
+High We excluded the studies where participants did not undergo surgery for diagnosis of endometriosis; therefore none of the included studies were classified as 'high concern'  
+Unclear Only studies where laparoscopy/laparotomy served as a reference test were included; therefore none of the included studies were classified as 'unclear concern'  
+Domain 4 - Flow and timing  
+Description Describe any participants who did not receive the index tests or reference standard or who were excluded from the 2 x 2 table; describe the interval and any interventions between index tests (sample collection) and the reference standard  
+Type of bias assessed Disease progression bias, bias of diagnostic performance due to missing data  
+Review question Less than 12-month interval between index test (sample collection) and reference standard - endometriosis may progress over the time, so we had chosen an arbitrary time interval of 12 months as an acceptable time interval between the index test and surgical confirmation of diagnosis  
+Informaton collected Time interval between index test (sample collection) and reference standard, withdrawals (overall number of reported and if explanation)  
+Signalling question 1 Was there an appropriate interval between index test (sample collection) and reference standard?  
+Yes If time interval was reported and was less than 12 months  
+No We excluded all the studies where time interval was longer than 12 months; therefore none of the included studies were classified as 'no' for this item  
+Unclear If time interval was not stated clearly, but authors description allowed us to assume that the interval was reasonably short  
+Signalling question 2 Did all patients receive the same reference standard?  
+Yes If all participants underwent laparoscopy/laparotomy as a reference standard. Considering the inclusion criteria, all the studies were classified as 'yes' for this item, as anticipated  
+No If all participants did not undergo surgery or had alternative reference standard or if only a subset of participants had surgery as reference standard, but the information on this population was not available in isolation  
+Unclear If this information was unclear. Considering the inclusion criteria, none of the included studies were classified as 'unclear' for this item  
+Signalling question 3 Were all patients included in the analysis?  
+Yes If all the participants were included in the analysis or if the participants were excluded because they did not meet inclusion criteria prior to execution of index test or if the withdrawals were less than 5% of the enrolled population (arbitrary selected cut-off)  
+No If any participants were excluded from the analysis because of uninterpretable results, inability to undergo either index test or reference standard, or unclear reasons  
+Unclear If this information was unclear  
+Risk of bias Could the patient flow have introduced bias?  
+Low If 'yes' classification for all the above 3 questions  
+High If 'no' classification for any of the above 3 questions  
+Unclear If 'unclear' classification for any of the above 3 questions and 'high risk' judgement was not applicable  
+study design (single-gate design versus two-gate design studies).
+To assess biomarkers that were not affected by endometriosis and hence were unlikely to discriminate between women with and without the disease.</objective>
+  <type_of_study>
+Published peer-reviewed studies that compared the results of one or several types of blood biomarker tests with the results obtained from a surgical diagnosis of endometriosis.
+We included the following types of studies.
+Randomised controlled trials (RCTs).
+Observational studies with the following designs.
+Single-gate design (studies with a single set of inclusion criteria defined by clinical presentation). All participants had clinically suspected endometriosis.
+Two-gate design (studies where participants are sampled from distinct populations with respect to clinical presentation). The same study includes participants with a clinical suspicion of having the target condition (e.g. women with pelvic pain) and also participants in whom the target condition is not suspected (e.g. women admitted for tubal ligation). Two-gate studies were eligible only where all cases and controls belonged to the same population with respect to the reference standard (i.e. all the participants were scheduled for laparoscopy) (Rutjes 2005).
+Studies performed on prospectively collected samples, irrespective of the actual time of the test assay. The timing of sample collection relative to surgery is important because the surgical excision of endometriotic lesions could influence blood biomarker expression and hence bias the results. Therefore, we only included studies that drew blood before the surgical procedure, i.e. 'prospectively collected'. We considered to be eligible the studies performed on tissue bank samples collected from prospectively recruited, well-defined populations, which prevented the omission of valuable data from adequately designed studies. The time interval between sample collection and laboratory testing may influence test outcomes, which could be dependent on sample storage conditions and the stability of each individual biomarker during storage and freeze-thawing. This information was not readily available for most molecules, and we did not address it in this review, but we will consider it in future updates if more evidence emerges.
+We did not impose limits on eligibility related to the healthcare settings where the study took place, the language of publication, the number of participants in the included studies or the number of studies that evaluated each index test.
+We excluded the following types of studies.
+Narrative or systematic reviews.
+Studies of retrospective design where investigators collected samples after execution of the reference test.
+Studies of retrospective design where investigators selected participants from retrospective review of the case notes/archived samples and where information on recruitment methods or study population was not available.
+Case reports or case series.
+Studies reported only in abstract form or in conference proceedings where the full text was not available. We applied this limitation after facing substantial difficulty in obtaining the information from the abstracts, which precluded a reliable assessment of eligibility and methodological quality.</type_of_study>
+  <participants>
+Study participants included reproductive-aged women (puberty to menopause) with suspected endometriosis based on clinical symptoms, pelvic examination or both, who undertook the index test as well as the reference standard.
+ came from populations of women undergoing abdominal surgery for the following indications.
+Clinically suspected endometriosis (pelvic pain, infertility, abnormal pelvic examination, or a combination of the above).
+Ovarian mass, regardless of symptoms.
+A mixed group consisting of women with suspected endometriosis/ovarian mass or women with other benign gynaecological conditions (e.g. surgical sterilisation, fibroid uterus, etc).
+Asymptomatic women who have an incidental finding of endometriosis at surgery performed for another indication.
+Studies that included participants of postmenopausal age were eligible when the data for the reproductive age group was available in isolation. We excluded studies with participants that clearly would not undergo the index test in the relevant clinical situation or would not benefit from the test (e.g. women with ectopic pregnancies or acute pelvic inflammatory disease). We also excluded publications that only analysed participants with a positive index test or reference standard and did not provide data for the whole cohort.</participants>
+  <index_tests>
+We assessed any type of blood-based biomarker for endometriosis either separately or in combination with other blood tests. We included index tests performed on whole blood, plasma or serum. We present the assessed index tests in Table 2 (classified by biological subgroups) and in Appendix 1 (alphabetical order with annotation for biological subgroups). We included the tests performed in one or several phases of menstrual cycle.
+The combined evaluations of blood biomarkers with other methods for diagnosing endometriosis (e.g. pelvic examination, imaging, urine or endometrial tests) are beyond the scope of this review and are presented separately in another review, 'Combined tests for the non-invasive diagnosis of endometriosis'. We excluded studies that solely assessed specific technical aspects, presented qualitative descriptions of lesion appearance or reported interobserver variability of the index tests, without reporting the data on diagnostic performance. When the evaluated biomarker(s) showed differential expression between the groups of women with and without endometriosis, we only considered the study if it reported data with sufficient detail for the construction of 2 x 2 contingency tables. However, when the contingency tables were not available because the expression level of index test did not significantly differ between the groups and the inclusion criteria were otherwise met, we made a critical appraisal and presented the study in the descriptive part of the review. Thus, we evaluated the adequately designed studies that identified biomarkers without diagnostic value, as they provide information that is likely to focus future research on other more clinically useful biomarkers.This methodology also identified biomarkers that were associated with endometriosis in some but not other studies. We did not include evaluations of screening or predictive accuracy tests in this review.
+We considered the diagnostic performance of an index test to be high when the test reached the criteria for a replacement test (sensitivity of equal or greater than 0.94 with specificity of equal or greater than 0.79) or triage test (sensitivity of equal or greater than 0.95 with specificity of equal or greater than 0.50 or vice versa) or approached these criteria (diagnostic estimates within 0.05 of the set thresholds). We considered all other diagnostic estimates to be low.</index_tests>
+  <target_conditions>
+Pelvic endometriosis, defined as endometrial tissue located in the pelvic cavity: involving any of the following: pelvic organs, peritoneum and pouch of Douglas.
+We assessed three types of pelvic endometriosis.
+Peritoneal endometriosis, defined as endometrial deposits detected on peritoneum covering pelvic organs, pelvic side walls or pouch of Douglas.
+Ovarian endometriosis (endometrioma), defined as an ovarian cyst lined by endometrial tissue, appearing as an ovarian mass of varying size.
+Deep infiltrating endometriosis (DIE), defined as subperitoneal infiltration of endometrial implants, i.e. when the endometriotic implants penetrate the retroperitoneal space at a distance of 5 mm or more (Koninckx 1991). DIE may be present in multiple locations, involving either the anterior or posterior pelvic compartments, or both.
+We did not include certain rare types of endometriosis such as extrapelvic, bladder and ureteric endometriosis because the majority were reported in case reports or case series, and laparoscopy or laparotomy are not reliable reference standards for these conditions.
+We excluded the studies where diagnosis of endometriosis was not the primary outcome (e.g. malignant versus benign masses or normal versus abnormal pelvis) and separate data for endometriosis was not available.
+We also excluded the studies where the findings of the index test formed the basis of selection for the reference standard, because this was likely to distort an assessment of the diagnostic value of the index test.
+We did include studies that recruited selected populations of women with endometriosis (i.e. those with specific rASRM stages), because there is a poor correlation between the rASRM classification and infertility or pain symptoms. Exclusion of these studies could result in the loss of potentially important diagnostic information from otherwise eligible publications. Where possible, we addressed the impact of these studies in the assessment of heterogeneity. When a study analysed a large population with a wide spectrum of endometriosis and additionally reported a subgroup analysis of the different stages of disease severity, we only considered estimates for the entire population. This is because a subgroup analysis would not directly address the review question regarding the clinical utility of the biomarker in disease detection.</target_conditions>
+  <reference_standards>
+The reference standard was visualisation of endometriosis at surgery (laparoscopy or laparotomy) with or without histological confirmation, as this is currently the best available test for endometriosis. If reported, we reviewed information regarding the inter- and intraobserver correlation of the reference standard.
+We only included studies in which the reference test was performed within 12 months of the blood sample collection, on the assumption that disease status could change within a period of one year or longer, either naturally or as a result of treatment. We excluded studies in which the participants did not undergo the reference standard or where the findings of the index test formed the basis of selection for undertaking the reference standard, as this was likely to distort an assessment of the diagnostic value of the index test.
+</reference_standards>
+</root>

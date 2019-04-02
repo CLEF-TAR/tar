@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of the ¹⁸F-FDG-PET index test for detecting people with MCI at baseline who would clinically convert to ADD or other forms of dementia at follow-up. Although we want to identify whether 'early forms of Alzheimer's disease dementia' are present at the moment of examination, there is no reference standard to make a final diagnosis of early ADD. Follow-up is therefore needed to reconstruct what was going on at the time of the index examination. In this context, it is clear that the duration of follow-up becomes critical, i.e. sufficiently long to capture the natural course of conversion.
+Secondary objectives
+To investigate heterogeneity of test accuracy in the included studies.
+We expect that heterogeneity will be likely and that it will be an important component of the review. The potential sources of heterogeneity, which we will use as a framework for the investigation of heterogeneity, include target population, index test, target disorder and study quality.</objective>
+  <type_of_study>
+We consider longitudinal cohort studies in which index test results are obtained at baseline and the reference standard results at follow-up (see below for detail about the nature of the index test and reference standard). These studies necessarily employ delayed verification of conversion to dementia and are sometimes labelled as ‘delayed verification cross-sectional studies’ (Bossuyt 2004; Bossuyt 2008; Knottnerus 2002). 
+We also consider case-control studies if they incorporate a delayed verification design. This occurs in the context of a cohort study, so these studies are invariably diagnostic nested case-control studies. We only include data on performance of the index test to discriminate between people with MCI who convert to dementia and those who remained stable from those studies. We have not considered data from healthy controls or any other control group.</type_of_study>
+  <participants>
+ recruited and clinically classified as those with MCI at baseline were eligible for this review. We include studies that used the Petersen or revised Petersen criteria (Petersen 1999; Petersen 2004; Winblad 2004) or the Clinical Dementia Rating (CDR = 0.5) scale (Morris 1993) or any of the 16 different classifications of MCI described by Matthews 2008 as diagnostic criteria for MCI. Those criteria are presented in Table 1 and Table 2.
+Table 1. Classification systems for describing mild cognitive impairment according to Matthews 2008
+System Description Impairment
+Age-related cognitive change
+ACMI
+Age-consistent memory
+impairment
+Memories aging in accord with normative expectations; individual aged 50 to 79 and reports a decline in memory verified using objective memory testing performance (within ± 1 standard deviation of aged norms on 75% of tests (memory) administered); preserved general functioning.
+ARCD Age-related cognitive decline Objectively identified decline in memory and cognitive functioning considered to be a normal consequence of aging.
+Category systems
+SMC Subjective memory complaint Self-reported decline in memory.
+MMSE MCI Mini-Mental State Examination Classification based on MMSE cut-offs (maximum score 30). 'Normal' defined as a score from 27 to 30; MCI defined as a score from 22 to 26; and 'impaired' defined as a score &lt; 21.
+Pathological decline
+MNCD Mild neurocognitive disorder Impairment resulting from a general medical condition; reported decline in cognitive functioning supported by formal testing; deficits observed in at least 2 areas of cognitive functioning; interference in social, occupational, or other areas of functioning.
+CIND Cognitive impairment no dementia Cognitive impairment in one or more domains (including memory and non-memory domains) that can have a variety of aetiologies.
+BSF
+Benign senescent
+Forgetfulness
+Impairment in remote memory and intact recent memory; awareness of the impairment and use of compensatory
+strategies.
+AAMI Age-associated memory impairment Subjective and objective memory loss associated with normal aging; individual aged 50 and older and shows adequate intellectual function (i.e. without dementia).
+MD Minimal dementia Cognitive impairment in memory and minor and variable errors in orientation; no evidence of impaired occupational or social functioning; self care unimpaired.
+LCD Limited cognitive disturbance Reported decline in memory with use of compensatory strategies; occasional forgetfulness (e.g. names, places); 1 or 2 errors on cognitive (memory) testing.
+QD Questionable dementia Impaired memory and non-memory test performance; no significant activity of daily living or instrumental activity of daily living interference.
+AACD Age-associated cognitive decline Self- or informant report of cognitive decline (gradual and present for 6 months); objective difficulties in any of the following domains: learning and memory, attention and concentration, thinking, language, and visuospatial functioning
+MCD Mild cognitive disorder Decline in cognitive performance, including memory impairment and learning or concentration difficulties; complaint confirmed by cognitive tests; may precede, accompany, or follow a wide variety of infections or physical disorders.
+Mayo Clinic Criteria
+N-MCI Non-amnestic mild cognitive impairment Subjective memory complaint; normal general cognitive function; normal range of activities of daily living; objective impairment in 1 or more domains other than memory.
+A-MCI Amnestic mild cognitive impairment Subjective memory complaint; normal general cognitive function; normal range of activities of daily living; impaired memory performance; normal non-memory test performance
+M-MCI Multiple mild cognitive impairment Subjective memory complaint; normal general cognitive function; normal range of activities of daily living; impaired memory and nonmemory test performance
+Table 2. Criteria for the diagnosis of mild cognitive impairment
+MCI: mild cognitive impairment
+Petersen 1999
+Memory complaint, preferably corroborated by an informant.
+Impaired memory function compared for age and education.
+Preserved general cognitive function.
+Intact activities of daily living.
+Not demented.
+Petersen 2004
+  4 subtypes of MCI were identified:
+Amnesic mild cognitive impairment, single domain – isolated memory impairment of more than 1.0 SD compared with the age- and education-specific norms, and no difficulty in any other area of cognitive functioning.
+Amnesic mild cognitive impairment, multiple domain – 2 or more cognitive domains are impaired, 1 of which is memory impairment (impairment of more than 1.0 SD below the mean of the respective age- and education-matched population).
+Non-amnesic mild cognitive impairment, single domain – impairment in a single domain other than memory of more than 1.0 SD.
+Non-amnesic mild cognitive impairment, multiple domains – impairments in 2 or more domains of more than 1.0 SD but no memory impairment.
+  All 4 subtypes of mild cognitive impairment also have to meet the following criteria:
+a)  the presence of a complaint about memory – participants or informants (or both) reporting memory impairment.
+b)  intact ability to perform activities of daily living – forgetfulness not compromising overall functional ability; impairment owing to physical disease not sufficient for exclusion.
+c)   absence of dementia – assessed by DSM–IV criteria.
+  Morris 1993
+  Clinical Dementia Rating (CDR) is a scale used to classify patients along a continuum from normal aging through Alzheimer’s disease. This scale describes a continuum from normal (CDR 0) through questionable dementia or MCI (CDR 0.5) to mild (CDR 1), moderate (CDR 2), and severe (CDR 3) dementia.
+  Patient's cognitive and functional performances are assessed in 6 areas: memory, orientation, judgement and problem solving, community affairs, home and hobbies, and personal care. Scores in each of these areas are combined to obtain the total score.
+We exclude those studies that involve people with MCI possibly caused by: i) current use or history of alcohol/drug abuse; ii) Central Nervous System trauma (e.g. subdural haematoma), tumour or infection; iii) other neurological conditions e.g. Parkinson’s or Huntington’s diseases.</participants>
+  <index_tests>
+¹⁸F-FDG PET biomarker test
+There are currently no generally accepted standards for a ¹⁸F-FDG positivity threshold, and therefore we have used the criteria which were applied in each included primary study to classify participants as either ¹⁸F-FDG-positive or ¹⁸F-FDG-negative, according to the degree of glucose metabolism in selected brain regions. Some studies apply a qualitative assessment of PET scans, while some apply both qualitative and quantitative assessments. Moreover, different thresholds are used in quantitative studies. While this may generate heterogeneity it should be noted that the addition of quantitative analysis (in the interpretation of the ¹⁸F-FDG PET brain scan) in clinical practice is done in order to support the visual (qualitative) reading of the scan by the physician.
+A range of thresholds have been used in primary research, for instance: i) "the regional cerebral glucose metabolism ratio (rCGM-r) is lower than 80% of whole brain mean of control subjects" (Chételat 2003); ii) "the rCGM-r of temporo-parietal and posterior cingulate &lt; 1.3 - 8" (Anchisi 2005).
+We considered the use of any image analysis technique, ¹⁸F-FDG injection dose, the time between ¹⁸F-FDG injection and PET acquisition, and ¹⁸F-FDG reduction regions (e.g. parietal, temporal, frontal lobes, posterior cingulated, precuneus). The exact administered ¹⁸F-FDG activity does not affect the PET examination (as long as it ranges between the accepted limits for acquiring proper images), as this can be compensated for by the duration of the scan; the number of counts detected by the scanner is the key finding.
+The accepted limits of administered activity are defined by guidelines published by the Nuclear Medicine Societies. The two major ones are the Society of Nuclear Medicine (SNM, USA) (Waxman 2009) and the European Association of Nuclear Medicine (EANM, Europe) (Varrone 2009). According to SNM, the recommended ¹⁸F-FDG activity in adults for brain PET is 185 - 740 MBq (or 5 - 20 mCi). According to EANM, the recommended administered activity for adults is 300 – 600 MBq (typically 370 MBq) in 2D mode and 125 – 250 MBq (typically 150 MBq) in 3D mode. All studies included in this review demonstrated homogeneity in the protocol followed, with no substantial differences, regarding administered dose or scanning acquisition followed. Moreover, despite the between-studies differences regarding interpretation criteria, the evaluation of the PET scans was based on the fundamental principle of detection of a pattern of brain hypometabolism (decreased ¹⁸F-FDG uptake) in people with MCI that is topographically consistent with the respective hypometabolic pattern expected to be seen in ADD. This means detection of regional metabolic reductions mainly in the temporo-parietal and posterior cingulate cortices.
+The differences in exact timing of image acquisition also do not influence the study, as long as the acquisition does not start earlier than 30 minutes after ¹⁸F-FDG injection. It is recommended, however, that each department follow a standard protocol with a fixed time for starting the acquisition (e.g. 30 or 60 minutes after injection) (Varrone 2009; Waxman 2009). The aim of the acquisition is the good contrast between grey and white matter.
+We did not include any comparator test because there are currently no standard practice tests available for the diagnosis of dementia. We compared the index test with a reference standard.</index_tests>
+  <target_conditions>
+There are two target conditions in this review:
+1. Alzheimer’s disease dementia (conversion from MCI to Alzheimer’s disease dementia);
+2. Other forms of dementia (conversion from MCI to other forms of dementia, i.e. any or all of vascular dementia, dementia with Lewy bodies, or fronto-temporal dementia).</target_conditions>
+  <reference_standards>
+For the purpose of this review, several definitions of ADD are acceptable. We Included studies that applied probable or possible NINCDS-ADRDA criteria (McKhann 1984). We also considered those studies that used the Diagnostic and Statistical Manual of Mental Disorders (DSM) (APA 1987; APA 1994) and International Classification of Diseases (ICD) (ICD-10 2010) definitions for ADD.
+Similarly, differing clinical definitions of other dementias are acceptable. For Lewy body dementia the reference standard is the McKeith criteria (McKeith 1996; McKeith 2006). For fronto-temporal dementia the reference standards are the Lund criteria (Lund Manchester 1994), Neary 1998, Boxer 2005, DSM-III (APA 1987), DSM-IV (APA 1994), ICD-9 (ICD-9 2006), ICD-10 (ICD-10 2010). For vascular dementia the reference standards are the NINDS-ARIEN criteria (Román 1993), DSM-III (APA 1987), DSM-IV (APA 1994), ICD-9 (ICD-9 2006) and ICD-10 (ICD-10 2010).
+The time interval over which progression from MCI to ADD or other forms of dementia occurs is important. We chose one year as the minimum period of delay in the verification of the diagnosis (i.e. the time between the assessment at which a diagnosis of MCI is made and the assessment at which the diagnosis of dementia is made).</reference_standards>
+</root>

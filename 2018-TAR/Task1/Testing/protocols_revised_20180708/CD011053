@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of CTPA, lung scintigraphy and MRA for the diagnosis of PE during pregnancy. and to calculate the diagnostic accuracy of these tests in relation to the reference standard of pulmonary angiography or clinical follow-up for at least six weeks for occurrence of symptomatic PE.
+Secondary objectives
+To determine the number of inconclusive test results for each diagnostic test or diagnostic strategy, defined as neither showing nor excluding PE.
+We aimed to investigate the effects of following clinical factors on the negative predictive value of index tests.
+1. Prior testing (e.g. using clinical decision rule results and D-dimer testing).
+2. Gestational age.
+3. Type of reference standard.
+4. Technological advances of CTPA (multi-slice vs single-slice).</objective>
+  <type_of_study>
+We considered studies with a prospective or retrospective consecutive patient series design eligible for inclusion. The minimum sample size was set at 25 per index test, in light of the a priori chance of PE of 4%; we deemed smaller studies uninformative. Studies could still be included if patients received one of multiple index tests and the choice between tests was not random and was not based on a clear protocol, as long as recruitment was consecutive. We considered inclusion consecutive if study authors described it using this or similar terms. The quality item on consecutive inclusion could still be scored 'no' on the basis of criteria provided in Table 1 (see below). In studies in which the index test could be performed multiple times for one patient, study authors reported the index test result on a patient or scan basis. In both cases, data on index test results in relation to reference results had to be extractable from the article or provided on request by study authors. We excluded case-control studies.
+Table 1. QUADAS-2 checklist
+CTPA: computed tomography pulmonary angiography.
+CUS: compression ultrasonography.
+DVT: deep vein thrombosis.
+PA: pulmonary angiography.
+PE: pulmonary embolism.
+  Item plus signalling questions Criteria for scoring 'yes', 'no' and 'unclear'
+1
+PATIENT SELECTION
+Was a consecutive or random sample of patients enrolled?
+Was a case-control design avoided?
+Did the study avoid inappropriate exclusions?
+We will score this item 'yes' when patients were consecutively or randomly selected; 90% or more were evaluated at the hospital; 5% or less of had received anticoagulant therapy within 24 hours before testing; 30% or less were given a diagnosis of comorbidity such as chronic obstructive pulmonary disease or other pulmonary disease, malignancy or pregnancy complications (preeclampsia, syndrome of haemolysis, elevated liver enzymes and low platelets or eclampsia); and 10% or less had undergone prior testing for this episode of suspected PE. We will score 'no' if one of these criteria was not met.
+2
+INDEX TEST
+Were index test results interpreted without knowledge of results of the reference standard?
+We will score this item 'yes' in the following cases: if study authors state that the index test interpreter was unaware of the result of the reference test; or if the order of testing was index test before reference test for every patient. Even if clinical follow-up was the reference test, the order of testing has to be stated for the item to be scored 'yes'. We will score the item ‘no’ for studies in which it is stated that the interpreter of the index test was aware of the result of the reference test. In other cases, we will score this as 'unclear'.
+In cases of studies directly comparing the diagnostic accuracy of 2 index tests against the reference standard, these test results had to be interpreted without knowledge of the results of the comparator index test, and we will score this item similarly to the approach described above.
+3
+REFERENCE STANDARD
+Is the reference standard likely to correctly classify the target condition?
+Were reference standard results interpreted without knowledge of results of the index test?
+We considered both PA and clinical follow-up of at least 6 weeks as useful for correct classification of the target condition, the latter only if objective diagnostic tests are used in cases of suspected venous thromboembolism. We will score this item 'yes' if study authors state that reference tests were interpreted without knowledge of results of the index test. Furthermore, in cases of clinical follow-up as a reference standard, any clinical suspicion of venous thrombosis during follow-up needs to be followed by objective diagnostic testing (i.e. CUS or venography for suspicion of DVT, and scintigraphy, CTPA or pulmonary angiography for clinical suspicion of PE). If a patient died during follow-up, we classified death as caused by PE in cases of confirmation by autopsy, in cases of an objective test positive for PE before death or if PE could not be confidently excluded as the cause of death.
+4
+FLOW AND TIMING
+Was an appropriate interval between index test(s) and reference standard provided?
+Did all patients receive a reference standard?
+Did all patients receive the same reference standard?
+Were all patients included in the analysis?
+With PA, we will consider a time period of less than 24 hours between index and reference tests as short enough to ensure that the target condition did not change between tests, either because of natural progression of the disease or because of therapeutic intervention. For studies using pulmonary angiography as the reference test, we will score this item 'yes' if the time between index and reference tests was less than 24 hours.
+Similarly, for studies directly comparing diagnostic accuracy of index tests, we will consider a time period of less than 24 hours between index tests and the reference test as short enough.
+During clinical follow-up, the disease may diminish through natural progression or through intervention. Or the condition may arise during follow-up if it was not present at the time of the index test. Therefore, we will score studies using clinical follow-up 'no' for this item.
+We will score this item 'no' if less than 90% or a non-random selection of patients underwent the reference test.
+We will score this item 'no' if less than 90% of patients who had an index test result underwent pulmonary angiography or had clinical follow-up as the reference test.</type_of_study>
+  <participants>
+ Participants were pregnant women with clinical suspicion of PE. Conditions for suspicion of PE and confirmation of pregnancy were left to the discretion of the authors of included studies. We did not include data on postpartum or asymptomatic patients.
+If not all women in the study met the inclusion criteria of the present review, data had to be extractable for relevant participants. If relevant data were not extractable and could not be supplied by the study author, we excluded the study. Study populations from secondary and tertiary care settings, comprising inpatients and outpatients, were eligible for inclusion. We excluded primary care patients because test accuracy can vary with care setting.</participants>
+  <index_tests>
+Studies investigating CTPA, lung scintigraphy, either planar or V/Q SPECT and either with or without ventilation scanning, and MRA as an index test were eligible for inclusion. If the patient had undergone the same index test more than once, we included only data on the first index test performed. If the first test was followed by a different index test, we included this test result. Data on original assessments of the index test result in the clinical setting were preferred over re-assessments for study purposes.</index_tests>
+  <target_conditions>
+The target condition of this review is symptomatic PE. For studies that provided multiple definitions of non-diagnostic scans according to the level of the pulmonary vasculature, we considered scans as non-diagnostic when they were of insufficient quality to allow visualisation of PE at segmental or more proximal levels.</target_conditions>
+  <reference_standards>
+We accepted as reference standards both pulmonary angiography and clinical follow-up for the occurrence of symptomatic PE for at least six weeks. We anticipated that few or no studies would use pulmonary angiography as the reference standard. We considered a PE confirmed within three months of the index test as a positive reference test.
+The diagnosis of PE was confirmed on pulmonary angiography in the case of a new intraluminal filling defect, with cut-off of contrast material in a vessel with diameter greater than 2.5 mm.
+If clinical follow-up was applied as the reference standard, objective diagnostic testing had to be performed in the case of symptoms of PE. Objective criteria for the diagnosis of PE included a (new) intraluminal filling defect on CTPA; cut-off of contrast material in a vessel greater than 2.5 mm in diameter; a new perfusion defect involving at least 75% of a segment, with corresponding normal ventilation (i.e. a high-probability lung scan); a new non-diagnostic lung scan accompanied by documentation of DVT on ultrasonography or venography; and confirmation of a new PE at autopsy. For clinical follow-up, PE was also diagnosed when symptoms of PE were combined with a diagnosis of DVT. The objective criterion for the diagnosis of DVT was a (new) non-compressible venous segment or a substantial increase (4 mm or more) in the diameter of the thrombus during full compression in a previously abnormal segment on ultrasonography, or a new intraluminal filling defect on venography. In case of an inconclusive index test, we considered the reference test positive if the patient was treated on clinical grounds without objective evidence of VTE on follow-up. This provides a conservative estimate of both negative predictive value and sensitivity in the primary analysis.
+When both pulmonary angiography and clinical follow-up were performed, we considered pulmonary angiography the reference standard.</reference_standards>
+</root>

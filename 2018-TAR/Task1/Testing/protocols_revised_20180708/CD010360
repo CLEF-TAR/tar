@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+To assess the diagnostic test accuracy of frozen section (index test) in the histopathological diagnosis of ovarian cancer in women with suspicious pelvic masses as verified by paraffin section (reference standard).
+Within our review we aimed to establish the diagnostic accuracy of frozen section in comparison to a reference standard diagnosis of cancer from paraffin section, using measures of sensitivity and specificity. There were two primary objectives.
+1. To determine the accuracy of frozen section to identify cancer cases, using a test threshold for frozen section that defines cancer as a positive test result and considers both borderline and benign results as test negative (Table 1). The rationale is that clinical and surgical management is different where a case of malignancy is identified.
+Table 1. Accuracy of frozen section malignant results to identify women with malignancy
+ Frozen section
+  Paraffin section
+positive test
+Paraffin section
+negative test
+Malignant Borderline Benign
+Malignant True positive False positive False positive
+Borderline False negative True negative True negative
+Benign False negative True negative True negative
+2. To assess the accuracy of frozen section to identify cancer, using a test threshold for frozen section that defines both cancer and borderline cases as positive test results and considers benign results as test negative (Table 2). The rationale is that the literature reports a high rate of cases where the frozen section result was borderline, but the final result from paraffin section was malignant. There are potentially serious repercussions from managing patients with a cancer outside a cancer pathway when 'under staging' occurs, that is, if patients with malignancy do not receive surgical staging, including lymphadenectomy. This is particularly relevant in women found to have borderline ovarian masses at frozen section, as many will receive a final paraffin section diagnosis of malignancy.
+Table 2. Accuracy of frozen section malignant or borderline results to identify women with malignancy
+ Frozen section
+  Paraffin section
+positive test
+Paraffin section
+negative test
+Malignant Borderline Benign
+Malignant True positive False positive FPFalse positive
+Borderline True positive False positive False positive
+Benign False negative True negative True negative
+Which threshold is considered most useful in practice depends on the clinicians' judgement.
+Secondary objectives
+1. To establish if intraoperative frozen section analysis allows the surgeon to accurately identify the cases of early stage ovarian cancer that may benefit from optimal surgical staging.
+2. To assess the accuracy of final diagnosis of malignancy, in a subgroup of women with a frozen section result of either borderline or cancer. This corresponds to one strategy for referral for cancer treatment.</objective>
+  <type_of_study>
+We included studies published in any language and, where possible, had non-English articles translated. We excluded studies that involved ten or fewer patients.
+Studies were eligible if:
+Both frozen section analysis and paraffin section analysis were performed in the same patient;
+The absolute numbers of observations of true positives, false positives, false negatives and true negatives were available or derivable from the data reported in the primary studies.
+We included both prospective and retrospective studies. However, we excluded retrospective studies that collected data for a specific histological type only, such as borderline tumours, due to the risk of reporting bias.
+We excluded studies in which frozen section analysis was performed for conditions other than ovarian malignancy as well as studies for which no English translation was available.</type_of_study>
+  <participants>
+Women presenting to a secondary or tertiary care setting with a pelvic mass suspicious of ovarian cancer, in whom physicians employed frozen section analysis prior to paraffin section analysis.</participants>
+  <index_tests>
+Intraoperative frozen section histopathological analysis. Test results were classified as malignant, borderline or benign. We present results using two different thresholds for the index test; malignant vs borderline/benign, and malignant/borderline vs benign. The reference standard remains diagnosis of malignancy in all analyses in the review.
+The diagnostically important distinction to make is between malignant/borderline and benign frozen section, because although only women with malignant disease require surgical staging, studies have found the risks of borderline frozen section returning as malignant to be high, and inadequately staging these women at primary laparotomy may be deemed unacceptable (Cross 2012; Puls 1997). However, many would argue that performing unnecessary staging on women with borderline disease confers unnecessary morbidity.</index_tests>
+  <target_conditions>
+Ovarian malignancy, not obvious at a surgically or radiologically advanced stage.</target_conditions>
+  <reference_standards>
+Paraffin section histopathological analysis. Test results are classified as malignant, borderline or benign. We present results using the threshold for women classified as having ovarian cancer as 'malignant' versus women not having cancer as 'borderline or benign'.</reference_standards>
+</root>

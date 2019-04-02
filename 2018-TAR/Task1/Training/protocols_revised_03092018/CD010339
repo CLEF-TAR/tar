@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine and compare the accuracy of ERCP and IOC for the diagnosis of common bile duct stones.
+Secondary objectives
+The secondary objective of this review is to investigate variation in the diagnostic accuracy of ERCP and IOC according to the following potential sources of heterogeneity.
+Studies at low risk of bias versus studies with unclear or high risk of bias (as assessed by the quality assessment tool for diagnostic accuracy studies (QUADAS-2) tool (Table 1)).
+Table 1. The QUADAS 2 tool for assessing methodological quality of included studies
+Domain 1: Participant sampling Signalling question Signalling question Signalling question Risk of bias Concerns for applicability
+Domain 1: Participant sampling
+Patient sampling Was a consecutive or random sample of participants enrolled? Was a case-control design avoided? Did the study avoid inappropriate exclusions? Could the selection of participants have introduced bias? Were there concerns that the included participants and setting did not match the review question?
+Yes: all consecutive participants or random sample of participants with suspected common bile duct stones were enrolled.
+No: selected participants were enrolled.
+Unclear: this was not clear from the report.
+Yes: case-control design was avoided.
+No: case-control design was not avoided.
+Unclear: this was not clear from the report.
+Yes: the study avoided inappropriate exclusions (i.e., people who were difficult to diagnose).
+No: the study excluded participants inappropriately.
+Unclear: this was not clear from the report.
+Low risk: 'yes' for all signalling questions.
+High risk: 'no' or 'unclear' for at least 1 signalling question.
+Low concern: the selected participants represent the people in whom the tests would be used in clinical practice (see diagnostic pathway (
+Figure 1).
+High concern: there was high concern that participant selection was performed in a such a way that the included participants did not represent the people in whom the tests will be used in clinical practice.
+Domain 2: Index test
+Index test(s) Were the index test results interpreted without knowledge of the results of the reference standard? If a threshold was used, was it pre-specified? - Could the conduct or interpretation of the index test have introduced bias? Were there concerns that the index test, its conduct, or its interpretation differed from the review question?
+Yes: index test results were interpreted without knowledge of the results of the reference standard.
+No: index test results were interpreted with knowledge of the results of the reference standard.
+Unclear: this was not clear from the report.
+Yes: if the criteria for a positive test result were pre-specified.
+No: if the criteria for a positive test result were not pre-specified.
+Unclear: this was not clear from the report.
+-
+Low risk: 'yes' for all signalling questions.
+High risk: 'no' or 'unclear' for at least 1 of the 2 signalling questions.
+High concern: there was high concern that the conduct or interpretation of the index test differed from the way it is likely to be used in clinical practice.
+Low concern: there was low concern that the conduct or interpretation of the index test differed from the way it is likely to be used in clinical practice.
+Domain 3: Reference standard
+Target condition and reference standard(s) Was the reference standard likely to classify the target condition correctly? Were the reference standard results interpreted without knowledge of the results of the index tests? - Could the reference standard, its conduct, or its interpretation have introduced bias? Were there concerns that the target condition as defined by the reference standard did not match the review question?
+Yes: all participants underwent the acceptable reference standard.
+No: if all participants did not undergo an acceptable reference standard. Such studies were excluded from the review.
+Unclear: if the reference standard that the participants underwent was not stated. Such studies were excluded from the review.
+Yes: reference standard results were interpreted without knowledge of the results of the index test.
+No: reference standard results were interpreted with the knowledge of the results of the index test.
+Unclear: this was not clear from the report.
+-
+Low risk: 'yes' for all signalling questions.
+High risk: 'no' or 'unclear' for at least 1 of the 2 signalling questions.
+Low concern: participants underwent endoscopic or surgical exploration for common bile duct stone.
+High concern: no participants underwent endoscopic or surgical exploration for common bile duct stone.
+Domain 4: Flow and timing
+Flow and timing Was there an appropriate interval between index test and reference standard? Did all participants receive the same reference standard? Were all participants included in the analysis? Could the participant flow have introduced bias? -
+Yes: the interval between index test and reference standard (including any repeat procedures) was ≤ 4 weeks (arbitrary choice).
+No: the interval between index test and reference standard was &gt; 4 weeks.
+Unclear: this was not clear from the report.
+Yes: all participants underwent endoscopic or surgical exploration for common bile duct stone irrespective of the index test results.
+No: participants underwent endoscopic or surgical exploration if the index test results were positive and underwent clinical follow-up for at least 6 months if the index test results were negative.
+Unclear: this was not clear from the report. Such studies were excluded.
+Yes: all participants meeting the selection criteria (selected participants) were included in the analysis, or data on all the selected participants were available so that a 2 x 2 table including all selected participants could be constructed.
+No: not all participants meeting the selection criteria were included in the analysis or the 2 x 2 table could not be constructed using data on all selected participants.
+Unclear: this was not clear from the report.
+Low risk: 'yes' for all signalling questions.
+High risk: 'no' or 'unclear' for at least 1 signalling question.
+-
+Full-text publications versus abstracts (this may indicate publication bias if there is an association between the results of the study and the study reaching full publication) (Eloubeidi 2001).
+Prospective versus retrospective design.
+Symptomatic versus asymptomatic common bile duct stones (the presence of symptoms may increase the pre-test probability). People with symptoms were defined as people showing upper right quadrant abdominal pain, jaundice, acute cholangitis, or acute pancreatitis (Anciaux 1986; Roston 1997; Raraty 1998; Toh 2000; Tranter 2003).
+Prevalence of common bile duct stones in each included study. The prevalence of common bile duct stones in the population analysed by each included study may vary and cause heterogeneity. Prevalence may also change with people with co-morbidities that would predispose them to common bile duct stones, such as primary sclerosing cholangitis, Caroli's disease, hypercholesterolaemia, sickle cell anaemia, and sphincter of Oddi dysfunction.
+Proportion of people with previous cholecystectomy. Cholecystectomy may cause dilation of the common bile duct (Benjaminov 2013), and subsequently change the accuracy of the index test particularly imaging modalities.
+Proportion of people with common bile duct strictures (only for index tests that use contrast material, as strictures may prevent contrast material filling the common bile duct completely and, therefore, change the accuracy of the index test).
+MRCP or EUS, if performed, prior to the index test.</objective>
+  <type_of_study>
+We included studies providing cross-sectional information comparing one or more of the index tests against a reference standard in the appropriate patient population (see Participants). We included studies irrespective of language or publication status, or whether data were collected prospectively or retrospectively. We included comparative studies in which ERCP and IOC were performed in the same study population either by giving all participants both index tests or by randomly allocating participants to receive ERCP or IOC. We excluded diagnostic case-control studies if there were at least four cross-sectional or comparative studies.</type_of_study>
+  <participants>
+People at risk of or suspected of having common bile duct stones, with or without prior diagnosis of cholelithiasis; with or without symptoms and complications of common bile duct stones, with or without prior treatment for common bile duct stones; and before or after cholecystectomy.</participants>
+  <index_tests>
+ERCP and IOC.</index_tests>
+  <target_conditions>
+Common bile duct stones.</target_conditions>
+  <reference_standards>
+We accepted the following reference standard.
+For test positives, we accepted confirmation of a common bile duct stone by extraction of the stone (irrespective of whether this was done by surgical or endoscopic methods).
+For test negatives, we acknowledged that there was no way of being sure that there were no common bile duct stones. However, we accepted negative results by surgical or endoscopic negative exploration of the common bile duct, or symptom-free follow-up for at least six months as the reference standard. Surgical or endoscopic exploration s adequate, but it is not commonly used in people with negative index tests because of its invasive nature. Therefore, we accepted follow-up as a less adequate reference test. Negative exploration of common bile duct is likely to be a better reference standard than follow-up for at least six months since most stones already present in the common bile duct are likely to be extracted in this fashion. Six months is an arbitrary choice, but we anticipated most common bile duct stones will become manifest during this period.</reference_standards>
+</root>

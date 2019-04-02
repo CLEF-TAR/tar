@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the accuracy of plasma and CSF Aß levels in identifying those participants with MCI at baseline who will convert to Alzheimer’s disease dementia or other forms of dementia over time.
+Secondary objectives
+To determine the nature, extent and impact of heterogeneity on the diagnostic accuracy of plasma and CSF Aß levels.</objective>
+  <type_of_study>
+We included all studies that had prospectively well defined cohorts with any accepted definition of cognitive decline but no dementia with baseline CSF or plasma Aß levels, or both, documented at or around the time that the above diagnoses were made. We also included studies which looked at data from those cohorts retrospectively, and contained sufficient data to construct 2 × 2 tables expressing plasma and CSF Aß biomarker results by disease status. The results in those that progressed to clinical Alzheimer's dementia were compared to those who did not progress, improved or developed another dementia.
+We excluded any studies which potentially overlapped patient data and recorded them as multiple publications. We also excluded review papers.</type_of_study>
+  <participants>
+We included participants who were diagnosed with a cognitive decline but with no dementia condition at baseline.
+The cognitive decline but no dementia group is defined as patients who have been diagnosed using any of the Petersen criteria, or Clinical Dementia Rating (CDR) = 0.5, or any of the 16 definitions included by Matthews (Matthews 2008).
+We excluded those patients or populations with cognitive decline no dementia possibly caused by:
+current or a history of alcohol or drug abuse;
+central nervous system (CNS) trauma (e.g. subdural haematoma), tumour or infection;
+other neurological conditions e.g. Parkinson’s or Huntingdon’s diseases;
+any other dementia co-morbidity e.g. frontotemporal or vascular dementias.
+We excluded studies that included patients with psychiatric, neurological, metabolic, immunological, hormonal or cerebrovascular disorders, or patients likely to have a genetic cause for their dementia (for example familial autosomal dominant Alzheimer’s disease or frontotemporal dementia, cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy, or Huntington’s disease).
+If participants were involved in disease modifying clinical trials we excluded them from the analysis.
+Patients with a family history of Alzheimer's disease dementia may be more readily diagnosed with MCI and therefore there can be spectrum bias with these participants. On this basis we examined separately those studies which included those with a known genetic predisposition.
+Similarly, early onset Alzheimer's disease dementia, defined as a diagnosis under the age of 50 years, is likely to indicate a different aetiopathogenesis from late onset Alzheimer's disease dementia (including autosomally inherited mutation in the presenilin 1 and 2 genes, or the amyloid precursor protein (Filley 2007)). We excluded studies which included patients below the age of 50 years.
+With regard to duration of follow-up, Bruscoli 2004 indicated that an annual average of 10% of MCI patients become demented and therefore cohort studies would ideally have a minimum follow-up time of 24 months. This provides a conversion rate to Alzheimer's disease dementia of approximately 19% and gives sufficient time for clinicians to diagnose a cause of MCI. Shorter durations of follow-up may yield low conversion rates.</participants>
+  <index_tests>
+Studies that assessed the accuracy of plasma or CSF measurements of:
+Aß42, or Aß40, or the ratio Aß42/Aß40 were included.
+There are currently no generally accepted standards for the plasma or CSF Aß test threshold, and therefore it was not possible to pre-specify what constituted a positive or negative result. The thresholds that we used in this review were those generated and presented within each included study. It should be noted that where Aß42 and Aß40 data were presented separately, rather than as a ratio, then both tests would be analysed separately.
+Measure of index test: Aß level in plasma or CSF, or both (ng.l-1 or pg.ml-1).
+The assays most commonly used are conventional Innogenetics INNOTEST beta-amyloid1-42 kit or the multiplexing INNO-BIA AlzBio3 for CSF, or INNO-BIA plasma Aß forms for plasma.
+We did not include a comparator test because there are currently no standard practice tests available for the diagnosis of dementia.</index_tests>
+  <target_conditions>
+There were two target conditions in this review:
+Alzheimer’s disease dementia (conversion from cognitive decline no dementia to Alzheimer’s disease dementia);
+any other forms of dementia (conversion from cognitive decline no dementia to other (non-Alzheimer's) forms of dementia);
+any dementia (conversion from cognitive decline no dementia to any form of dementia).</target_conditions>
+  <reference_standards>
+The gold standard for Alzheimer's disease dementia is a post-mortem. There is no ‘gold-standard’ ante-mortem diagnostic test for Alzheimer's disease dementia. Therefore, the reference standard in this review was conversion from MCI to Alzheimer's disease dementia based on the National Institute for National Institute of Neurological and Communicative Diseases and Stroke/Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria (McKhann 1984) to define ‘probable’ Alzheimer's disease.
+The NINCDS-ADRDA criteria define three ante-mortem groups: probable, possible and unlikely Alzheimer's disease dementia, based on evaluation of eight cognitive domains including memory and language.
+The post-consensus (on those cases in which there is a disagreement) specificity of the NINCDS-ADRDA criteria is 0.84 and its sensitivity is 0.83 (Blacker 1994) against post-mortem diagnosis. Exploring the impact of using different post-mortem definitions of Alzheimer's disease, Nagy 1998 showed that the sensitivity of ‘possible’ and ‘probable’ dementia of the Alzheimer’s type according to NINCDS-ADRDA criteria is 91% to 98% compared to the post-mortem Khachaturian criteria, Tierney A3 criteria and the CERAD protocol at autopsy. Studies using Diagnostic and Statistical Manual of Mental Disorders criteria (DSM) (DSMIII 1987; DSMIV 1994) or International Statistical Classification of Diseases and Related Health Problems (ICD) criteria (World Health Organization 2010) exclusively to diagnose Alzheimer's disease dementia were also considered though the criteria would be entered as a covariate to assess their impact on results.
+For Lewy body dementia as an outcome the reference standard is the McKeith criteria (McKeith 1996); for frontotemporal dementia, the Lund Criteria (Lund 1994); and for vascular dementia the NINDS AIREN criteria (Roman 1993).</reference_standards>
+</root>

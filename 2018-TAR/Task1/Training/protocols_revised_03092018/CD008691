@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+We investigated the diagnostic accuracy of non-invasive cardiac screening tests versus coronary angiography in potential kidney transplant recipients. We provided summary estimates of diagnostic accuracy for individual index tests to better understand the utility and limitations of these non-invasive tests.
+Secondary objectives
+We compared the diagnostic accuracy among different screening tests through:
+Direct comparison: By analysing the results of studies that assessed diagnostic accuracy of two or more tests in the same population head-to-head.
+Indirect comparison: By comparing the pooled results of studies that assessed accuracy of screening tests in separate populations. 
+The ability of screening tests to detect severe coronary artery stenosis (≥ 70% stenosis detected on coronary angiography) was also assessed and compared among different screening tests. 
+Investigation of sources of heterogeneity
+We also investigated if diagnostic accuracy varied among studies with different prevalence of symptomatic chest pain and analysed the effect. For this analysis, we included only studies that used a threshold of ≥ 70% stenosis on coronary angiography for the diagnosis of CAD. To avoid partial verification, we considered effects among study participants who underwent both the index test and coronary angiography. This methodology meant that we were able to avoid partial verification.</objective>
+  <type_of_study>
+We included all diagnostic cross sectional studies, cohort studies and randomised studies of test accuracy that compared cardiac test accuracy with results obtained from coronary angiography (the reference standard). </type_of_study>
+  <participants>
+Study participants included all patients who were considered to be potential candidates for kidney transplantation or kidney-pancreas transplantation at the time the diagnostic tests were performed. 
+Inclusion criteria
+We included studies reporting outcomes relating to patients considered to be potential candidates for kidney transplantation or kidney-pancreas transplantation at the time diagnostic tests were performed. To ensure that our review was accessible and succinct, we chose to limit the population to patients with CKD who were considered candidates for kidney transplantation, but included all possible tests used to diagnose CAD.
+Exclusion criteria
+Studies were excluded if they did not explicitly state that all study participants were candidates for kidney transplantation. We also excluded studies that investigated cardiac test accuracy in patients with ESKD who were not transplant candidates (i.e. they were unselected dialysis patients, not undergoing pre-transplant assessment). Patients with ESKD who are not transplantation candidates differ from patients who are transplant candidates with respect to several key prognostic variables, such as age and fitness for surgery. These differences in the key prognostic variables may result in differences in disease prevalence and test performance. We also excluded studies which investigated patients with features of acute coronary syndrome as our aim was to investigate the performance of cardiac tests in a preoperative screening context. Where it appeared that only some of the study participants were transplantation candidates, we contacted the study authors requesting separate data for only transplantation candidates.</participants>
+  <index_tests>Any non‐ or minimally invasive test used to assess risk of CAD. These included:
+
+Stress echocardiography (using either exercise or pharmacological stress, e.g. DSE)
+
+MPS using either exercise or pharmacological stress
+
+EST
+
+EBCT
+
+ECG
+
+Conventional echocardiography
+
+Exercise ventriculography
+
+DSF
+
+CIMT
+
+Cardiopulmonary exercise testing
+
+CT coronary angiography
+
+Magnetic resonance angiography
+
+Cardiac magnetic resonance imaging.
+
+Information regarding the various index tests including the type of result produced, if cut‐off values were present, and how differences in cut‐off points were handled, is provided in Table 1.
+
+Open in table viewerTable 1. Description of index tests
+Test
+Description
+Advantages
+Disadvantages
+Type of result
+Presence of cut‐off values
+Screening tests
+MPS
+
+Stress 
+Exercise 
+dipyridamole 
+dobutamine
+
+Radionucleotide 
+thallium‐201 or Tc‐99m sestamibi radionucleotide agents
+
+ 
+This compares perfusion of myocardium at rest and after a ‘stress’ such as exercise or drugs (e.g. dipyridamole). 
+
+When coronary arteries are normal, ‘stress’ results in vasodilatation and increased coronary blood flow. However, diseased coronary arteries cannot dilate because they are already maximally dilated and there is no increase in blood flow after a stress. MPS reveals these areas as regions of decreased perfusion. A reversible perfusion defect is a sign of ischaemia. A fixed defect (when there is decreased perfusion before, during and after the stress) is an indicator of infarction.
+
+Pharmacological agents overcome limitations of exercise testing in patients with kidney disease
+Non‐invasive
+
+Provides information regarding functional status of myocardium under stress conditions
+Neither 100% sensitive nor specific
+
+Radiation dose
+
+Results subject to interpretation and reader bias
+
+False positives due to increase in attenuation artefacts caused by left ventricular hypertrophy
+
+False negatives due to balanced ischaemia (e.g. triple vessel disease)
+
+More expensive than exercise ECG
+Dichotomous (i.e. stress test positive or stress test negative)
+None. However, whether a stress test is interpreted as positive or negative depends largely on observer interpretation
+DSE
+
+Stress 
+Exercise 
+dobutamine
+Stress echocardiography compares the regional wall motion and thickness of myocardium both at rest and after stress. Regional systolic dysfunction is usually caused by CAD.
+
+Pharmacological stress agent overcomes limitations of exercise testing in patients with kidney disease
+Non‐invasive
+
+No radiation dose
+
+Provides information regarding functional status of myocardium under stress conditions
+
+Provides assessment of ventricular size and function
+Neither 100% sensitive nor specific
+
+Results subject to interpretation and reader bias
+
+Operator dependent
+
+Acoustic windows not possible in up to 20% of subjects
+
+Hypertensive response to stress agent possible
+
+Cardiomyopathies may also show regional variation in function
+Dichotomous (i.e. stress test positive or stress test negative)
+None. However, whether a stress test is interpreted as positive or negative depends largely on observer interpretation
+Exercise ECG
+
+Bruce protocol stress ECG
+Patient exercises on a treadmill while connected to an ECG. The level of exercise is increased in progressive stages. The patient's symptoms and blood pressure response are checked repeatedly. Ischaemic ECG changes or angina symptoms brought on by exercise are highly suggestive of underlying CAD
+Non‐invasive
+
+Provides information regarding functional status of myocardium under stress conditions
+Neither 100% sensitive nor specific
+
+Results subject to interpretation and reader bias
+
+Often limited by the inability of CKD patients to achieve an adequate peak exercise workload, development of exercise‐induced hypotension
+
+High proportion have abnormal baseline ECG (left ventricular hypertrophy)
+Dichotomous (i.e. stress test positive or stress test negative)
+No. However, whether a stress test is interpreted as positive or negative depends largely on observer interpretation
+Coronary artery calcium score
+
+EBCT 
+Multidetector computed tomography
+Cardiac calcium scoring is a non‐invasive test that uses computed tomography to detect the presence of calcium in plaque on the walls of the arteries of the heart (coronary arteries). A calcium score is then derived, calculated as a summation of all calcified lesions in the coronary arteries. The calcium score is then compared with a reference range appropriate to a patient's age and sex. High calcium scores are associated with higher risks of cardiovascular events
+Non‐invasive
+Neither 100% sensitive nor specific
+
+Radiation dose
+
+ 
+Continuous
+There is no uniformly agreed cut‐off value at which patients are considered at high risk of CAD. We planned to analyse results by combining data from studies which share identical cut‐off values
+Echocardiography
+
+Trans‐thoracic 
+Trans‐oesophageal
+An ultrasound of the heart that enables assessment of structure and function.
+
+Impairment in systolic function can result from pre‐existing CAD
+Provides information regarding myocardial function and regional wall abnormalities, which may suggest pre‐existing ischaemia or MI
+
+Enables assessment of structure
+Neither highly sensitive nor specific
+
+Does not provide any information of reversible ischaemia
+
+Results subject to interpretation and reader bias
+Dichotomous (e.g. presence or absence of resting wall motion abnormality)
+None
+CT coronary angiography
+Specialised form of CT that enables imaging of the heart and computerised reconstruction of coronary arteries, permitting assessment of the lumen and vessel walls
+Non‐invasive
+
+Enables diagnosis of precise location and severity of each lesion as opposed to vascular territory affected, as is the case for most functional tests.
+
+Assesses not only the lumen of the vessel but also the wall. It can also demonstrate soft atheromatous plaques, which cannot be demonstrated on conventional coronary angiography
+Radiation dose
+
+Contrast nephropathy
+
+Inability to provide opportunity for immediate intervention (as opposed to coronary angiography)
+Dichotomous (i.e. presence or absence of significant CAD)
+Yes (i.e. ≥ 50% stenosis or ≥ 70% stenosis)
+
+We planned to manage the issue of different cut points by involving an analysis that included:
+
+All studies regardless of threshold of CAD on coronary angiography (these will include both studies which have ≥ 50% stenosis and ≥ 70% stenosis
+Only studies which had ≥ 70% stenosis threshold
+Cardiac magnetic resonance imaging
+MRI of the heart that enables evaluation of its structure and function
+Non‐invasive
+
+No radiation dose
+
+Enables assessment of structure of myocardium
+
+High spatial resolution means low inter‐observer variability
+Neither highly sensitive nor specific
+
+ 
+Dichotomous (e.g. presence or absence of left ventricular systolic dysfunction)
+None
+Resting ECG
+Transthoracic interpretation of the electrical activity of the heart over time captured and externally recorded by skin electrodes
+Provides information regarding the electrical function of the myocardium, which may suggest pre‐existing ischaemia, left ventricular hypertrophy or arrhythmias
+Neither sensitive nor specific
+
+Does not provide any information of reversible ischaemia
+Dichotomous (i.e. presence or absence of certain ECG features)
+None
+CIMT
+Measurement of the thickness of artery walls, usually by external ultrasound, to detect both the presence and to track the progression of atherosclerotic disease in humans. Used as a surrogate marker for atherosclerosis
+Non‐invasive
+Neither highly sensitive nor specific
+
+Does not provide any information on cardiac function
+Continuous
+Yes. This will vary depending on the institution (e.g. 0.75 mm)
+Cardiopulmonary exercise testing
+Evaluates both cardiac and pulmonary function. Cardiac function is evaluated in terms of aerobic capacity and respiratory function.
+
+The subject is exercised on a bicycle ergometer or treadmill. The test enables calculation of maximal aerobic capacity and the point during exercise where anaerobic metabolism is used to supplement aerobic metabolism as a source of energy. These can be measured via gas exchange data
+Non‐invasive measurement of ventricular function, respiratory function and cellular function via measurement of gas exchange, as well as detection of myocardial ischaemia
+
+Excellent method of evaluating fitness and operative fitness
+Not commonly performed
+Dichotomous (e.g. stress ECG positive or stress ECG negative; presence or absence of cardiac failure) and
+
+Continuous (e.g. measurement of the maximum aerobic capacity and anaerobic threshold)
+Yes, although these will vary for different variables and for different institutions
+DSF
+Used to detect coronary artery calcification. Digital subtraction improves resolution of conventional fluoroscopic methods
+Non‐invasive
+
+Non exercise
+Not commonly used
+
+Radiation dose
+Dichotomous (i.e. presence or absence of calcification)
+None
+Exercise radionucleotide ventriculography
+Technique for a combined assessment of exercise capacity and an evaluation of ventricular size and performance
+ 
+Not commonly used
+
+Radiation dose
+Dichotomous (i.e. stress test positive or stress test negative)
+None. However, whether a stress test is interpreted as positive or negative depends largely on observer interpretation
+Reference standard
+Coronary angiography
+Coronary catheterisation is an invasive procedure to access the coronary circulation and blood filled chambers of the heart using a catheter. It can be performed for both diagnostic and interventional (treatment) purposes. It assesses the diameter of coronary artery lumens, heart chamber size and heart muscle contraction performance
+Gold standard for detecting CAD.
+
+Enables diagnosis of precise location and severity of each lesion
+
+Intervention (PTCA) possible during procedure
+High cost
+
+Lack of sensitivity to intramural coronary atherosclerosis
+
+Risk of complications
+
+Intravenous contrast media may worsen kidney function
+
+Little information on function
+
+Radiation dose
+
+Results subject to interpretation and reader bias, although to a lesser extent than functional tests
+Dichotomous (i.e. presence or absence of significant CAD)
+Yes (i.e. ≥ 50% stenosis or ≥ 70% stenosis).
+
+We managed the issue of different cut points by involving an analysis which included:
+
+All studies regardless of threshold of CAD on coronary angiography (these will include both studies which have ≥ 50% stenosis and ≥ 70% stenosis
+Only studies which had ≥ 70% stenosis threshold
+CAD: coronary artery disease; CIMT: carotid intimal medial thickness; CT: computed tomography; ECG: electrocardiograph; MPS: myocardial perfusion scintigraphy; MRI: magnetic resonance imaging; PTAC: percutaneous transluminal coronary angioplasty</index_tests>
+  <target_conditions>
+Coronary artery stenosis was defined as at least 50% narrowing in at least one epicardial coronary artery on coronary angiography. We defined severe coronary artery stenosis as ≥ 70% stenosis on coronary angiography.</target_conditions>
+  <reference_standards>Coronary angiography.</reference_standards>
+</root>

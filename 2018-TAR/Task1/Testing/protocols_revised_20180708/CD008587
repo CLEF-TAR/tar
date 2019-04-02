@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+The main objective of this review was to determine the diagnostic accuracy of HPV testing for detecting histologically confirmed CIN 2 or worse (CIN 2+), including adenocarcinoma in situ, in women participating in primary cervical cancer screening; and how it compares to the accuracy of cytological testing (liquid-based and conventional) at various thresholds.
+Secondary objectives
+Secondary objectives of the review were:
+to determine the accuracy for each test at prespecified thresholds and the accuracy of different HPV testing techniques;
+to investigate sources of heterogeneity of test accuracy in the included studies. As possible sources of heterogeneity we assessed the influence of the following covariates: the geographical location where the study was conducted, the age limits of the study population, the number of HPV types that the HPV test detects, and the likelihood of verification bias.</objective>
+  <type_of_study>
+We looked for comparative test accuracy studies where all participants had received both HPV testing and cervical cytology (paired studies) followed by partial or complete verification of the disease status with the reference standard (see below). Studies where participants were randomised to receive either only the index test or only the comparator test were not eligible to be included. Our review focuses on paired studies because the comparison of index tests in such studies is (potentially) more valid because key factors can be held similar, including population and reference standard procedure.</type_of_study>
+  <participants>
+Women participating in a cervical cancer screening programme who were not being followed up for previous cytological abnormalities. The study population could not be part of a case-control design (with a predetermined proportion of known disease positives to known disease negatives). Rather, women had to form a consecutive series; they had to be recruited as a single group with their disease status being unknown at the time of recruitment. The women had to be close to or within the age range suitable for cervical screening according to international guidelines (20 to 70 years).</participants>
+  <index_tests>
+Only HPV tests that are still currently used in clinical research practice were considered. These are:
+HC2 or newer improved signal amplification methods;
+PCR using the following primers GP5+/GP6+, MY09/11, SPF10, or CPI/II;
+Aptima (HPV E6/E7 mRNA testing);
+other techniques that were identified during the search process.
+For the HC2 method we considered two thresholds for the definition of a positive result: 1 pg/mL and 2 pg/mL; and for the other techniques the threshold used by the researchers.</index_tests>
+  <target_conditions>Target conditions
+The target condition was high grade CIN 2 or worse. Some studies used the threshold of CIN 3. We included these in the review but analysed them separately.</target_conditions>
+  <reference_standards>
+As a reference standard, we used the combination of colposcopy and histology. If colposcopy was normal, we did not require a histologic result for proof of absence of disease. If colposcopy was abnormal and a biopsy was taken, then we used the histologic result as the reference standard. We assumed that the histologic examination of material obtained by colposcopy-directed biopsy, loop excision or endocervical curettage provided complete assessment of the considered disease status.
+Colposcopy as a reference standard is a subjective examination and has low sensitivity for the detection of small CIN 3 lesions (Jeronimo 2006). On the other hand its performance in quality-assured settings is not at all insensitive for clinically important CIN 3. The ideal reference standard for the evaluation of a cervical screening test would be the excision of the whole transformation zone and its subsequent histopathological examination. Given that such a procedure in healthy women is ethically unjustifiable, due to its morbidity, studies have to rely on colposcopy with directed biopsies even with its limitations.
+In this review we included studies where the reference standard was used in one of three ways:
+applied to all women;
+applied to all women with a positive screening test and to a random sample of screen-negative women in order to correct for verification bias;
+restricted to those with a positive screening test.
+This last category of studies is prone to verification bias if the double test negatives are considered to be true negatives. However, verification bias will be limited when one of the screen tests is very sensitive. These studies can produce unbiased estimates of relative sensitivity and relative false positive rates (Arbyn 2009a; Schatzkin 1987).</reference_standards>
+</root>

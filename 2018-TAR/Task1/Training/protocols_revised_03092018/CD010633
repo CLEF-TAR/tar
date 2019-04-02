@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+This review had two primary objectives.
+Objective A: To estimate the accuracy of DAT imaging for DLB in people with dementia in secondary care (that is patients who have been referred to a specialist dementia service).
+Objective B: To estimate the accuracy of DAT imaging for the diagnosis of DLB in people with dementia in secondary care who are already suspected of having DLB on the basis of a prior clinical work-up.
+Secondary objectives
+The secondary objective was to use subgroup analyses to investigate the following potential sources of heterogeneity.
+(a) Age of participants.
+(b) Severity of dementia. The performance of the index test itself may vary with dementia severity. For objective B, since the performance of the clinical criteria may also depend on the severity of dementia, the 'added value' to be obtained from the index test may vary significantly.
+(c) For objective B, diagnostic status at inclusion (possible or probable DLB, or both).
+(d) DAT imaging method (SPECT or PET ligand).</objective>
+  <type_of_study>
+(a) Test accuracy studies with delayed verification.
+(b) Diagnostic case-control studies. This applied to objective A only. These may be true case-control studies, conducted retrospectively, in which participants who underwent DAT imaging in life are included on the basis of the presence or absence of a neuropathological diagnosis of DLB at autopsy. We anticipated that a more common design would be studies in which participants were selected for inclusion on the basis of their clinically defined DLB diagnostic status. 'Cases' would meet clinical criteria (excluding the DAT imaging criterion) for probable DLB; 'controls' would not meet these criteria but would meet clinical criteria for one or more other subtypes of dementia. There is no universally agreed term for these studies, but they have been called 'two-gate designs with alternative diagnosis controls' (Rutjes 2005). These study designs were eligible for inclusion but would, if possible, be the subject of sensitivity analysis because of the risk of spectrum bias they entail.</type_of_study>
+  <participants>
+Objective A:  with dementia in secondary care settings. Dementia should have been diagnosed using validated clinical criteria (for example ICD, DSM). Studies that specifically excluded subjects meeting criteria for dementias other than DLB or AD (for example vascular dementia) could also be included.
+Objective B:  meeting clinical criteria (other than the DAT imaging criterion) for possible or probable DLB, or both. We considered this to be the most useful test of utility in clinical practice, where DAT imaging is likely to be used in addition to clinical assessment. A population meeting clinical criteria for probable DLB will already have missed many true DLB cases (because of the relatively poor sensitivity), and the opportunity for adding diagnostic value is limited (because of the already high specificity). Hence, the potential clinical utility of the test is greatest if applied to a population meeting the more sensitive but less specific criteria for possible DLB. However, participants meeting probable DLB criteria could also be included; we would examine this as a potential source of heterogeneity.
+We excluded participants with Parkinson's disease or other Parkinsonian syndromes known to be associated with abnormal DAT imaging.</participants>
+  <index_tests>
+SPECT or PET imaging of brain dopamine transporters (DAT).</index_tests>
+  <target_conditions>
+DLB, with or without co-morbid Alzheimer's disease (AD).</target_conditions>
+  <reference_standards>
+Neuropathological diagnosis at autopsy using contemporaneously accepted neuropathological criteria.
+We did not include in this review any studies in which a clinical diagnosis of probable DLB was the reference standard. There were two reasons for this:
+1. Firstly, as discussed above, the accuracy―particularly the sensitivity―of the clinical criteria measured against the neuropathological reference standard is too low for them to constitute a satisfactory proxy. There is a serious possibility that the index test might outperform clinical diagnosis, rendering the latter unsuitable as a reference standard (Reitsma 2009). For some conditions, the correct clinical diagnosis may become more evident over time so that clinical diagnosis at follow-up may be a better reference standard than the cross-sectional diagnosis. (It has been used, for example, in studies of DAT imaging in the diagnosis of Parkinson's disease.) However, this strategy is not necessarily suitable for DLB where, as the condition progresses, symptoms converge with other types of dementia. Beyond a certain (undetermined) point, therefore, clinical diagnosis may become less discriminating with time.
+2. Secondly, due to their complexity and expense, SPECT scans will probably only ever be useful as an adjunct to clinical assessment. Studies that by design cannot demonstrate an accuracy above that of careful clinical diagnosis alone have limited usefulness.
+A difficulty with a neuropathological reference standard (common to all diagnostic studies with delayed verification designs) is that the pathology may change between application of the index test and reference standard. In this context, the most likely scenario is that AD pathology may develop in the interim, reducing the likelihood that the initial clinical syndrome will be correctly classified as due to DLB. This may lead to a systematic bias, underestimating the specificity of the index test.</reference_standards>
+</root>

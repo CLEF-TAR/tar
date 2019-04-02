@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic performance of different blood CEA levels in identifying people with colorectal cancer recurrence in order to inform clinical practice.
+Secondary objectives
+To identify sources of between- and within-study heterogeneity to inform future study designs.</objective>
+  <type_of_study>
+We include cross-sectional diagnostic test accuracy studies, cohort studies, and RCTs that directly compared follow-up after CRC resection using CEA to a reference standard. We included studies only if we could extract 2 x 2 accuracy data. We excluded case-control studies, as the ratio of cases to controls is determined by the study design, making the data unsuitable for assessing test accuracy.</type_of_study>
+  <participants>
+ were adults with no detectable residual disease after primary treatment with surgical resection (with or without adjuvant therapy) being followed-up for recurrence.</participants>
+  <index_tests>
+Blood carcino-embryonic antigen (CEA).</index_tests>
+  <target_conditions>
+Recurrence of colorectal cancer following curative resection, including locoregional recurrence and metastatic disease.</target_conditions>
+  <reference_standards>
+Imaging done per protocol or to investigate for suspected recurrence (usually CT, MRI or PET-CT, but also endoscopy, CT colonography, ultrasound, and barium enema).
+The histological confirmation of recurrence following surgery or tissue biopsy.
+Routine clinical follow-up used as a reference standard to confirm negative index test values where imaging is not indicated as part of the follow-up schedule (standard protocols run for three to five years).
+We had hoped to compare the results of using these different reference standards in a sensitivity analysis. However, the majority of studies (73%) reported a composite reference standard, including more than one of the three reference standards listed above, as part of a prespecified clinical pathway and so the specific reference standard applied varied between participants within the same study. Without individual patient data, identifying the exact investigative modality applied as the reference standard was not possible and so we did not conduct the planned sensitivity analysis.
+We classified the chosen reference standard (or composite reference standard) used in each study as 'appropriate' (1 to 3 above), 'inappropriate' (a reference standard not included in 1 to 3 above), or 'not stated' for further subgroup analysis.
+There were insufficient data available to classify deaths during follow-up as 'death from CRC', 'death with CRC', 'death from other causes', or 'death unspecified', as detailed in the original protocol.</reference_standards>
+</root>

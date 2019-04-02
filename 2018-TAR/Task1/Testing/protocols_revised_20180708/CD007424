@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+To compare MR diffusion-weighted images (DWI) and CT scans with respect to the accuracy of the localisation of acute ischaemic lesions. In particular, the review aimed to assess whether DWI could be considered superior to CT for the detection of acute ischaemic lesions within 12 hours (replacement of CT with DWI) or as an additional investigation for patients with negative or inconclusive CT scans.
+To assess the accuracy of MRI for the detection of acute haemorrhagic lesions within 12 hours. This time window was selected because this is the time when antithrombotic or thrombolytic therapy is most likely to be beneficial for patients with ischaemic stroke (and hence the reliable exclusion of haemorrhage is a clinically urgent priority).
+Secondary objectives
+As imaging results may vary depending upon the technical characteristics of the imaging test and the time when the imaging test is performed, we planned to analyse diagnostic data according to:
+the time of imaging from onset of symptoms (e.g. patients scanned within three, six, and 12 hours of symptoms onset);
+choice of imaging test for detection of haemorrhagic stroke (e.g. diffusion-weighted sequences, gradient-echo sequences).
+Investigation of sources of heterogeneity
+We were not able to investigate methodological and clinical sources of heterogeneity due to the relatively limited number of studies included in this review.</objective>
+  <type_of_study>
+We aimed to include studies published in any language. However, we did not include non-English articles for which a full-text translation or evaluation could not be obtained.
+For the detection of ischaemic lesions, studies were eligible if:
+both DWI and CT were evaluated in the same patient population (direct comparison) against an acceptable reference standard (as defined later), or if patients were randomised within a study to DWI or CT;
+clinical and imaging assessments were performed within 12 hours of onset of symptoms;
+the absolute numbers of observations of true positives, false positives, false negatives, and true negatives were available or derivable from the data reported in the primary studies.
+For the detection of haemorrhagic lesions, studies were eligible if:
+MRI sequences were evaluated against a clinical diagnosis of stroke supported by CT findings (reference standard) in cross-sectional studies;
+clinical and imaging assessments were performed within 12 hours of symptoms onset;
+the absolute numbers of observations of true positives, false positives, false negatives, and true negatives were available or derivable from the data reported in the primary studies.
+We included both prospective and retrospective studies.
+We excluded studies that focused on patients presenting exclusively with a clinical syndrome suggesting either subarachnoid haemorrhage or isolated intraventricular haemorrhage since they are very distinctive clinical syndromes not directly relevant to patients presenting with the focal neurological deficits of acute stroke.
+We also excluded studies that: addressed specific anatomical, metabolic, microvascular, or volumetric aspects of stroke; focused on specific technical aspects of CT and MRI; analysed perfusion versus diffusion imaging differences in patients with acute cerebral ischaemia.
+Where investigators published several reports based on data from a single study population, we selected the updated or most complete report.</type_of_study>
+  <participants>
+Adult patients with clinical symptoms suggestive of acute stroke, including patients in whom the subsequent diagnosis proved to be TIA.</participants>
+  <index_tests>
+DWI and CT performed within 12 hours of onset of symptoms for the detection of ischaemic brain lesions (CT is regarded here as the alternative test for detection of ischaemic lesions).
+MRI (all suitable sequences) performed within 12 hours of onset of symptoms for the detection of haemorrhagic brain lesions.</index_tests>
+  <target_conditions>
+Acute ischaemic stroke
+Acute haemorrhagic stroke</target_conditions>
+  <reference_standards>
+A single 'gold standard' for the diagnosis of stroke does not exist. In clinical practice however, expert assessment based on the combination of clinical features, imaging appearances, laboratory tests, and clinical follow up does provide the most comprehensive diagnosis. A diagnosis of stroke based only on the clinical and imaging data available to the clinician within the first few hours is unlikely to be sufficiently accurate.
+For the diagnosis of acute ischaemic stroke we considered an acceptable reference standard to be: a combination of clinical and imaging information supported by clinical or imaging follow up (CT or MRI) or autopsy. Any elaboration of this definition was however deemed suitable for inclusion (e.g. studies that relied exclusively on a clinical diagnosis or exclusively on a CT or MRI follow up).
+For the diagnosis of acute haemorrhagic stroke we considered a valid reference standard to be: a clinical diagnosis supported by CT or autopsy.
+Note: in some studies, patients whose symptoms lasted less than 24 hours but who had evidence of an ischaemic lesion on imaging were counted as having had strokes and hence analysed as true positive cases. In other studies, however, patients with symptom duration less than 24 hours and an ischaemic lesion on imaging were analysed as being false positive cases.</reference_standards>
+</root>

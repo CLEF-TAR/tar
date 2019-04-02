@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of capsule endoscopy for the diagnosis of oesophageal varices in children or adults with chronic liver disease or portal vein thrombosis, irrespective of the aetiology. To investigate the accuracy of capsule endoscopy as triage or replacement of oesophago-gastro-duodenoscopy.
+Secondary objectives
+To determine the diagnostic accuracy of capsule endoscopy for the diagnosis of medium oesophageal varices, large oesophageal varices, and presence of red marks on the varices.
+The following study characteristics, oesophageal varices, paediatric compared to adult participants, chronic liver disease compared to portal vein thrombosis, different stages of liver disease severity, different aetiologies of liver disease (e.g., viral cirrhosis compared with alcoholic cirrhosis; cholestatic compared to non-cholestatic liver disease), prevalence of oesophageal varices in the study group, and co-morbidities, were considered as sources of heterogeneity.</objective>
+  <type_of_study>
+We aimed to include studies that, irrespective of publication status and language, evaluated the diagnostic accuracy of capsule endoscopy for the diagnosis of oesophageal varices using oesophago-gastro-duodenoscopy as the reference standard. We considered cross-sectional cohort design studies on people with clinical suspicion of portal hypertension as well as participant-control design studies that compared people with oesophageal varices with matched controls (Colli 2014).
+We excluded studies in which data were analysed only per varix rather than per participant unless the participant data were made available by study authors.</type_of_study>
+  <participants>
+ could be of any age in whom the presence of oesophageal varices was clinically suspected (screening cohort) based on chronic liver disease or portal vein thrombosis, irrespective of the aetiology and duration of illness. We also considered people with previous history of upper gastrointestinal bleeding or already diagnosed oesophageal varices (surveillance cohort) for our review as these participants are a distinct group in whom the presence of oesophageal varices has a very higher probability than in a screening cohort, and when they participated in the studies, we analysed their data separately.
+We excluded studies with people with a previous surgical portal-systemic shunt procedure or insertion of transjugular intrahepatic portal-systemic shunt, previous ligation, or sclerotherapy of oesophageal varices.</participants>
+  <index_tests>
+Capsule endoscopy
+The video capsule endoscope is a wireless capsule comprised of a light source, lens, imaging hardware, battery, and a wireless transmitter, designed to investigate the oesophagus. The capsule is swallowed; it moves down the oesophagus via peristalsis. To improve the oesophagus visualisation, the device can be modified by attaching a string to control movement up and down the oesophagus (string capsule). The capsule obtains photographs at high frequency that are transmitted to a recorder, worn on a belt. The photographs are downloaded into a computer and can be viewed individually or as a video.
+There is a variety of classifications reported for oesophageal varices observed with capsule endoscopy, with no current consensus. The reported methods for evaluating the size of the oesophageal varices with capsule endoscopy are frequently identical to oesophago-gastro-duodenoscopy in spite of the lack of air inflation (which is not possible with the capsule endoscopy). To standardise the classification for the purposes of this review, oesophageal varices observed with capsule endoscopy were dichotomised in the following way: absence or presence of varices; and, small compared to medium or large varices. A small varix is said to occupy less than 25% and a medium/large varix to occupy more than 25% of the radius of the lumen of the oesophagus. The description of red marks on the varices follows the criteria used for oesophago-gastro-duodenoscopy: raised cherry-red spots (dilated sub-epithelial veins) and red wale marking (longitudinal dilated veins resembling whip marks).</index_tests>
+  <target_conditions>Target conditions
+The presence of any oesophageal varices (independent of size), detected by oesophago-gastro-duodenoscopy. For secondary analyses, the presence of medium or large varices (Garcia-Tsao 2007), and the presence of red marks were considered the target conditions.</target_conditions>
+  <reference_standards>
+Oesophago‐gastro‐duodenoscopy is the reference standard test for the diagnosis of oesophageal varices in which the presence of varices in the oesophagus is directly observed by endoscopy. The size and appearance of oesophageal varices is graded at the time of endoscopy according to one of the following systems, using the largest varix identified to classify the participant. People with an indication for primary prophylactic therapy are considered to be those whose largest varix is medium or large in size, or with small varices with red marks.
+
+The Baveno Consensus system differentiates small from large oesophageal varices (de Franchis 1992). Small varices are defined as varices that flatten with insufflation during endoscopy or that minimally protrude into the oesophageal lumen. Large oesophageal varices are defined as varices that protrude into the oesophageal lumen and touch each other, or that fill at least 50% of the oesophageal lumen.
+
+The Japanese Research Society for Portal Hypertension used three grades for variceal size (JSPH 1980). Grade 1 varices collapse with insufflation during endoscopy, grade 2 do not collapse with insufflation and do not occlude the lumen, and grade 3 varices occlude the lumen. Grade 2 varices were considered equivalent to medium, and grade 3 varices equivalent to large for this review.
+
+The Japanese classification was revised by the Italian Liver Cirrhosis Project Group (Zoli 1996), which describes variceal size as the percentage of the radius of the oesophageal lumen that is occupied by the largest varix. A small or grade 1 varix is said to occupy less than 25%, a medium or grade 2 varix to occupy 25% to 50%, and a large or grade 3 varix to occupy greater than 50% of the radius of the lumen of the oesophagus.
+
+The Cales criteria define varices as small if they flatten with insufflation during endoscopy, medium if they do not flatten with insufflation, and large if they do not flatten with insufflation during endoscopy and are confluent (Cales 1990).
+
+We included studies applying other classifications if adequately described and logically defined.
+
+The presence of red marks is usually noted as present or absent and may also be described according to different classifications. Even small varices with the presence of red marks are classified as 'at high risk of bleeding'.
+
+The interval between the index test and oesophago‐gastro‐duodenoscopy has to be less than 14 days in order to avoid possible evolution of the target condition. In the case of longer time intervals, we included the study but considered it at risk of bias.</reference_standards>
+</root>

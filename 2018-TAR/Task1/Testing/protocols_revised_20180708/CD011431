@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess the diagnostic accuracy of RDTs for detecting non-falciparum or P. vivax malaria parasitaemia in people living in malaria-endemic areas who present to ambulatory healthcare facilities with symptoms suggestive of malaria and to identify which types and brands of commercial test best detect non-falciparum and P. vivax malaria.
+Investigation of sources of heterogeneity
+We planned to investigate heterogeneity in relation to age group, continent where the study took place, and adequacy of reference standard.</objective>
+  <type_of_study>
+Studies sampling a consecutive series of patients, or a randomly selected series of patients were eligible. Where the report did not explicitly state that sampling was consecutive, but we judged that consecutive sampling was most probable, we included the report. We excluded studies if they did not present sufficient data to allow us to extract absolute numbers of true positives, false positives, false negatives and true negatives. Due to resource constraints, we also excluded studies if the report did not present enough information to allow full assessment of eligibility or if the study was reported only in a non-English language.</type_of_study>
+  <participants>
+Studies recruiting people living in P. vivax,P. ovale or P. malariae endemic areas attending ambulatory healthcare settings with symptoms of uncomplicated malaria were eligible.
+We excluded studies if participants:
+were non-immune people returning from endemic countries or were mainly recent migrant or displaced populations from non-endemic or very low endemicity areas;
+had been treated for malaria and the test was performed to assess treatment outcome;
+had symptoms of severe malaria;
+did not have symptoms of malaria;
+were recruited through active case finding (for example, door to door surveys).
+In studies where only a subgroup of participants was eligible for inclusion in the review, we included the study provided that we could extract relevant data specific to that subgroup. If studies included some patients with severe malaria, and we could not extract data specific to a subgroup of participants with uncomplicated malaria, we included the study if 90% or more of the participants had uncomplicated malaria.</participants>
+  <index_tests>
+Studies evaluating any immunochromatography-based RDTs specifically designed to detect non-falciparum or P. vivax malaria. We included commercial tests that are no longer available because they may use the same antibodies and very similar technology to tests that are currently available or may become available in the future. Older and more recently available versions of the same test, for example, OptiMAL and OptiMAL-IT were included separately. We also included prototype tests which are not longer available but which correspond to one of the commercial tests.</index_tests>
+  <target_conditions>Studies aimed to detect non-falciparum or P. vivax malaria. Where no distinction was made by species, but over 98% of malaria infections were identified by the reference standard as non-falciparum or P. vivax, the study was eligible for inclusion.</target_conditions>
+  <reference_standards>Studies were required to diagnose non-falciparum or P. vivax malaria using at least one of the following two reference standards:
+Conventional microscopy of thick blood smears, thin blood smears or both. Presence of asexual parasites of any density was regarded as a positive smear;
+PCR.
+The reference standard was required to be performed using blood samples drawn at the same time as those for the index tests. Where studies used more than one reference standard, we presented data relating to comparisons with each reference standard.</reference_standards>
+</root>

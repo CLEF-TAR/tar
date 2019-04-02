@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+The objective was to determine the diagnostic accuracy of thromboelastography and rotational thromboelastometry for TIC in adult trauma patients with bleeding, using a reference standard of Prothrombin Time ratio and/or the International Normalized Ratio.</objective>
+  <type_of_study>
+We included all cross-sectional studies investigating the diagnostic test accuracy of TEG or ROTEM in patients with clinically suspected TIC. We would have included case-control studies due to the small number of cross-sectional studies retrieved, but we found none.</type_of_study>
+  <participants>
+We included all studies involving adult trauma patients with clinically suspected TIC in both military and civilian settings.</participants>
+  <index_tests>
+This review focused on two global tests of haemostatic function; TEG (thromboelastography - trademark of the Haemonetics Corporation, USA) and ROTEM (rotational thromboelastometry - trademark of TEM International GmbH). Thresholds are indicated in Table 1.</index_tests>
+  <target_conditions>
+The target condition was TIC defined by standard clotting times of prothrombin time ratio (PTr) and international normalized ratio (INR).</target_conditions>
+  <reference_standards>
+In the absence of embedded clinical consensus, we used a coagulopathic range based on PTr/INR; the lower limit of the coagulopathic range being a PTr/INR reading of 1.2 or greater (Frith 2010), and the higher limit of the coagulopathic range being a PTr/INR reading of 1.5 or greater (Stainsby 2006). There is no upper threshold: anyone with a PTr/INR count of above 1.2, or above 1.5, is considered coagulopathic. These figures were reached through discussion by the report authors, including experts in haematology and trauma medicine.
+PTr differs from INR, although the final numbers may be the same. The PTr calculated varies according to local thresholds and separate batches of different manufacturers' reagent involved in conducting the prothrombin time test. In an effort to standardise this measurement, the INR is calculated as the ratio of a patient’s PTr compared to a mean normal PTr (calculated by determining the mean of 30 or more patients who are representative of the local hospital population), computed to the power of the International Sensitivity Index (ISI), which is itself calculated by the manufacturer, to give an indication of how each batch of tissue factor corresponds to an international reference. The equation for calculation is shown in Figure 2.
+Figure 2.
+Open in figure viewerDownload Powerpoint slide
+INR equation</reference_standards>
+</root>

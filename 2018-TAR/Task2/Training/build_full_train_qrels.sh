@@ -32,7 +32,7 @@ cat data/*.pids >> data/pids.train
 echo "Making the full set of qrels"
 echo "..."
 
-python ../../../scripts/create_full_qrels_2018.py qrels/qrel_abs_task2 data/pids.train qrels/full.train.abs.2018.qrels
+python ../../../scripts/create_full_qrels_2018.py qrels/qrels_abs_task2 data/pids.train qrels/full.train.abs.2018.qrels
 echo "..."
 
 echo "Done!"

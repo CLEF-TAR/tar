@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of integrated PET-CT for mediastinal staging of patients with suspected or confirmed NSCLC that is potentially suitable for treatment with curative intent.
+Secondary objectives
+To assess potential sources of heterogeneity, including study design (e.g., retrospective/prospective, consecutive/random series); patient populations (number and characteristics, e.g., T- and N-stage, significant nodes on prior CT, country); different cut-off values for test positivity (malignancy); differences in either PET-CT image acquisition, scanning equipment, or both; and potential differences in reference standard (mediastinoscopy/pathological or surgical staging).</objective>
+  <type_of_study>
+Prospective or retrospective cross-sectional studies that assessed the diagnostic accuracy of integrated PET-CT for diagnosing N2 disease in patients with suspected resectable NSCLC. The studies must have used pathology as the reference standard and reported participants as the unit of analysis.</type_of_study>
+  <participants>
+Patients with suspected/confirmed NSCLC who were considered potentially suitable for primary resection. This review did not consider patients who were being restaged after induction or neoadjuvant chemotherapy.</participants>
+  <index_tests>
+PET-CT carried out on the various available integrated PET-CT scanners with cut-off values for test positivity as reported in the included studies. The type of integrated PET-CT scanner, scanner manufacturer, and cut-off values did not influence whether we included a study or not; rather, as part of the secondary objectives, we examined the potential contribution of these factors to systematic between-study variation as potential sources of heterogeneity. However, we did not consider studies that employed tracers other than FDG or other nuclear medicine imaging, such as single photon emission-computed tomography (SPECT) or stand-alone PET.</index_tests>
+  <target_conditions>
+Resectability of lung cancer depends on the locoregional spread of the disease. NSCLC is generally not considered resectable if it has spread beyond N1 disease. Thus, the target condition of this review was resectable NSCLC, which for the present purposes, was defined as NSCLC that has not spread to either the ipsilateral mediastinal lymph nodes, the subcarinal (N2) lymph nodes, or both.</target_conditions>
+  <reference_standards>
+Pathological confirmation of PET-CT results from samples obtained via either surgical resection with mediastinal sampling, mediastinoscopy, video-assisted thoracic surgery (VATS), endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA), EUS-FNA, TBNA (transbronchial needle aspiration), TTNA (transthoracic needle aspiration), biopsies of extra-thoracic sites, or a combination of the aforementioned.</reference_standards>
+</root>

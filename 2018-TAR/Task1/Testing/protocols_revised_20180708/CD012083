@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To assess the diagnostic accuracy of ultrasound for gastric tube placement confirmation.
+Secondary objectives
+To assess the diagnostic accuracy of ultrasound for gastric tube placement confirmation in children (aged 16 years or less).
+To investigate the potential sources of heterogeneity, we planned to assess the effects of the following factors on the diagnostic accuracy of ultrasound: body mass index (BMI), clinical setting (emergency setting or not), tube diameter and area of visualization (the neck, abdomen, or both).</objective>
+  <type_of_study>
+We included studies that evaluated the diagnostic accuracy of naso- and orogastric tube placement confirmed by ultrasound visualization and using X-ray visualization as the reference standard. We included cross-sectional studies and case-control studies. We excluded case series or case reports (Bossuyt 2008). We excluded studies where X-ray visualization was not the reference standard or if the tube being placed was a gastrostomy or enteric tube. We defined gastrostomy tubes as tubes for percutaneous enteric access and enteric tubes as both nasal or oral gastrojejunal tubes and small bowel tubes (Schattner 1997). We excluded studies if we could not extract TP, FN, FP and TN values.</type_of_study>
+  <participants>
+Both adults (aged greater than 16 years) and children (aged 16 years or less) who needed gastric tube placement.</participants>
+  <index_tests>
+Ultrasonographic confirmation of gastric tube placement. We included all studies regardless of where the ultrasound test was performed (e.g. bedside or X-ray department) or who performed and interpreted the test (e.g. ultrasonographer or physician).</index_tests>
+  <target_conditions>
+The target condition was appropriate gastric tube placement for any reason.</target_conditions>
+  <reference_standards>
+The reference standard was X-ray of the chest or abdomen (X-ray visualization). If misinterpretation of the X-ray was not reported in the included studies, we considered X-ray of the chest or abdomen to have 100% sensitivity and 100% specificity.</reference_standards>
+</root>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+To assess the accuracy of lateral flow urine lipoarabinomannan assay (LF-LAM) for the diagnosis of active tuberculosis (TB) disease in HIV-positive adults who have signs and symptoms suggestive of TB.
+To assess the accuracy of the LF-LAM as a screening test for active TB disease in HIV-positive adults irrespective of signs and symptoms suggestive of TB.
+Secondary objectives
+To compare the diagnostic accuracy of LF-LAM and existing tests, sputum smear microscopy or sputum Xpert® MTB/RIF, as well as determine the diagnostic accuracy of LF-LAM when added to existing tests.
+To investigate heterogeneity of test accuracy in the included studies. Possible sources of heterogeneity include CD4 count and clinical setting (inpatient versus outpatient setting).</objective>
+  <type_of_study>
+We included primary studies that evaluated the accuracy of LF-LAM for diagnosis of or screening for active TB in people living with HIV and compared the index test with a defined reference standard. We also included studies that assessed the diagnostic accuracy of one of the alternative tests (sputum microscopy or sputum Xpert® MTB/RIF) in addition to LF-LAM. Eligible study types included randomized controlled trials, cross-sectional studies, and observational cohort studies. We included abstracts with sufficient data. We excluded case-control studies.
+We included studies that provided data from which we could extract true positive (TP), false positive (FP), true negative (TN), and false negative (FN) values, based on one of the reference standards defined below.</type_of_study>
+  <participants>
+ Participants were adults (15 years and older is considered 'adult' for purpose of TB surveillance) and who were HIV positive. We included participants in whom there was a suspicion of TB based on the presence of signs and symptoms compatible with TB, as well as participants who may or may not have had signs and symptoms compatible with TB and had not been previously evaluated for TB. Signs and symptoms of TB include cough, fever, weight loss, and night sweats.</participants>
+  <index_tests>
+The index test was Alere DetermineTM TB LAM Ag test (LF-LAM, Alere Inc., Waltham, MA, USA), the only commercial lateral flow urine LAM assay available as of December 2015. We evaluated the test at two different cut-off values for positivity (grade 1 and grade 2) based on the original manufacturer reference card. Grade 2 (corresponding to grade 1 on the new manufacturer reference card) is the currently recommended threshold for positivity.</index_tests>
+  <target_conditions>
+The target condition was active TB disease, which includes pulmonary and extrapulmonary TB.</target_conditions>
+  <reference_standards>
+We required studies to diagnose TB using at least one of the following two reference standards.
+Microbiological reference standard:
+we defined 'TB' as a positive M. tuberculosis culture or nucleic acid amplification test (NAAT);
+we defined 'not TB' as a negative M. tuberculosis culture and NAAT (if performed).
+Composite reference standard that included M. tuberculosis culture together with at least one of the following components: NAAT, smear, or clinical findings:
+we defined 'TB' as (1) a positive culture, or (2) a positive NAAT, or (3) a positive smear, or (4) a clinical decision to start TB treatment, and, after at least one month of follow-up, the participant was diagnosed as having TB;
+we defined 'not TB' as a negative culture and NAAT (if performed), no TB treatment given, and resolution of signs and symptoms at follow-up.
+NAATs included: Enhanced Amplified Mycobacterium Tuberculosis Direct Test (E-MTD, Gen-Probe, San Diego, USA); Amplicor Mycobacterium tuberculosis Test (Amplicor, Roche Diagnostics, Basel, Switzerland); COBAS® TaqMan® MTB Test (Roche Diagnostics); GenoType MTBDRplus (HAIN Lifescieces, Nehren, Germany); and Xpert® MTB/RIF assay (Cepheid, Sunnyvale, USA).
+For a microbiological reference standard, we considered a higher quality reference standard to be one in which two or more specimen types were evaluated for TB diagnosis and a lower quality reference standard to be one in which only one specimen type was evaluated for TB diagnosis. For a composite reference standard, we did not require all components to be provided on all participants.
+Of note, we excluded sputum smear from a composite reference standard and sputum Xpert® MTB/RIF from both a microbiological and a composite reference standard for the purpose of performing analyses of LF-LAM in combination with either sputum smear or sputum Xpert® MTB/RIF.
+We excluded participants as 'unclassifiable' if we could not classify them as either 'TB' or 'not TB' based on these reference standard definitions.
+We consider that there are strengths and limitations to each reference standard. A microbiological reference standard, primarily culture, is considered the best reference standard. We expected all studies to obtain sputum specimens and some studies to obtain additional specimens for culture. However, the primary concern with relying on sputum culture alone is that people with TB disease may be missed for the following reasons: HIV-positive people may not be able to provide sputum specimens of sufficient quality; sputum bacillary load is typically low in people living with HIV; and a substantial proportion of people with HIV-associated TB cannot produce sputum at all (Lawn 2013a) or have extrapulmonary TB without pulmonary TB. This means that index test TPs may be misclassified as FPs by sputum culture. Therefore, when evaluating LF-LAM with respect to sputum culture, the number of FPs (classified as positive by the index test and negative by the reference test) may be increased and LF-LAM specificity may be underestimated (Lawn 2015). This misclassification may also lead to underestimation of sensitivity. Increasing the sensitivity of the reference standard by evaluating multiple specimens, including evaluating specimens from sites of disease for extrapulmonary TB, may reduce the number of cases of TB disease incorrectly classified as 'not TB' by culture.
+In contrast, a composite reference standard that includes microbiological or clinical components may correctly classify index test results as TPs (instead of as FPs with respect to culture), especially in people with paucibacillary disease in whom culture may be negative. However, because of the uncertainties that surround a clinical diagnosis of TB, a reference standard that uses clinical TB (in culture-negative people) is considered a lower quality reference standard and may incorrectly classify people without TB as having TB.</reference_standards>
+</root>

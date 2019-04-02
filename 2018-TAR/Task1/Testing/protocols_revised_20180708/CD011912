@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+To determine the diagnostic accuracy of pulse oximetry as a screening method for detection of CCHD in asymptomatic newborn infants
+Secondary objectives
+To assess potential sources of heterogeneity, including:
+characteristics of the population: inclusion or exclusion of antenatally detected congenital heart defects;
+timing of testing: &lt; 24 hours versus ≥ 24 hours after birth;
+site of testing: right hand and foot (pre-ductal and post-ductal) versus foot only (post-ductal);
+oxygen saturation: functional versus fractional;
+study design: retrospective versus prospective design, consecutive versus non-consecutive series; and
+risk of bias for the "flow and timing" domain of QUADAS-2.</objective>
+  <type_of_study>
+We considered inclusion of prospective or retrospective cohort and cross-sectional studies evaluating the diagnostic accuracy of pulse oximetry as a screening method for detection of critical congenital heart defects in asymptomatic newborn infants. A study of diagnostic accuracy should provide sufficient data for construction of the two-by-two table showing the cross-classification of disease status (CCHD) and test outcome (pulse oximetry). We excluded studies if we could not extract true-positive (TP), true-negative (TN), false-positive (FP), and false-negative (FN) values after contacting corresponding authors of primary studies when necessary. We excluded case reports and studies of case-control design.</type_of_study>
+  <participants>
+We included studies that recruited asymptomatic (with no signs of respiratory or cardiac illness) term or near-term newborns before discharge from hospital.</participants>
+  <index_tests>
+The test under evaluation was pulse oximetry screening to identify low oxygen saturation. We included all protocols of screening (eg, post-ductal [foot] only vs pre-ductal and post-ductal [right hand and foot], different saturation thresholds to define abnormality, different numbers of repeat tests). Criteria for defining a screen as positive or negative in this review were those used by the authors of respective publications.</index_tests>
+  <target_conditions>
+Critical congenital heart defects as defined above.</target_conditions>
+  <reference_standards>
+ Reference were diagnostic echocardiography (echocardiogram) and clinical follow-up in the first 28 days of life, including postmortem findings and information from mortality and congenital anomaly databases, to identify patients with false-negative findings.</reference_standards>
+</root>

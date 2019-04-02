@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <objective>
+Primary objectives
+Since Xpert MTB/RIF can detect both TB and rifampicin resistance, we had two review questions with the following primary objectives:
+Xpert MTB/RIF for TB detection
+To determine summary estimates of the diagnostic accuracy of Xpert MTB/RIF for the diagnosis of pulmonary TB in adults
+Xpert MTB/RIF for rifampicin resistance detection
+To determine summary estimates of the diagnostic accuracy of Xpert MTB/RIF for detection of rifampicin resistance in adults
+Secondary objectives
+Our secondary objective was to investigate heterogeneity in Xpert MTB/RIF sensitivity and specificity in relation to covariates. For TB detection, the covariates of interest were smear status; HIV status; condition of the specimens (fresh versus frozen); preparation of the specimens (unprocessed versus processed); country income status; proportion of TB cases in the study; and type of setting for running Xpert MTB/RIF (clinical or laboratory). For rifampicin resistance detection, the covariates of interest were Xpert MTB/RIF assay version and proportion of rifampicin resistant samples in the study (prevalence of rifampicin resistance in the study population).</objective>
+  <type_of_study>
+We included primary studies that assessed the diagnostic accuracy of Xpert MTB/RIF for both pulmonary TB and rifampicin resistance, or pulmonary TB alone. Diagnostic accuracy studies are typically cross-sectional in design. However, we also searched for randomized controlled trials (RCTs) and cohort studies. We only included studies that reported data comparing Xpert MTB/RIF to an acceptable reference standard from which we could extract true positive (TP), true negative (TN), false positive (FP), and false negative (FN) values. Xpert MTB/RIF could be assessed alone or together with other tests.
+We excluded studies with a case-control design because these types of studies are prone to bias, in particular, studies enrolling patients with severe disease and healthy participants without disease. We also excluded studies reported only in abstracts.</type_of_study>
+  <participants>
+We included studies that recruited adult or predominantly adult patients, aged 15 years or older, presumed to have pulmonary TB or MDR-TB, with or without HIV infection. Also, we included studies that assessed the diagnostic accuracy of Xpert MTB/RIF using sputum and other respiratory specimens (such as fluid obtained from bronchial alveolar lavage and tracheal aspiration) consistent with the intended use of the manufacturer (Cepheid 2009), and studies from all types of health facilities and all laboratory levels (peripheral, intermediate, and central) from all countries. The majority of included studies provided data on the age of study participants. We considered it highly likely that studies that did not report age data involved all or mostly adults for the following reasons: the vast majority of specimens evaluated with Xpert MTB/RIF were sputum specimens and children have difficulty producing sputum; we excluded data on specimens obtained by gastric aspiration, as this specimen collection method is used mostly for investigating TB in children; we excluded studies that specifically evaluated the use of Xpert MTB/RIF in children; and we performed a sensitivity analysis by dropping studies that did not report age data to check whether the accuracy results changed Sensitivity analyses.</participants>
+  <index_tests>
+Xpert MTB/RIF was the index test under evaluation.
+We also compared Xpert MTB/RIF with smear microscopy, either Ziehl-Neelsen microscopy, fluorescence microscopy, or both microscopy methods.</index_tests>
+  <target_conditions>
+The target conditions were active pulmonary TB and rifampicin resistance.</target_conditions>
+  <reference_standards>
+For TB, acceptable reference standards used solid media (Löwenstein-Jensen, Middlebrook 7H10 or 7H11, or Ogawa media) or a commercial liquid culture system, (such as BACTEC™ 460TB System or BACTEC™ MGIT™ 960 Mycobacterial Detection System, BD, USA; BacT/ALERT® System, bioMérieux, France; or VersaTREK® Mycobacteria Detection &amp; Susceptibility, Thermo Fisher Scientific, USA).
+For rifampicin resistance, the reference standards were phenotypic culture-based DST methods recommended by WHO (WHO Policy DST 2008). Acceptable methods were the proportion method performed on solid media (such as Löwenstein-Jensen, Middlebrook 7H10 or 7H11, or Ogawa media), use of a commercial liquid culture system (such as BACTEC™ 460TB System or BACTEC™ MGIT™ 960 Mycobacterial Detection System, BD, USA; BacT/ALERT® System, bioMérieux, France; or VersaTREK® Mycobacteria Detection &amp; Susceptibility, Thermo Fisher Scientific, USA), or both.</reference_standards>
+</root>
