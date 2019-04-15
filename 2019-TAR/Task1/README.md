@@ -14,4 +14,4 @@ For each topic participants will be provided with
 
 *Data Set*:
 
-Participants are provided with a test set consisting of N topics of Diagnostic Test Accuracy (DTA), Intervention, Prognosis, and Qualitative reviews. They are also provided with a training set that consists of 71 DTA reviews which were used in CLEF 2017 and 2018, and 20 Intervention reviews.
+Participants will be provided with a test set consisting of a set of topics for Diagnostic Test Accuracy (DTA), Intervention, Prognosis, and Qualitative reviews. They are also provided with a training set that consists of 71 DTA reviews, which were used in CLEF 2017 and 2018, and 20 Intervention reviews.
