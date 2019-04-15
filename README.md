@@ -2,8 +2,8 @@
 
 Requires Python 2.7.5+ or Python 3 
 
-This repository contains a copy of the training data from Task 2 of TAR track (sshh!!)
-https://sites.google.com/site/clefehealth2017/task-2
+This repository contains the training data for CLEF eHealth Task 2, the TAR track.
+http://clef-ehealth.org/
 
 Along with the extracted data and scripts to process it.
 
