@@ -1,0 +1,10 @@
+Process:
+
+1. 30 systematic reviews were collected. These systematic reviews contain a reference section, where included, excluded and additional studies have been identified. Some of these studies contain already the corresponding PMID, while others do not.
+2. The extracted referencies can be found in the folder, references
+3. For each one of the systematic reviews, referencies that have already been identified by their PMID are copied over the referencies-pmid folder files. For those referencies missing the PMID, the title was extracted from the reference, and it was used as a query to Google Search Engine over the domain https://www.ncbi.nlm.nih.gov/pubmed/
+4. The top score document returned by Google was selected, and the title of the study contained in this page, as identified in the metadata was extracted.
+5. The title was compared with the title of the study used as search query. If the edit distance between the two titles was up to 3 (just to account for spaces, parentheses, etc.) then the study reference was replaced by the pubmed id in the file. If (a) the title had an edit distance > 3 but less than 20, or (b) the study was an included study, or (c) no title was contained in the Google result metadata, or (d) no Google results were returned, then the study was manually searched for using the title over the search box offered by https://www.ncbi.nlm.nih.gov/pubmed/ Otherwise, i.e. if the Google result for an excluded study provided a title with an edit distance > 20 then this study was discard under the assumption that it is not contained in PubMed.
+6. The results of the above process is in referencies-pmid folder.
+7. All files were then copied into the qrels folder after duplicate line removal.
+8. The files contained in this folder was used to generate the TREC-style qrels released to participants.
