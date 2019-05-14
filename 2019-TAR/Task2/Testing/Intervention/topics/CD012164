@@ -1,0 +1,95 @@
+Topic: CD012164 
+
+Title: Subfascial endoscopic perforator surgery (SEPS) for treating venous leg ulcers 
+
+Query: 
+exp Leg Ulcer/
+((varicose adj ulcer*) or (venous adj ulcer*) or (leg adj ulcer*) or (foot adj ulcer*) or (stasis adj ulcer*) or (lower adj extremit* adj2 ulcer*) or (crural adj ulcer*) or "ulcus cruris" or "ulcer cruris").tw.
+or/1-2
+Minimally Invasive Surgical Procedures/
+Endovascular Procedures/
+exp Endoscopy/
+exp Angioscopy/
+Vascular Surgical Procedures/
+Saphenous Vein/su [Surgery]
+Veins/su and Leg/
+(endoscop* and (surger* or surgic* or ligation* or ligatur* or ablation*)).ti,ab.
+((endoscop* or subfascial) and perforat*).ti,ab.
+SEPS.ti,ab.
+4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13
+3 and 14
+randomized controlled trial.pt.
+controlled clinical trial.pt.
+randomi?ed.ab.
+placebo.ab.
+clinical trials as topic.sh.
+randomly.ab.
+trial.ti.
+or/16-22
+exp animals/ not humans.sh.
+23 not 24
+15 and 25
+limit 26 to ed = "19480101-20180304" 
+
+Pids: 
+    24835693 
+    24872682 
+    22817861 
+    18992425 
+    20109380 
+    15183623 
+    22160028 
+    18802884 
+    9615161 
+    17903157 
+    14999989 
+    14968212 
+    19602507 
+    12651168 
+    9423722 
+    24796914 
+    26993193 
+    21283981 
+    24371974 
+    22271740 
+    17545185 
+    17408990 
+    12618690 
+    11840425 
+    25775200 
+    26342204 
+    22623439 
+    27095286 
+    26004968 
+    21656715 
+    10512597 
+    7976095 
+    19036540 
+    23992895 
+    11035968 
+    15570276 
+    27801415 
+    27590190 
+    26294281 
+    25720937 
+    10173073 
+    15584055 
+    12822732 
+    14718823 
+    17275361 
+    10192031 
+    19744867 
+    16650207 
+    22352682 
+    14981453 
+    20628101 
+    23422097 
+    17110137 
+    24357450 
+    21478141 
+    27814432 
+    27467230 
+    18675558 
+    16950434 
+    11331845 
+    18663117 

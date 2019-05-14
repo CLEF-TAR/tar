@@ -1,0 +1,254 @@
+Topic: CD011977 
+
+Title: Blue‐light filtering intraocular lenses (IOLs) for protecting macular health 
+
+Query: 
+randomized controlled trial.pt.
+(randomized or randomised).ab,ti.
+placebo.ab,ti.
+dt.fs.
+randomly.ab,ti.
+trial.ab,ti.
+groups.ab,ti.
+or/1-7
+exp animals/
+exp humans/
+9 not (9 and 10)
+8 not 11
+exp cataract/
+cataract extraction/
+cataract$.tw.
+exp lens crystalline/
+exp lenses intraocular/
+lens implantation intraocular/
+(intraocular lens$ or intra ocular lens$ or IOL$).tw.
+phacoemulsification/
+pha?oemulsif$.tw.
+(phaco or phako).tw.
+ECCE.tw.
+(MISICS or SICS).tw.
+capsulorhexis/
+capsulor?hexis.tw.
+or/13-26
+exp Retina/
+exp Retinal Pigments/
+(retina$ adj3 (damage$ or phototoxic$ or photoprotect$)).tw.
+(photochemical adj2 damage$).tw.
+exp retinal degeneration/
+retinal neovascularization/
+choroidal neovascularization/
+exp macula lutea/
+maculopath$.tw.
+((macul$ or retina$ or choroid$) adj3 degener$).tw.
+((macul$ or retina$ or choroid$) adj3 neovasc$).tw.
+(AMD or ARMD or CNV).tw.
+or/28-39
+27 or 40
+Filtration/
+(blue adj2 light$).tw.
+(blue adj3 filter$).tw.
+(blue adj3 block$).tw.
+(OptiBlue or AcrySof Natural).tw.
+(AF-1 or PC 440Y or SN60AT or SN6OAT or YA60BB).tw.
+(yellow adj4 (intraocular or IOL$)).tw.
+or/42-48
+41 and 49
+12 and 50
+limit 51 to ed = "19480101-20171025" 
+
+Pids: 
+    24065808 
+    20610091 
+    24158845 
+    24756476 
+    27432203 
+    23882696 
+    16863969 
+    18581789 
+    1087839 
+    12614752 
+    19118695 
+    22732187 
+    17056369 
+    18404118 
+    17867510 
+    26096521 
+    21350691 
+    15682919 
+    16792735 
+    3883964 
+    16834830 
+    18856236 
+    17397740 
+    21641040 
+    17260315 
+    16473224 
+    18195239 
+    17469752 
+    3991126 
+    28676040 
+    28002333 
+    17159440 
+    22858061 
+    18850550 
+    25582206 
+    19304086 
+    24269140 
+    21951571 
+    19410947 
+    20202534 
+    22594975 
+    17362457 
+    1788533 
+    20665986 
+    19304088 
+    19251148 
+    18988171 
+    23471324 
+    8745513 
+    19545814 
+    16564998 
+    18361983 
+    21856011 
+    23472744 
+    1794814 
+    3211494 
+    17444040 
+    17534810 
+    3466465 
+    19628740 
+    19700536 
+    26074032 
+    22205829 
+    22520306 
+    14724954 
+    20355006 
+    8060925 
+    17420703 
+    25216318 
+    3454916 
+    25680758 
+    22108107 
+    18075744 
+    27256717 
+    21111309 
+    27464575 
+    22412976 
+    19781467 
+    21111310 
+    3454917 
+    15702781 
+    9790588 
+    24021181 
+    17964398 
+    18464801 
+    16445446 
+    22287168 
+    23776409 
+    25838942 
+    26478261 
+    22952402 
+    18976313 
+    23211814 
+    21752591 
+    25223707 
+    23074519 
+    22744386 
+    26286756 
+    12411437 
+    27420965 
+    26708928 
+    22653894 
+    25968007 
+    21886359 
+    4437543 
+    2589059 
+    23608567 
+    22067557 
+    18191090 
+    21455768 
+    24205001 
+    16597662 
+    21111307 
+    19575919 
+    15606466 
+    24970263 
+    24597610 
+    22727284 
+    16473225 
+    7920190 
+    14687197 
+    26968411 
+    21094670 
+    11260499 
+    27966269 
+    16445433 
+    27380430 
+    26491964 
+    19491981 
+    23742627 
+    17397731 
+    25103657 
+    22864026 
+    7514581 
+    22762040 
+    15234295 
+    11553757 
+    16755682 
+    15662502 
+    28155996 
+    2748876 
+    19643497 
+    28264100 
+    8871173 
+    27580077 
+    21883771 
+    27935597 
+    15852166 
+    16445445 
+    19629514 
+    19140849 
+    15705234 
+    23461152 
+    27226262 
+    15870573 
+    22527312 
+    15988925 
+    20030543 
+    15302349 
+    2596543 
+    26589689 
+    17416326 
+    16338566 
+    18721708 
+    26850586 
+    3772782 
+    19576065 
+    24771157 
+    17912933 
+    22139617 
+    24009749 
+    15093654 
+    22321501 
+    14769042 
+    21141905 
+    25612055 
+    16631056 
+    19820794 
+    17084803 
+    23467788 
+    21950699 
+    12877897 
+    18361993 
+    19333692 
+    26233628 
+    19662914 
+    26471051 
+    18471631 
+    18320254 
+    17445897 
+    10809448 
+    27785596 
+    19896637 
+    21183103 
+    19101429 

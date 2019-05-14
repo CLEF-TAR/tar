@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <Objectives>To compare the diagnostic accuracy of urea breath test, serology, and stool antigen test, alone or in combination, for diagnosis of H pylori infection in symptomatic and asymptomatic people, so that eradication therapy for H pylori can be started.
+Secondary objectives
+To investigate the following potential sources of heterogeneity: type of reference standard, risk of bias, publication status, prospective versus retrospective studies, symptomatic versus asymptomatic participants, recent or current use of proton pump inhibitors or antibiotics, different subtypes of tests, and the interval between the index test and reference standard.</Objectives>
+<TypesofStudies>Types of studies
+We include studies that evaluate the accuracy of the index tests in the appropriate patient population (see Participants), regardless of language or publication status, or whether data were collected prospectively or retrospectively. However, we exclude reports that describe how the diagnosis of H pylori was made in an individual patient or group of patients, and which do not provide sufficient diagnostic test accuracy data (i.e. the number of true positives, false positives, false negatives, and true negatives). We also exclude case‐control studies because these are prone to bias (Whiting 2011).</TypesofStudies>
+<TypesofParticipants>Participants
+Symptomatic and asymptomatic people in whom H pylori infection status is sought so that eradication therapy for H pylori can be started. We exclude studies that included only people with acute upper gastrointestinal bleeding because such patients are likely to undergo endoscopy and invasive testing can be performed, if required.</TypesofParticipants>
+<IndexTests>Index tests
+Urea breath test‐14C, urea breath test‐13C, serology, and stool antigen test, alone or in combination. We included only initial testing and excluded repeat testing (monitoring success of treatment), since diagnostic accuracy may vary depending on the purpose of testing (Ricci 2007).</IndexTests>
+<TargetConditions>Target conditions
+H pylori infection.</TargetConditions>
+<ReferenceStandards>Reference standards
+There is no gold standard for diagnosis of H pylori infection and the diagnosis is made by a combination of tests following endoscopic biopsy; endoscopic biopsy followed by histology, endoscopic biopsy followed by polymerase chain reaction (PCR), and endoscopic biopsy followed by rapid urease testing all have excellent sensitivity and specificity (Chey 2007). However, PCR methodology is not standardised across laboratories (Chey 2007); it is an unreliable reference standard. Endoscopic biopsy followed by rapid urease testing has poor sensitivity following treatment with proton pump inhibitors (Chey 2007). Endoscopic biopsy with culture has high specificity but poor sensitivity (Chey 2007). We therefore considered only endoscopic biopsy followed by histology (using haemotoxylin and eosin (H &amp; E) stain, special histological stains such as Giemsa stain and Warthin‐Starry stain, or immunohistochemical stain) as the reference standard in this review.
+Immunohistochemical stains are more accurate than special stains, while special stains and immunohistochemical stains are thought to have better specificity than H &amp; E stains for diagnosis of H pylori infection (Laine 1997; Lee 2015b). For this reason,we considered endoscopic biopsy with histology using immunohistochemical stain as the best reference standard, and endoscopic biopsy with histology using H &amp; E stain as the worst reference standard.</ReferenceStandards>
+</root>
+

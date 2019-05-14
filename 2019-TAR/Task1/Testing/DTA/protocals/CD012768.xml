@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <Objectives>To determine the diagnostic accuracy of Xpert a) for extrapulmonary TB by site of disease in people presumed to have extrapulmonary TB; and b) for rifampicin resistance in people presumed to have extrapulmonary TB.
+Secondary objectives
+To investigate the effects of potential sources of heterogeneity on test accuracy across the included studies.
+For extrapulmonary TB, covariates of interest were microscopy smear status, HIV status, anti‐TB treatment, past history of TB, reference standard used to verify pleural TB, and prevalence of extrapulmonary TB (culture confirmed) in included studies. For CSF, we considered the presence of a concentration step and specimen volume. For tissue specimens, we considered whether the WHO standard operating procedure was followed.
+In addition, for TB meningitis, pleural TB, and lymph node TB, we adjusted accuracy estimates by applying a latent class meta‐analysis model to account for the imperfect nature of culture as the reference standard.
+For detection of rifampicin resistance, the covariate of interest in included studies was the prevalence of rifampicin resistance.</Objectives>
+<TypesofStudies>Types of studies
+We included randomized controlled trials, cross‐sectional studies, and observational cohort studies. We included primary studies that compared results of the index test with results of the reference standard and reported data from which we could extract TP, FP, FN, and TN. We excluded case‐control studies and case reports. We used abstracts to identify published studies and included these when they met the inclusion criteria.</TypesofStudies>
+<TypesofParticipants>Participants
+We included participants of all ages from all settings and countries who were thought to have extrapulmonary TB. We included non‐respiratory specimens (such as lymph node aspirate or tissue, pleural fluid, and CSF), except as noted. We excluded sputum and other respiratory specimens, such as fluid obtained from bronchial alveolar lavage and tracheal aspiration. As we anticipated finding many studies, we set a bar to exclude smaller studies to reduce unnecessary work. Therefore, we required studies to provide data for at least five specimens for a form of extrapulmonary TB included in the review. We excluded studies that evaluated Xpert by aspiration of gastric fluid, as this specimen is used most often to investigate pulmonary TB in children. We also excluded stool specimens because TB bacteria may be swallowed and passed into stool as a marker of pulmonary TB. We excluded studies evaluating the use of Xpert to diagnose relapse of previously treated extrapulmonary TB, so as to avoid the selection bias that may arise by limiting to a group that is already at elevated risk of extrapulmonary TB. We attempted to identify studies that included patients who were not taking anti‐TB drugs or had taken anti‐TB drugs for less than seven days. For those studies that included some patients on TB drugs, we addressed this concern in a sensitivity analysis.</TypesofParticipants>
+<IndexTests>Index tests
+The index tests were the Xpert assay and the Ultra assay. Index test results are automatically generated, and the user is provided with a printable test result as follows.
+MTB (M. tuberculosis) DETECTED; Rif (rifampicin) resistance DETECTED.
+MTB DETECTED; Rif resistance NOT DETECTED.
+MTB detected; Rif resistance INDETERMINATE.
+MTB NOT DETECTED.
+INVALID (the presence or absence of MTB cannot be determined).
+ERROR (the presence or absence of MTB cannot be determined).
+NO RESULT (the presence or absence of MTB cannot be determined).
+Indeterminate results for detection of extrapulmonary TB refer to ‘invalid', ‘error', or ‘no result'. Indeterminate results for detection of rifampicin resistance refer to ‘MTB detected; rifampicin resistance indeterminate'.
+Ultra incorporates a semi‐quantitative classification for results: trace, very low, low, moderate, and high. "Trace" corresponds to the lowest bacterial burden for detection of M. tuberculosis (Chakravorty 2017). For extrapulmonary specimens, based on retrospective studies that enrolled selected participants, the WHO recommends that "trace calls should be considered to be true‐positive results for use in clinical decisions and patient follow‐up" (WHO 2017c). We summarized the findings for Xpert and Ultra separately.</IndexTests>
+<TargetConditions>Target conditions
+The target condition was extrapulmonary TB. We included eight common forms and considered subcategories of the target condition as separate diagnostic classifications (CDC 2015; Sandgren 2013; Sharma 2004).
+TB meningitis.
+Pleural TB.
+Lymph node TB.
+Genitourinary TB.
+Bone or joint TB.
+Peritoneal TB.
+Pericardial TB.
+Disseminated TB.
+Table 1 lists the forms of extrapulmonary TB and specimens used for diagnosis in the review. We excluded less common forms, such as cutaneous TB, ocular TB, female genital TB, and TB of the breast, ear, and paranasal sinuses (Sharma 2004).</TargetConditions>
+<ReferenceStandards>Reference standards
+Detection of all forms of extrapulmonary TB
+The primary reference standard was solid or liquid mycobacterial culture.
+‘TB' was defined as a positive M. tuberculosis culture.
+‘Not TB' was defined as a negative M. tuberculosis culture.
+For pleural TB, we also included a composite reference standard that defined a positive result as the presence of granulomatous inflammation or a positive culture. We found evidence to support including histopathological examination in the composite reference standard for pleural TB. Around 60% of patients undergoing pleural biopsy will show granulomatous inflammation (American Thoracic Society 2000). In a prospective cohort study of patients with clinical and radiological findings consistent with pleural TB, Conde 2003 found that histological examination of tissue obtained from pleural biopsy had a higher diagnostic yield (78%; 66/84) than that of culture (62%; 52/84). For other forms of TB, we decided against use of a composite reference standard owing to the differing definitions of the composite reference standards, difficulty involved in interpreting them, concern for bias (Schiller 2016), and difficulty and impracticality in obtaining biopsy specimens in some forms of extrapulmonary TB (e.g. pericardial TB).
+Culture is considered the best reference standard for TB, and we calculated sensitivity and specificity by measuring the results of Xpert against those of culture. Both culture sensitivity and specificity are expected to be better than those of Xpert, and culture specificity is expected to be perfect. However, culture may lead to misclassification of some cases of extrapulmonary TB as ‘not TB' owing to the paucibacillary nature of the disease. This means that culture may have low sensitivity for extrapulmonary TB overall and further that culture sensitivity may differ for different forms of extrapulmonary TB. This misclassification by culture may lead to biased estimates (overestimation or underestimation) of the diagnostic accuracy of Xpert. The extent of bias will depend on the frequency of errors by culture and the degree of correlation in errors by culture and Xpert because both culture and Xpert are likely to pick up cases with a higher bacterial load, and both are likely to miss cases with a lower bacterial load. Ignoring this dependence could lead to an overestimation of the sensitivity of Xpert.
+Effect of low sensitivity of culture on Xpert specificity: the low sensitivity of culture means that index test TPs may be misclassified as FPs when culture is used as the reference standard. Therefore, when Xpert is evaluated against culture, the number of FPs (classified as positive by the index test and negative by the reference test) may be increased and Xpert specificity may be underestimated.
+Effect of low sensitivity of culture on Xpert sensitivity: the low sensitivity of culture means that index test FNs may be misclassified as TNs when culture is used as the reference standard. Therefore, when Xpert is evaluated against culture, the number of FNs (classified as positive by the index test and negative by the reference test) may be decreased and Xpert sensitivity may be overestimated.
+In an attempt to improve the estimation of diagnostic accuracy, we applied a latent class meta‐analysis model to the three most commonly studied forms of extrapulmonary TB. We discuss this approach further in the Statistical analysis and data synthesis section.
+Detection of rifampicin resistance
+The reference standard was culture‐based DST using solid or liquid media or MTBDRplus as recommended by the WHO (WHO 2012; WHO 2016b).</ReferenceStandards>
+</root>
+

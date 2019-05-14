@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <Objectives>To determine the diagnostic accuracy of the NEXUS criteria and the Canadian C‐spine Rule in a pediatric population evaluated for CSI following blunt trauma.
+Secondary objectives
+We expected to observe heterogeneity in the estimates of diagnostic accuracy. Factors that may contribute to heterogeneous results include:
+Differences in the healthcare setting and study design; previous studies state that CSI is seen less often in general emergency departments than in pediatric trauma hospitals, and that a CT of the neck is more common in general emergency departments (Adelgais 2014).
+Study quality, as assessed by the QUADAS‐2 checklist (Whiting 2011).
+Age‐related differences; we expect that both the applicability of the NEXUS criteria and the Canadian C‐spine Rule and the type of injury will differ according to age in children younger and older than eight (Leonard 2013; Leonard 2014).</Objectives>
+<TypesofStudies>Types of studies
+We included studies that compared the accuracy of the NEXUS criteria or the Canadian C‐spine Rule, or both, with the reference standard.
+We considered diagnostic studies with cross‐sectional or cohort designs (retrospective or prospective), and randomized controlled trials. We only included results from full reports.
+We preferred to include studies in which plain radiography, CT and MRI of the cervical spine was performed, since the sensitivity and specificity for the detection of ligamentous and skeletal injury differ between those imaging modalities. However, we expected this triple combination to be very rare, due to multiple limitations (radiation consequences, availability, time and costs). We therefore also included studies in which only one of the reference standards was applied. For the same reason we also included studies in which no radiographic imaging was obtained but only clinical follow‐up (in case of a negative index test).
+We expected that there would be studies in which all patients had undergone the reference standard without the index test being scored positive. We therefore also included studies in which those participants who had a negative result of the index test (no high‐risk factors) still underwent one of the reference standards (for example, plain radiography).
+We excluded case‐control studies because of the bias they might introduce.
+We preferred studies that evaluated the accuracy of the NEXUS criteria and the Canadian C‐spine Rule in direct comparisons to each other, but we did not exclude studies with indirect comparisons, because we expected the number of studies with direct comparisons to be limited.</TypesofStudies>
+<TypesofParticipants>Participants
+We Included children between the age of 0 and 18 who underwent blunt trauma evaluation in the emergency department. We excluded patients with a history of previous surgery of the cervical spine or congenital cervical spine anomalies, or both.
+In case of studies with mixed populations, e.g. that included some participants in the groups and that could not be separated from the eligible participants, we tried to contact the study author to provide the data for the group of interest.</TypesofParticipants>
+<IndexTests>Index tests
+The tests under evaluation are the NEXUS criteria and the Canadian C‐spine Rule, or tools in which the clinical variables contained four or more elements that are also part of the NEXUS criteria or the Canadian C‐spine Rule.</IndexTests>
+<TargetConditions>Target conditions
+The target condition was clinically‐important CSI, defined as any fracture, dislocation, or ligamentous instability detectable by diagnostic imaging.</TargetConditions>
+<ReferenceStandards>Reference standards
+Radiographic imaging (plain radiography, CT or MRI or both) or clinical follow‐up (if the index test was scored negative) were the reference standards. Follow‐up was defined as clinical evaluation of the neck after removal of the neck collar (if worn) in the case of low‐risk patients. The first clinical follow‐up is performed in the emergency room during trauma evaluation. If cervical spine injury is suspected based on the index test, or after the first clinical follow‐up, radiographic imaging is needed to rule out or define CSI.
+We included patients who underwent an eligible reference standard within 72 hours of presentation at the emergency department following blunt trauma. We also included patients who did not undergo radiographic imaging, but who obtained clinical follow‐up directly during trauma evaluation during the first 72 hours.</ReferenceStandards>
+</root>
+

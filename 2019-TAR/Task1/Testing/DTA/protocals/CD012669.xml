@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <Objectives>To determine the diagnostic accuracy of POCS for detection and exclusion of:
+free fluid in the thoracic or abdominal cavities;
+organ injuries with or without bleeding in the thoracic or abdominal cavities;
+vascular lesions of the thoracic or abdominal aorta, or other major vessels; and
+other injuries (e.g. pneumothorax);
+compared to the following diagnostic reference standards: computed tomography (CT; 'pan‐scan'), magnetic resonance imaging (MRI), thoracotomy, laparotomy, laparoscopy, thoracoscopy, autopsy, or any combination of these.
+Secondary objectives
+The secondary objectives of this review were to investigate the influence of individual study and cohort characteristics such as the:
+reference standard;
+target condition;
+patient age (paediatric versus non‐paediatric);
+patient disease status: type of trauma, type of injury, haemodynamic stability, injury severity or probability of survival;
+environment;
+operator's expertise and background;
+hardware;
+test thresholds;
+on both positive and negative POCS scans.
+More details are provided in the Investigations of heterogeneity section of the review.</Objectives>
+<TypesofStudies>Types of studies
+We included:
+either prospective or retrospective diagnostic cohort studies that enrolled patients with blunt trauma who:
+underwent any type of POCS as primary imaging modality to screen for thoracoabdominal injuries; and
+also underwent predefined imaging or invasive reference tests to verify POCS results;
+studies that provided 2 x 2 tables (or sufficient information to tabulate results) to allow for calculating sensitivity, specificity, and other indices of diagnostic test accuracy.
+We excluded:
+diagnostic case‐control studies comparing patients with known case status to healthy controls, as this creates artificial populations and tends to overestimate sensitivity of the index test;
+case series and case reports;
+studies with unclear index or reference tests; and
+studies that did not allow for creating 2 x 2 tables.</TypesofStudies>
+<TypesofParticipants>Participants
+The target population of this review comprised people of any age or gender who sustained any type of blunt trauma in a civilian scenario and were transferred to a hospital of any care level. Also, in order to be eligible participants had to have undergone POCS as the primary imaging tool and to have been followed up either as inpatients or outpatients with different diagnostic modalities to verify whether the condition of interest was present or absent.
+Because of clear differences in clinical management, we deliberately excluded people with penetrating injuries, as well as members of armed forces wounded in the battlefield.</TypesofParticipants>
+<IndexTests>Index tests
+Any type of POCS performed in a trauma setting (e.g. FAST ultrasonography of the abdomen or thorax, or both, or any advanced ultrasound protocol) intended to detect:
+free fluid (as a surrogate of bleeding) in the abdomen, retroperitoneal space, or chest;
+injuries to solid organs such as the liver or spleen (including attempts to grade their severity);
+lesions of major vessels; and
+other injuries (e.g. pneumothorax, as indicated by air in the pleural space).
+Variation in POCS technology and application (e.g. specification of ultrasound machines and probes and how up‐to‐date they were, and handling of inconclusive test results) is addressed in the Assessment of methodological quality section of the review. We planned to examine its potential influence on diagnostic accuracy estimates in the Investigations of heterogeneity section of the review.</IndexTests>
+<TargetConditions>Target conditions
+This review focused on blunt thoracoabdominal and multiple trauma, meaning any blunt, non‐penetrating force to the abdomen and chest and both solid and hollow viscera, as well as both major vessels. Target conditions considered by this review included:
+free fluid in the:
+thoracic cavity (uni‐ or bilateral, where specified);
+abdominal cavity (by abdominal quadrant, where specified);
+retroperitoneal space;
+pericardium; or
+mediastinum;
+organ injuries, defined as:
+liver injuries (e.g. capsular tears, haematoma, tissue lacerations);
+splenic injuries (e.g. capsular tears, haematoma, tissue lacerations);
+injuries to other solid organs (e.g. pancreas, kidneys);
+injuries to hollow viscera; or
+any other organ laceration detected by ultrasonography;
+vascular lesions, defined as:
+dissection or rupture of the thoracic or abdominal aorta, or both;
+rupture of other vessels such as the iliac arteries;
+other injuries (e.g. pneumothorax, as indicated by air in the pleural space in the thoracic cavity).
+We analysed the effect of different types of target conditions as part of our Investigations of heterogeneity. We categorised target conditions into surrogates of blunt trauma (i.e. free fluid and free air, named limited assessment), and both surrogates and direct signs of organ damage (i.e. organ injuries and vascular lesions, named complete assessment).</TargetConditions>
+<ReferenceStandards>Reference standards
+In order to be accepted as a diagnostic reference standard, the deliberate use (and the reasoning for its use) of the particular method needed to be specified. To avoid verification bias, all participants were required to undergo an independent imaging or invasive test, regardless of the initial POCS scan.
+We classified the following tests as reference standards to confirm the presence or absence of the target condition:
+any type of CT scan of the major body cavities (i.e. chest, abdomen, pelvis), either selective or performed as a whole‐body scan. We planned to stratify results for the use of intravenous or oral contrast agents, or both, and the time interval between POCS and CT;
+any type of MRI of the major body cavities;
+laparotomy (by a median or transverse approach), or laparoscopy, either diagnostic or therapeutic;
+thoracotomy (by median sternotomy or a clamshell approach), or thoracoscopy, either diagnostic or therapeutic;
+autopsy, either done by pathologists or forensic examiners.</ReferenceStandards>
+</root>
+

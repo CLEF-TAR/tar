@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <Objectives>To summarise and compare the accuracy of transabdominal ultrasound (TAUS) and endoscopic ultrasound (EUS), for the detection of gallbladder polyps, for differentiating between true and pseudo gallbladder polyps, or for differentiating between dysplastic polyps/carcinomas and adenomas/pseudo polyps of the gallbladder in adults.
+Secondary objectives
+To explore the following sources of heterogeneity:
+Methodological quality as assessed by QUADAS‐2 (low compared to high/unclear);
+Prospective compared to retrospective studies;
+TAUS characteristics: type of the probe (linear compared to curved), frequency of the probe (low: 2 to 5 MHz compared to high: 5 to 8 MHz), and type of scanning (conventional grey, pulsed, colour, Doppler);
+EUS characteristics; type of endoscope (radial compared to linear), frequency of the probe (less than 15 MHz compared to more than 15 MHz);
+Experience of performer of TAUS and EUS (five years or more compared to less than five years of experience);
+Symptomatic compared to asymptomatic people;
+Presence compared to absence of gallstones.</Objectives>
+<TypesofStudies>Types of studies
+We included cross‐sectional studies, retrospective, and prospective cohort studies and randomised controlled trials, that evaluated the accuracy of the index tests (TAUS and EUS) in the appropriate participant population (see Participants), irrespective of language or publication status, or whether the data were collected prospectively or retrospectively. We excluded case‐control studies because these studies are prone to bias (Whiting 2011). We included only studies that reported on, or those from which we could extract data on, true positives, true negatives, false positives, and false negatives (diagnostic test accuracy information). In case of multiple publications, we included the study report with the highest number of participants.</TypesofStudies>
+<TypesofParticipants>Participants
+Detection of gallbladder polyps
+Symptomatic (people with biliary colic/upper abdominal pain) or asymptomatic adults (more than 18 years of age).
+True polyps compared to pseudo polyps
+Adults (more than 18 years of age) in whom histopathology after cholecystectomy confirmed presence of true or pseudo polyp.
+Dysplastic polyps/carcinomas compared to adenomas/pseudo polyps
+Adults (more than 18 years of age) in whom histopathology after cholecystectomy confirmed presence of dysplastic polyps/carcinomas or adenomas/pseudo polyps.</TypesofParticipants>
+<IndexTests>Index tests
+The index tests were transabdominal ultrasound (TAUS) of the upper abdomen and gallbladder, or endoscopic ultrasound (EUS), both without intravenous contrast enhancement. Index tests can be performed because of suspicion of gallbladder disease, another disease in the upper abdomen, and as a part of routine abdominal check‐ups (TAUS). We included a study if other diagnostic modalities were compared and we could extract the results of TAUS and EUS separately.</IndexTests>
+<TargetConditions>Target conditions
+Detection of gallbladder polyps
+Gallbladder polyp(s)
+Differentiation between true polyp and pseudo gallbladder polyp
+True gallbladder polyp(s) compared to pseudo gallbladder polyp(s)
+Differentiation between dysplastic polyps/carcinomas and adenomas/pseudo polyps of the gallbladder
+Dysplastic polyp(s) or carcinoma(s) compared to adenoma(s) or pseudo polyp(s)</TargetConditions>
+<ReferenceStandards>Reference standards
+We used histopathological analysis of the resected gallbladder after cholecystectomy as the reference standard for all three target conditions. It enables direct analysis of the entire gallbladder, its content, and the presence and pathological entity of the gallbladder polyp, and can be considered the best reference standard. However, cholecystectomy may not be performed in people without gallbladder polyps or with small polyps (&lt; 5 mm). Therefore, for detection of gallbladder polyps, we also accepted an alternative reference standard of follow‐up by repeated imaging up to six months (demonstrating that there is no gallbladder polyp or if there was a small gallbladder polyp, the polyp persisted) for people in whom cholecystectomy was not performed due to above mentioned reasons. For differentiating between true and pseudo polyps and dysplastic polyps/carcinomas and adenomas/pseudo polyps, histological confirmation is needed, which can only be done after cholecystectomy.</ReferenceStandards>
+</root>
+
