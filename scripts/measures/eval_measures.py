@@ -435,8 +435,8 @@ class CostBasedMeasure(EvalMeasure):
         # if you are missing all relevant documents, then the penalty sums to N*CP i.e. full penalty cost
 
         Pw = 0
-        for i in range(1, Mr):
-            Pw = Pw + ((Nu * CP) / pow(2.0,i))
+        if Mr > 0: 
+            Pw = (Nu * CP) * (1/2) * ((1 - pow(0.5, (Mr-1))) / (1 - 0.5))
 
         self.total_cost_weighted = self.total_cost + Pw
 
