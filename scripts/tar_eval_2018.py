@@ -4,8 +4,8 @@ import os
 import sys
 import re
 import math
-from measures.tar_rulers_2018 import TarRulerTask2, TarRulerTask1, TarAggRuler
-from seeker.trec_qrel_handler import TrecQrelHandler
+from tar.scripts.measures.tar_rulers_2018 import TarRulerTask2, TarRulerTask1, TarAggRuler
+from tar.scripts.seeker.trec_qrel_handler import TrecQrelHandler
 
 
 def main(task, results_file, qrel_file):

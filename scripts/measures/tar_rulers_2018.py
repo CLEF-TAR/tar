@@ -1,8 +1,8 @@
 __author__ = "Leif Azzopardi"
 
-from measures.eval_measures_2018 import UtilityBasedMeasure, AreaBasedMeasures, MAPBasedMeasures
-from measures.eval_measures_2018 import DescriptionMeasures, CountBasedMeasures, GainBasedMeasures
-from measures.eval_measures_2018 import LossBasedMeasures, RecallBasedMeasures
+from tar.scripts.measures.eval_measures_2018 import UtilityBasedMeasure, AreaBasedMeasures, MAPBasedMeasures
+from tar.scripts.measures.eval_measures_2018 import DescriptionMeasures, CountBasedMeasures, GainBasedMeasures
+from tar.scripts.measures.eval_measures_2018 import LossBasedMeasures, RecallBasedMeasures
 
 
 class TarAggRuler(object):
