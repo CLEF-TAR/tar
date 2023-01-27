@@ -4,8 +4,8 @@ __author__ = "Leif Azzopardi"
 import os
 import sys
 import re
-from tar.scripts.measures.tar_rulers import TarRuler, TarAggRuler
-from tar.scripts.seeker.trec_qrel_handler import TrecQrelHandler
+from measures.tar_rulers import TarRuler, TarAggRuler
+from seeker.trec_qrel_handler import TrecQrelHandler
 
 
 def main(results_file, qrel_file):
