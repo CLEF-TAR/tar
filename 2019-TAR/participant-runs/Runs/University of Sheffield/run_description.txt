@@ -1,0 +1,32 @@
+
+The University of Sheffield Approach for CLEF2019 eHealth Task 2 - Subtask 2
+
+Use lexical statistics to improve ranking studies for systematic reviews.
+
+***************************************************************************
+
+RUN DESCRIPTION:
+---------------
+
+For DTA and Intervention reviews:
+
+1. sheffeild-baseline
+Rank studies by using BM25. A query formed by using the review title and terms extracted from the Boolean query.
+
+2. sheffield-Chi-Squared
+Apply Chi-Squared on the training portion of the dataset. Then, add the top terms generated from lexical statistic to each query in the test portion of the dataset and then rank studies using BM25.
+
+3. sheffield-Log_Likelihood
+Apply Log_Likelihood on the training portion of the dataset. Then, add the top terms generated from lexical statistic to each query in the test portion of the dataset and then rank studies using BM25.
+
+4. sheffield-Odds_Ratio
+Apply Odds_Ratio on the training portion of the dataset. Then, add the top terms generated from lexical statistic to each query in the test portion of the dataset and then rank studies using BM25.
+
+
+For Prognosis and Qualitative reviews:
+
+1. sheffield-baseline
+Rank studies by using BM25. A query formed by using the review title and terms extracted from the Boolean query
+
+2. sheffield-relevance_feedback
+Rank the studies using BM25. Then, take the top 5% of the rank list and apply lexical statistics. Then, add the top terms generated to the query and after that re-rank the remaining of the list.

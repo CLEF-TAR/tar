@@ -1,0 +1,22 @@
+This README file contains the explanations for the metrics you have received.
+
+
+Task 2 runs were evaluated against the relevance judgments at abstract and content level. The measures you are provided are:
+
+Full Ranking
+1. num_rels - the number of relevant documents in the collection
+2. last_rel - the rank of the last relevant document retrieved
+3. norm_last_rel - the fraction of documents needed to be read to reach the last relevant document retrieved
+4. wss_100 - work saved oversampling at 100% recall
+5. wss_95 - work saved oversampling at 95% recall
+6. ap - average precision
+7. recall@1% -- recall@100% - recall values at different rank percentile cutoffs.
+
+Thresholded Ranking
+1. threshold - the threshold you provided
+2. norm_threshold - - the fraction of documents needed to be read to reach the threshold you provided
+3. recall_threshold - recall at the threshold you provided 
+
+Evaluation scores are provided for each one of the 4 types of studies individually, hence the folders DTA, Intervention, Prognosis, and Qualitative. We have also evaluated your runs agains all reviews, hence the folder full, for any system that was used for all reviews. 
+
+Within the evaluation results, you may find lines such as Skipping topic: XXX; this means that the run was not evaluated for topic XXX. This maybe due to the fact that the topic was not part of the particular review type, or the topic had no relevant documents (e.g. this is the case for a small number of reviews at the content level relevance).
